@@ -1,0 +1,29 @@
+TP0:
+  id: TP0
+  publicacion: 2023-03-17
+  entrega: 2023-03-24
+  enunciado_link: /tps/tp0
+
+TP1:
+  id: TP1
+  publicacion: 2023-04-24
+  entrega: 2023-05-05
+  enunciado_link: /tps/2023_2/tp1
+
+TP2:
+  id: TP1
+  publicacion: 2023-04-24
+  entrega: 2023-05-05
+  enunciado_link: /tps/2023_2/tp2
+
+TP3:
+  id: TP1
+  publicacion: 2023-04-24
+  entrega: 2023-05-05
+  enunciado_link: /tps/2023_2/tp3
+
+TP4:
+  id: TP1
+  publicacion: 2023-04-24
+  entrega: 2023-05-05
+  enunciado_link: /tps/2023_2/tp4

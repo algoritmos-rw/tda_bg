@@ -1,0 +1,12 @@
+docentes:
+
+- nombre: Ezequiel Genender
+  foto: /assets/img/docentes/ezeg.jpg
+  mail: egenender@gmail.com
+  github: egenender
+
+- nombre: Martín Buchwald
+  foto: /assets/img/docentes/martinb.jpg
+  mail: mbuchwald@fi.uba.ar
+  github: mbuchwald
+
