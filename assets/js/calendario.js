@@ -4,30 +4,16 @@
 window.onload = agregarTPsYParcialitosACalendario;
 function agregarTPsYParcialitosACalendario(desde, hasta) {
     var tabla = document.getElementById("tabla-calendario");
-    var trabajos_y_parcialitos = [];
+    var trabajos_y_parciales = [];
 
-/*    {% for t in site.data.trabajos %}{% assign tp = t[1] %}
-        var dtEntrega = new Date("{{tp.entrega}}");
-        var dtPublicacion = new Date("{{tp.publicacion}}");
-        if (!desde || !hasta || (dtEntrega >= desde && dtEntrega <= hasta)) {
-            var label = "{{tp.id}}";
-            if (dtPublicacion <= new Date()) {
-                label = "<a href='{{tp.enunciado_link | relative_url}}'>" + label + "</a>";
-            }
-            trabajos_y_parcialitos.push([diadelasemana(dtEntrega),dtEntrega,"Entrega de: " + label]);
-        }
-    {% endfor %} */
-
-    {% for p in site.data.parcialitos %}{% assign parcialito = p[1] %}
-        var dtEntrega = new Date("{{parcialito.fecha}}");
-        if (!desde || !hasta || (dtEntrega >= desde && dtEntrega <= hasta)) {
-            trabajos_y_parcialitos.push([diadelasemana(dtEntrega),dtEntrega,"{{parcialito.label}}"]);
-        }
+    {% for p in site.data.parciales %}{% assign parcial = p[1] %}
+        var dtEntrega = new Date("{{parcial.fecha}}");
+        trabajos_y_parciales.push([diadelasemana(dtEntrega),dtEntrega,"{{parcial.label}}"]);
     {% endfor %}
 
-    trabajos_y_parcialitos.sort(byDate);
+    trabajos_y_parciales.sort(byDate);
 
-    trabajos_y_parcialitos.forEach(
+    trabajos_y_parciales.forEach(
         function(item){
             var fila = document.createElement("tr");
             fila.innerHTML += "<td>" + item[0] + "</td>";
@@ -37,7 +23,7 @@ function agregarTPsYParcialitosACalendario(desde, hasta) {
         }
     );
 
-    return trabajos_y_parcialitos;
+    return trabajos_y_parciales;
 }
 
 function diadelasemana(fecha){

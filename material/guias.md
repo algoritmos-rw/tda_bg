@@ -5,10 +5,6 @@ A continuación pueden encontrarse las guías de ejercicios de los distintos tem
 Los ejercicios de 1 estrellas son ejercicios muy básicos o introductorios que no entrarían en un examen, pero
 sirven para iniciarse en el tema.
 
-La mayoría de los ejercicios de entre 2 y 4 estrellas han sido sacado de parcialitos de cuatrimestres anteriores.
-
-Los ejercicios de 5 estrellas sólo serían tomados en exámenes finales.
-
   * [División y Conquista](guias/dyc.md)
   * [Algoritmos Greedy](guias/greedy.md)
   * [Programación Dinámica](guias/pd.md)

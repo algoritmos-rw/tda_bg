@@ -9,11 +9,22 @@ Además, contamos con un [calendario detallado]({{site.data.cuatrimestre.calenda
 Fechas de examen:
 
 <table class="table table-striped">
-  <tbody id="tabla-calendario">
+  <tbody>
     <tr>
-      <td><strong>Día</strong></td>
       <td><strong>Fecha</strong></td>
       <td><strong>Detalle</strong></td>
+    </tr>
+    <tr>
+      <td>{{site.data.parciales.parcial.fecha}}</td>
+      <td>{{site.data.parciales.parcial.label}}</td>
+    </tr>
+    <tr>
+      <td>{{site.data.parciales.recu1.fecha}}</td>
+      <td>{{site.data.parciales.recu1.label}}</td>
+    </tr>
+    <tr>
+      <td>{{site.data.parciales.recu2.fecha}}</td>
+      <td>{{site.data.parciales.recu2.label}}</td>
     </tr>
   </tbody>
 </table>

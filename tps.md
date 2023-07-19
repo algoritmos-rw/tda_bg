@@ -4,8 +4,6 @@ TPs
 A continuación encontrarán las entregas que iremos planteando a lo largo de la
 materia.
 
-Las entregas están acompañadas de archivos adjuntos, todos ubicados en [el sitio de descargas]({{site.skel}}).
-
 <table class="table table-striped">
   <tbody id="tabla-trabajos">
     <tr>
