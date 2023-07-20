@@ -17,9 +17,8 @@ La fecha de entrega del mismo es el {{fecha}}.
 Scaloni ya está armando la lista de 43 jugadores que van a ir al mundial 2026. 
 Hay mucha presión por parte de la prensa para bajar línea de cuál debería ser 
 el 11 inicial. Lo de siempre. 
-Algunos medios quieren que juegue Roncaglia, otros quieren que juegue el 
-clon de Messi que se creó en el tp anterior (que, por mala suerte, tiene la
-habilidad del 4 de Claypole), y así. Cada medio tiene un subconjunto de
+Algunos medios quieren que juegue Roncaglia, otros quieren que juegue 
+Mateo Messi, y así. Cada medio tiene un subconjunto de
 jugadores que quiere que jueguen. A Scaloni esto no le importa, no va a dejar
 que la prensa lo condicione, pero tiene jugadores jóvenes a los que esto
 puede afectarles. 
@@ -30,21 +29,24 @@ aislar al equipo.
 
 El problema es, ¿cómo elegir el conjunto de jugadores que jueguen ese partido 
 (entre titulares y suplentes que vayan a entrar)? Además Scaloni quiere poder
-usar ese partido para probar cosas aparte, no puede gastar el amistoso
-para contentar a un periodista mufa, o uno que tenga algo dentro (o algo así que
-dijo el Diego). Quiere definir el conjunto más pequeño 
-de jugadores necesarios para contentarlos y poder seguir con la suya. Con elegir
+usar ese partido para probar cosas aparte. No puede gastar el amistoso
+para contentar a un periodista mufa que habla mal de Messi, por ejemplo. 
+Quiere definir el conjunto más pequeño de jugadores necesarios para contentarlos 
+y poder seguir con la suya. Con elegir
 un jugador que contente a cada periodista/medio, le es suficiente. 
 
-Ante este problema, Bilardo se sentó con Scaloni para explicarle que este es un problema
-en realidad conocido (viejo zorro como es, ya se comió todas las operetas de prensa así que 
-se conoce este problema de memoria). Se sirvió una copa de _Gatorei_ y le comentó:
+Ante este problema, Bilardo se sentó con Scaloni para explicarle que en realidad 
+este es un problema conocido (viejo zorro como es, ya se comió todas las operetas 
+de prensa así que se conoce este problema de memoria). Se sirvió una copa de _Gatorei_ 
+y le comentó:
 "Esto no es más que un caso particular del Hitting-Set Problem. El cual es: Dado un conjunto 
 $A$ de $n$ elementos y $m$ subconjuntos $B_1, B_2, ..., B_m$ de $A$
 ($B_i \subseteq A \forall i$) , queremos el subconjunto $C \subseteq A$ de menor tamaño tal 
 que $C$ tenga al menos un elemento de cada
-$B_i$ (es decir, $C \cap B_i \neq \emptyset$). En nuestro caso, $A$ son los jugadores convocados, los $B_i$ son los deseos de la
-prensa, y $C$ es el conjunto de jugadores que deberían jugar contra Burkina Faso si o si". 
+$B_i$ (es decir, $C \cap B_i \neq \emptyset$). En nuestro caso, $A$ son los jugadores 
+convocados, los $B_i$ son los deseos de la
+prensa, y $C$ es el conjunto de jugadores que deberían jugar contra Burkina Faso 
+si o si". 
 
 Bueno, ahora con un poco más claridad en el tema, Scaloni necesita de nuestra 
 ayuda para ver si obtener este subconjunto se puede hacer de forma eficiente 
@@ -64,10 +66,8 @@ $C \cap B_i \neq \emptyset$)?
 
 2. 	Demostrar que el Hitting-Set Problem es, en efecto, un problema NP-Completo. 
 
-3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema
-	(en el caso del problema de optimización). 
+3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema. 
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones. 
-
 
 4. 	Escribir un modelo de programación lineal que resuelva el problema. Ejecutarlo para
 	los mismos sets de datos para corroborar su correctitud. Tomar mediciones de tiempos
@@ -88,10 +88,10 @@ $C \cap B_i \neq \emptyset$)?
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
 	a fin de corroborar empíricamente la cota calculada anteriormente. 
 
-6.	Implementar alguna otra aproximación (u algoritmo greedy) que 
+6.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
-	del punto 4. Indicar y justificar su complejidad. No es obligatorio
-	hacer este punto para aprobar el trabajo práctico. 
+	del punto 5. Indicar y justificar su complejidad. No es obligatorio
+	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
 7. 	Agregar cualquier conclusión que parezca relevante.  
 
