@@ -13,33 +13,47 @@ La fecha de entrega del mismo es el {{fecha}}.
 
 ## Introducción
 
-Ante la especulación de que Lionel Messi podría... (*se persigna*) no jugar
-el mundial de 2026, Scaloni está analizando alternativas para poder reemplazarlo. 
-Como reemplazar a Messi parece totalmente irrealizable, va por una alternativa 
-más terrenal: clonar al capitán.
+Luego de haber analizado a todos los rivales gracias a tu ayuda, Scaloni definió
+un cronograma de entrenamiento. Tiene definido que hacer para cada día de acá
+al mundial que viene, e incluso más. Para hacerlo más simple, para los próximos $n$
+días. El entrenamiento del día $i$ demanda una 
+cantidad de esfuerzo $e_i$, y podemos decir que la _ganancia_ que nos da
+dicho entrenamientoes es igual al esfuerzo. El entrenamiento 
+que corresponde al día $i$ (así como su esfuerzo y ganancia) son inamovibles: 
+el Chiqui Tapia alquiló las herramientas específicas para cada día, y la AFA 
+está muy ocupada organizando el torneo de $2^{30}$ equipos del año que viene para 
+andar moviendo cosas. Si la cantidad de energía que se tiene para un día $i$
+es $j < e_i$, entonces la ganancia que se obtiene en ese caso es justamente $j$.
+(si se tiene más energía que $e_i$, no es que se pueda usar más para tener más ganancia).
 
-Un laboratorio secreto en Miami ya está trabajando en esto desde Julio, pero
-tiene un problema: no pueden generar un ser vivo con el ADN exacto. Es como 
-si viniera de otro planeta, o algo por el estilo. 
+A su vez, los jugadores no son máquinas. La cantidad de energía que tienen disponible
+para cada día va disminuyendo a medida que pasan los entrenamientos. Suponiendo
+que los entrenamientos empiezan con los jugadores descansados, el primer
+día luego de dicho descanso los jugadores tienen energía $s_1$. El segundo día
+luego del descanso tienen energía $s_2$, etc... Para cada día
+hay una cantidad de energía, y podemos decir que $s_1 \leq s_2 \leq ... \leq s_n$.
+Scaloni puede decidir dejarlos descansar un día, haciendo que la energía "se renueve"
+(es decir, el próximo entrenamiento lo harían con energía $s_1$ nuevamente,
+siguiendo con $s_2$, etc...). Obviamente, si descansan, el entrenamiento de ese
+día no se hace (y no se consigue ninguna ganancia).   
 
-Para poder tomar diferentes medidas y calibrar la máquina, necesitan definir
-cuán distinto es el ADN de Messi respecto del generado. 
-
-Scaloni no sabe bien cómo hacer esto, y sus $n$ ayudantes menos, pero Menotti, 
+Scaloni no sabe bien cómo hacer para definir los días que deba entrenarse y los días
+que convenga descansar de tal forma de tener la mayor ganancia posible (y tener
+mayores probabilidades de ganar el mundial que viene), pero Menotti, 
 exponente del juego bonito en Argentina, le recomendó usar Programación Dinámica
 para resolver este problema. Nos está pidiendo ayuda para poder resolver este
 problema. 
 
 ## Consigna
 
-1. 	Hacer un análisis del problema, y proponer un algoritmo por programación dinámica 
-	que obtenga la solución óptima al problema planteado: Dada una secuencia original 
-	(la de Messi) y una generada (la del potencial clon), y los costos de .......
-	y determine cuál es la diferencia entre ambos ADNs (es decir, cuánto costaría
-	volver el ADN del clon en el ADN de Messi exactamente).
-2. 	¿Hace falta que te lo diga?
-3. 	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si (y cómo) afecta la variabilidad de los valores de los costos a los tiempos y optimalidad del algoritmo planteado. 
-4. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-5. De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica indicada. Realizar gráficos correspondientes. 
-6. Agregar cualquier conclusión que parezca relevante.  
+1. 	Hacer un análisis del problema, plantear la ecuación de recurrencia correspondiente
+	y proponer un algoritmo por programación dinámica 
+	que obtenga la solución óptima al problema planteado: Dada la secuencia de energía
+	disponible desde el último descanso $s_1, s_2, ..., s_n$, y el esfuerzo/ganancia 
+	de cada día $e_i$, determinar la máxima cantidad de ganancia que se obtener
+	de los entrenamientos, considerando posibles descansos. 
+2. 	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si (y cómo) afecta la variabilidad de los valores de los esfuerzos (disponibles y necesarios) a los tiempos y optimalidad del algoritmo planteado. 
+3. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
+4. De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica indicada. Realizar gráficos correspondientes. 
+5. Agregar cualquier conclusión que parezca relevante.  
 
