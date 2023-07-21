@@ -57,3 +57,19 @@ problema.
 4. De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica indicada. Realizar gráficos correspondientes. 
 5. Agregar cualquier conclusión que parezca relevante.  
 
+
+## Entrega
+
+Debe enviarse por mail (a mbuchwald@fi.uba.ar, con copia a egeneder@fi.uba.ar) el link
+al repositorio donde se encuentre el código fuente, y donde debe encontrarse
+el informe en formato PDF, que debe seguir los lineamientos establecidos en el TP1.
+Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
+los que se dan de ejemplo. Esto puede ser dentro del `README.md` del repositorio,
+u otra que les parezca clara. 
+
+La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
+como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
+indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
+datos, o estrategias de generación de sets, en el caso que corresponda. 
+
+
