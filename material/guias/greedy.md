@@ -2,7 +2,7 @@
 math: true
 ---
 
-# División y Conquista
+# Greedy
 {:.no_toc}
 
 

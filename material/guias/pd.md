@@ -2,7 +2,7 @@
 math: true
 ---
 
-# División y Conquista
+# Programación Dinámica
 {:.no_toc}
 
 

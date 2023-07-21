@@ -2,7 +2,7 @@
 math: true
 ---
 
-# División y Conquista
+# Fuerza Bruta y Backtracking
 {:.no_toc}
 
 

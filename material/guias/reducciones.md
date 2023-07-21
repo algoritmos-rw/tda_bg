@@ -2,7 +2,7 @@
 math: true
 ---
 
-# División y Conquista
+# Reducciones y Clases de Complejidad
 {:.no_toc}
 
 
