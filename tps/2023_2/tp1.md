@@ -57,10 +57,12 @@ El informe debe ser:
 el código por diferentes lugares.
 * Tener todo el análisis correspondiente. 
 * Ser realizado en un formato profesional. Para esto, les brindamos un template en $\LaTeX$
-para que puedan utilizar. No es necesario que lo sigan al pie de la letra, es simplemente un
+para que puedan utilizar, que se encuentra en la home de la página del curso. 
+No es necesario que lo sigan al pie de la letra, es simplemente un
 ejemplo que tiene varias cosas que pueden llegar a utilizar de $\LaTeX$. Si ya conocen $\LaTeX$
 no es necesario que lo utilicen, o mismo si utilizan algún otro formato (e.g. Markdown con
-Pandoc), pero recomendamos su revisión para que vean cosas que no deben de faltar. El objetivo
+Pandoc), pero recomendamos su revisión para que vean cosas que no deben de faltar. Por supuesto,
+pueden trabajar localmente como usar Overleaf o cualquier otra herramienta. El objetivo
 de darles el template no es la de limitar la creatividad, sino de asegurarnos que se cumplan
 lineamientos básicos sobre lo que se espera de una entrega de un informe en la facultad. 
 
