@@ -66,3 +66,9 @@ pueden trabajar localmente como usar Overleaf o cualquier otra herramienta. El o
 de darles el template no es la de limitar la creatividad, sino de asegurarnos que se cumplan
 lineamientos básicos sobre lo que se espera de una entrega de un informe en la facultad. 
 
+La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
+como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
+indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
+datos, o estrategias de generación de sets, en el caso que corresponda. 
+
+
