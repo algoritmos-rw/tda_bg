@@ -43,3 +43,24 @@ Scaloni debe ver los videos tal que todos los análisis estén listos lo antes p
 5. De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica indicada. Realizar gráficos correspondientes. 
 6. Agregar cualquier conclusión que parezca relevante.  
 
+## Entrega
+
+Debe enviarse por mail (a mbuchwald@fi.uba.ar, con copia a egeneder@fi.uba.ar) el link
+al repositorio donde se encuentre el código fuente, y donde debe encontrarse
+el informe en formato PDF.
+Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
+los que se dan de ejemplo. Esto puede ser dentro del `README.md` del repositorio,
+u otra que les parezca clara. 
+
+El informe debe ser:
+* Autocontenido: es decir, no debe ser necesario ponernos a buscar
+el código por diferentes lugares.
+* Tener todo el análisis correspondiente. 
+* Ser realizado en un formato profesional. Para esto, les brindamos un template en $\LaTeX$
+para que puedan utilizar. No es necesario que lo sigan al pie de la letra, es simplemente un
+ejemplo que tiene varias cosas que pueden llegar a utilizar de $\LaTeX$. Si ya conocen $\LaTeX$
+no es necesario que lo utilicen, o mismo si utilizan algún otro formato (e.g. Markdown con
+Pandoc), pero recomendamos su revisión para que vean cosas que no deben de faltar. El objetivo
+de darles el template no es la de limitar la creatividad, sino de asegurarnos que se cumplan
+lineamientos básicos sobre lo que se espera de una entrega de un informe en la facultad. 
+
