@@ -14,7 +14,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 ## Introducción
 
 Luego de haber analizado a todos los rivales gracias a tu ayuda, Scaloni definió
-un cronograma de entrenamiento. Tiene definido que hacer para cada día de acá
+un cronograma de entrenamiento. Tiene definido qué hacer para cada día de acá
 al mundial que viene, e incluso más. Para hacerlo más simple, para los próximos $n$
 días. El entrenamiento del día $i$ demanda una 
 cantidad de esfuerzo $e_i$, y podemos decir que la _ganancia_ que nos da
