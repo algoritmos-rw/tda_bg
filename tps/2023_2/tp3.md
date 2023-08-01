@@ -69,15 +69,18 @@ $C \cap B_i \neq \emptyset$)?
 3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema. 
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones. 
 
-4. 	Escribir un modelo de programación lineal que resuelva el problema. Ejecutarlo para
+4. 	Escribir un modelo de programación lineal (con variables de decisión entera) 
+	que resuelva el problema. Ejecutarlo para
 	los mismos sets de datos para corroborar su correctitud. Tomar mediciones de tiempos
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
 5. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente
-	algoritmo: ...
+	algoritmo: usar el mismo algoritmo planteado en el punto 3, pero permitiendo
+	que las variables de decisión sean valores reales, y luego redondear el resultado
+	final del modelo. 
 	
 	Este algoritmo sirve como una aproximación para resolver el hitting-set problem. 
-	Implementar dicho algoritmo, analizar su complejidad,
+	Implementar dicho algoritmo, analizar su complejidad
 	y analizar cuán buena aproximación es. Para esto, considerar lo siguiente: 
 	Sea $I$ una instancia cualquiera del problema de empaquetamiento, y $z(I)$ una
 	solución óptima para dicha instancia, y sea $A(I)$ la solución aproximada, 
