@@ -8,7 +8,7 @@ Régimen de cursada
 
 ### Trabajos Prácticos
 
-* Hay un trabajo práctico 0, que debe ser aprobado durante las priemras semanas (revisar el calendario), sin nota, con el objetivo de entender qué alumnos realmente desean cursar la materia. Los ejercicios a realizar deberían ser triviales para un alumno que aprobó las correlativas. 
+* Hay un trabajo práctico 0, que debe ser aprobado durante las primeras semanas (revisar el calendario), sin nota, con el objetivo de entender qué alumnos realmente desean cursar la materia. Los ejercicios a realizar deberían ser triviales para un alumno que aprobó las correlativas. 
 * Hay 4 trabajos prácticos. Todos los trabajos prácticos deben aprobarse para poder aprobar la cursada. Es decir, la desaprobación de un trabajo práctico implica la desaprobación de la materia. 
 * Cada entrega cuenta con una fecha de entrega, y una fecha final de aprobación, en la cual se consideran potenciales reentregas previas. Se pueden chequear las fechas de todo tipo en el [calendario]({{'calendario'|relative_url}}) de la materia.
 * El cuarto TP puede ser entregado hasta 2 semanas después de haber terminado la cursada. 
