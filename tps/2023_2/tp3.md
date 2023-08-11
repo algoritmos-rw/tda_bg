@@ -100,7 +100,7 @@ $C \cap B_i \neq \emptyset$)?
 
 ## Entrega
 
-Debe enviarse por mail (a mbuchwald@fi.uba.ar, con copia a egeneder@fi.uba.ar) el link
+Debe enviarse por mail (a mbuchwald@fi.uba.ar, con copia a egenender@fi.uba.ar) el link
 al repositorio donde se encuentre el código fuente, y donde debe encontrarse
 el informe en formato PDF, que debe seguir los lineamientos establecidos en el TP1.
 Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
