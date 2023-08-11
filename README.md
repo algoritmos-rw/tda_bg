@@ -1,8 +1,8 @@
-# TDA-GB
+# TDA_BG
 
 Este es el repositorio del sitio web de Teoría de Algoritmos, publicado en:
 
-<https://algoritmos-rw.github.io/tda-gb/>
+<https://algoritmos-rw.github.io/tda_bg/>
 
 ## Instrucciones para actualizar la página web
 
