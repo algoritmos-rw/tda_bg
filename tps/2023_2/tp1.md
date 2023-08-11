@@ -45,7 +45,7 @@ Scaloni debe ver los videos tal que todos los análisis estén listos lo antes p
 
 ## Entrega
 
-Debe enviarse por mail (a mbuchwald@fi.uba.ar, con copia a egeneder@fi.uba.ar) el link
+Debe enviarse por mail (a mbuchwald@fi.uba.ar, con copia a egenender@fi.uba.ar) el link
 al repositorio donde se encuentre el código fuente, y donde debe encontrarse
 el informe en formato PDF.
 Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
