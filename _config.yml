@@ -1,7 +1,7 @@
 # Site settings
-title: Algoritmos y Programación II
+title: Teoría de Algoritmos I
 description: >
-  Página de la materia Algoritmos y Programación II, curso Buchwald.
+  Página de la materia Teoría de Algoritmos I, curso Buchwald - Genender.
   Facultad de Ingeniería, Universidad de Buenos Aires.
 
 baseurl: "/tda_bg"
@@ -27,8 +27,7 @@ collections:
     permalink: /:path/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "tps"
     values:
