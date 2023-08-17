@@ -64,7 +64,9 @@ no es necesario que lo utilicen, o mismo si utilizan algún otro formato (e.g. M
 Pandoc), pero recomendamos su revisión para que vean cosas que no deben de faltar. Por supuesto,
 pueden trabajar localmente como usar Overleaf o cualquier otra herramienta. El objetivo
 de darles el template no es la de limitar la creatividad, sino de asegurarnos que se cumplan
-lineamientos básicos sobre lo que se espera de una entrega de un informe en la facultad. 
+lineamientos básicos sobre lo que se espera de una entrega de un informe en la facultad.
+* En caso de ser necesarias reentregas, por favor agregar las modificaciónes en un Anexo al final del informe. No modificar lo hecho anteriormente.
+La excepción a esto sería si hay que rehacer una enorme mayoría de lo escrito. 
 
 La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
 como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
