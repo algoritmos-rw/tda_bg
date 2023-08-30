@@ -56,8 +56,8 @@ El informe debe ser:
 * Autocontenido: es decir, no debe ser necesario ponernos a buscar
 el código por diferentes lugares.
 * Tener todo el análisis correspondiente. 
-* Ser realizado en un formato profesional. Para esto, les brindamos un template en $$\LaTeX$$
-para que puedan utilizar, que se encuentra en la home de la página del curso. 
+* Ser realizado en un formato profesional. Para esto, les brindamos [un template]({{site.data.sitos.template_latex}}) en $$\LaTeX$$
+para que puedan utilizar (también se encuentra en la home de la página del curso). 
 No es necesario que lo sigan al pie de la letra, es simplemente un
 ejemplo que tiene varias cosas que pueden llegar a utilizar de $$\LaTeX$$. Si ya conocen $$\LaTeX$$
 no es necesario que lo utilicen, o mismo si utilizan algún otro formato (e.g. Markdown con
