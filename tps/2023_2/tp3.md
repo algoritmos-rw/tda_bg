@@ -40,12 +40,12 @@ este es un problema conocido (viejo zorro como es, ya se comió todas las operet
 de prensa así que se conoce este problema de memoria). Se sirvió una copa de _Gatorei_ 
 y le comentó:
 "Esto no es más que un caso particular del Hitting-Set Problem. El cual es: Dado un conjunto 
-$A$ de $n$ elementos y $m$ subconjuntos $B_1, B_2, ..., B_m$ de $A$
-($B_i \subseteq A \forall i$) , queremos el subconjunto $C \subseteq A$ de menor tamaño tal 
-que $C$ tenga al menos un elemento de cada
-$B_i$ (es decir, $C \cap B_i \neq \emptyset$). En nuestro caso, $A$ son los jugadores 
-convocados, los $B_i$ son los deseos de la
-prensa, y $C$ es el conjunto de jugadores que deberían jugar contra Burkina Faso 
+$$A$$ de $$n$$ elementos y $$m$$ subconjuntos $$B_1, B_2, ..., B_m$$ de $$A$$
+($$B_i \subseteq A \forall i$$) , queremos el subconjunto $$C \subseteq A$$ de menor tamaño tal 
+que $$C$$ tenga al menos un elemento de cada
+$$B_i$$ (es decir, $$C \cap B_i \neq \emptyset$$). En nuestro caso, $$A$$ son los jugadores 
+convocados, los $$B_i$$ son los deseos de la
+prensa, y $$C$$ es el conjunto de jugadores que deberían jugar contra Burkina Faso 
 si o si". 
 
 Bueno, ahora con un poco más claridad en el tema, Scaloni necesita de nuestra 
@@ -57,9 +57,9 @@ ayuda para ver si obtener este subconjunto se puede hacer de forma eficiente
 
 Para los primeros dos puntos, considerar la versión de decisión del Hitting-Set Problem:
 
-Dado un conjunto de elemento $A$ de $n$ elementos, $m$ subconjuntos $B_1, B_2, ..., B_m$ de $A$
-($B_i \subseteq A \forall i$), y un número $k$, ¿existe un subconjunto $C \subseteq A$ con $|C| \leq k$ tal que $C$ tenga al menos un elemento de cada $B_i$ (es decir, 
-$C \cap B_i \neq \emptyset$)?
+Dado un conjunto de elemento $$A$$ de $$n$$ elementos, $$m$$ subconjuntos $$B_1, B_2, ..., B_m$$ de $$A$$
+($$B_i \subseteq A \forall i$$), y un número $$k$$, ¿existe un subconjunto $$C \subseteq A$$ con $$|C| \leq k$$ tal que $$C$$ tenga al menos un elemento de cada $$B_i$$ (es decir, 
+$$C \cap B_i \neq \emptyset$$)?
 
 
 1. 	Demostrar que el Hitting-Set Problem se encuentra en NP.
@@ -82,10 +82,10 @@ $C \cap B_i \neq \emptyset$)?
 	Este algoritmo sirve como una aproximación para resolver el hitting-set problem. 
 	Implementar dicho algoritmo, analizar su complejidad
 	y analizar cuán buena aproximación es. Para esto, considerar lo siguiente: 
-	Sea $I$ una instancia cualquiera del problema de empaquetamiento, y $z(I)$ una
-	solución óptima para dicha instancia, y sea $A(I)$ la solución aproximada, 
-	se define $\frac{A(I)}{z(I)} \leq r(A)$ para todas las instancias posibles. 
-	Calcular $r(A)$ para el algoritmo dado, demostrando que la cota está bien
+	Sea $$I$$ una instancia cualquiera del problema de empaquetamiento, y $$z(I)$$ una
+	solución óptima para dicha instancia, y sea $$A(I)$$ la solución aproximada, 
+	se define $$\frac{A(I)}{z(I)} \leq r(A)$$ para todas las instancias posibles. 
+	Calcular $$r(A)$$ para el algoritmo dado, demostrando que la cota está bien
 	calculada. Realizar mediciones utilizando el algoritmo exacto y la aproximación,
 	con el objetivo de verificar dicha relación. Realizar también mediciones
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
