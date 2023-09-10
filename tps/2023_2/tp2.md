@@ -18,7 +18,7 @@ un cronograma de entrenamiento. Tiene definido qué hacer para cada día de acá
 al mundial que viene, e incluso más. Para hacerlo más simple, para los próximos $$n$$
 días. El entrenamiento del día $$i$$ demanda una 
 cantidad de esfuerzo $$e_i$$, y podemos decir que la _ganancia_ que nos da
-dicho entrenamientoes es igual al esfuerzo. El entrenamiento 
+dicho entrenamiento es igual al esfuerzo. El entrenamiento 
 que corresponde al día $$i$$ (así como su esfuerzo y ganancia) son inamovibles: 
 el Chiqui Tapia alquiló las herramientas específicas para cada día, y la AFA 
 está muy ocupada organizando el torneo de $$2^{30}$$ equipos del año que viene para 
@@ -65,7 +65,7 @@ al repositorio donde se encuentre el código fuente, y donde debe encontrarse
 el informe en formato PDF, que debe seguir los lineamientos establecidos en el TP1.
 Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
 los que se dan de ejemplo. Esto puede ser dentro del `README.md` del repositorio,
-u otra que les parezca clara. 
+u otra forma que les parezca clara. 
 
 La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
 como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
