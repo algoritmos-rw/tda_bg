@@ -31,7 +31,7 @@ para cada día va disminuyendo a medida que pasan los entrenamientos. Suponiendo
 que los entrenamientos empiezan con los jugadores descansados, el primer
 día luego de dicho descanso los jugadores tienen energía $$s_1$$. El segundo día
 luego del descanso tienen energía $$s_2$$, etc... Para cada día
-hay una cantidad de energía, y podemos decir que $$s_1 \qeq s_2 \qeq ... \qeq s_n$$.
+hay una cantidad de energía, y podemos decir que $$s_1 \leq s_2 \leq ... \leq s_n$$.
 Scaloni puede decidir dejarlos descansar un día, haciendo que la energía "se renueve"
 (es decir, el próximo entrenamiento lo harían con energía $$s_1$$ nuevamente,
 siguiendo con $$s_2$$, etc...). Obviamente, si descansan, el entrenamiento de ese
