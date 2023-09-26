@@ -8,7 +8,7 @@ math: true
 # Trabajo Práctico 3: Problemas NP-Completos
 
 El presente trabajo busca evaluar el desarrollo y análisis de un algoritmo 
-de Backtracing para resolver un Problema NP-Completo, así como el análisis 
+de Backtracking para resolver un Problema NP-Completo, así como el análisis 
 de posibles aproximaciones. 
 La fecha de entrega del mismo es el {{fecha}}.
 
@@ -67,7 +67,7 @@ $$C \cap B_i \neq \emptyset$$)?
 2. 	Demostrar que el Hitting-Set Problem es, en efecto, un problema NP-Completo. 
 
 3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema. 
-	Generar sets de datos para corroborar su correctitud, así como tomar mediciones. 
+	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
 4. 	Escribir un modelo de programación lineal (con variables de decisión entera) 
 	que resuelva el problema. Ejecutarlo para
