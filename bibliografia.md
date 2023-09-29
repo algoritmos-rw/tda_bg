@@ -9,3 +9,4 @@ Algorithms Design – Kleinberg, Tardos
 * Cormen, Thomas H.; Leiserson Charles E.; Rivest Ronald L; Stein Clifford: **"Introduction to Algorithms"**, The MIT Press, 4ta edición, 2022.
 * Skiena, Steven: **The Algorithms Design Manual**, Springer, 3ra edición.
 * Sipser, Michael: **Introduction to Theory of Computation**, Cengage Learning, 3ra edición.
+* Goldreich, Oded: **Computational Complexity, A conceptual perspective**, Cambridge University Press, 2008. 
