@@ -14,7 +14,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 
 ## Introducción
 
-Scaloni ya está armando la lista de 43 jugadores que van a ir al mundial 2026 ${\small (anulo mufa)}$. 
+Scaloni ya está armando la lista de 43 jugadores que van a ir al mundial 2026 $${\small (anulo mufa)}$$. 
 Hay mucha presión por parte de la prensa para bajar línea de cuál debería ser 
 el 11 inicial. Lo de siempre. 
 Algunos medios quieren que juegue Roncaglia, otros quieren que juegue 
