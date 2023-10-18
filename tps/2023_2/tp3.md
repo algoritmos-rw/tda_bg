@@ -14,7 +14,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 
 ## Introducción
 
-Scaloni ya está armando la lista de 43 jugadores que van a ir al mundial 2026. 
+Scaloni ya está armando la lista de 43 jugadores que van a ir al mundial 2026 <sup>(anulo mufa)</sup>. 
 Hay mucha presión por parte de la prensa para bajar línea de cuál debería ser 
 el 11 inicial. Lo de siempre. 
 Algunos medios quieren que juegue Roncaglia, otros quieren que juegue 
@@ -24,11 +24,11 @@ que la prensa lo condicione, pero tiene jugadores jóvenes a los que esto
 puede afectarles. 
 
 Justo hay un partido amistoso contra Burkina Faso la semana que viene. Oportunidad
-ideal para poner un equipo que contente a todos y baje la presión, y poder 
+ideal para poner un equipo que contente a todos, baje la presión y poder 
 aislar al equipo. 
 
 El problema es, ¿cómo elegir el conjunto de jugadores que jueguen ese partido 
-(entre titulares y suplentes que vayan a entrar)? Además Scaloni quiere poder
+(entre titulares y suplentes que vayan a entrar)? Además, Scaloni quiere poder
 usar ese partido para probar cosas aparte. No puede gastar el amistoso
 para contentar a un periodista mufa que habla mal de Messi, por ejemplo. 
 Quiere definir el conjunto más pequeño de jugadores necesarios para contentarlos 
@@ -39,6 +39,7 @@ Ante este problema, Bilardo se sentó con Scaloni para explicarle que en realida
 este es un problema conocido (viejo zorro como es, ya se comió todas las operetas 
 de prensa así que se conoce este problema de memoria). Se sirvió una copa de _Gatorei_ 
 y le comentó:
+
 "Esto no es más que un caso particular del Hitting-Set Problem. El cual es: Dado un conjunto 
 $$A$$ de $$n$$ elementos y $$m$$ subconjuntos $$B_1, B_2, ..., B_m$$ de $$A$$
 ($$B_i \subseteq A \forall i$$) , queremos el subconjunto $$C \subseteq A$$ de menor tamaño tal 
@@ -69,12 +70,12 @@ $$C \cap B_i \neq \emptyset$$)?
 3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema. 
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
-4. 	Escribir un modelo de programación lineal (con variables de decisión entera) 
-	que resuelva el problema. Ejecutarlo para
-	los mismos sets de datos para corroborar su correctitud. Tomar mediciones de tiempos
+4. 	Escribir un modelo de programación lineal que resuelva el problema de forma óptima. Ejecutarlo
+	para los mismos sets de datos para corroborar su correctitud (o al menos hasta la mayor cantidad
+	de volumen posible). Tomar mediciones de tiempos
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
-5. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente
+6. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente
 	algoritmo: usar el mismo algoritmo planteado en el punto 3, pero permitiendo
 	que las variables de decisión sean valores reales, y luego redondear el resultado
 	final del modelo. 
@@ -82,7 +83,7 @@ $$C \cap B_i \neq \emptyset$$)?
 	Este algoritmo sirve como una aproximación para resolver el hitting-set problem. 
 	Implementar dicho algoritmo, analizar su complejidad
 	y analizar cuán buena aproximación es. Para esto, considerar lo siguiente: 
-	Sea $$I$$ una instancia cualquiera del problema de empaquetamiento, y $$z(I)$$ una
+	Sea $$I$$ una instancia cualquiera del Hitting-Set Problem, y $$z(I)$$ una
 	solución óptima para dicha instancia, y sea $$A(I)$$ la solución aproximada, 
 	se define $$\frac{A(I)}{z(I)} \leq r(A)$$ para todas las instancias posibles. 
 	Calcular $$r(A)$$ para el algoritmo dado, demostrando que la cota está bien
@@ -91,12 +92,12 @@ $$C \cap B_i \neq \emptyset$$)?
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
 	a fin de corroborar empíricamente la cota calculada anteriormente. 
 
-6.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
+7.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
 	del punto 5. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
-7. 	Agregar cualquier conclusión que parezca relevante.
+8. 	Agregar cualquier conclusión que parezca relevante.
 
 ## Entrega
 
