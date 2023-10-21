@@ -78,8 +78,11 @@ $$C \cap B_i \neq \emptyset$$)?
 6. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente
 	algoritmo: usar el mismo algoritmo planteado en el punto 3, pero permitiendo
 	que las variables de decisión sean valores reales, y luego redondear el resultado
-	final del modelo. 
-	
+	final del modelo. Para redondear, obtenemos el valor $f$ de la máxima frecuencia
+	de un jugador entre los diferentes conjuntos (pedidos de la prensa), y definimos
+	que la variables de decisión de cada jugador serán 1 si su valor en el modelo
+	relajado es mayor a $1/f$. 
+   
 	Este algoritmo sirve como una aproximación para resolver el hitting-set problem. 
 	Implementar dicho algoritmo, analizar su complejidad
 	y analizar cuán buena aproximación es. Para esto, considerar lo siguiente: 
@@ -92,12 +95,12 @@ $$C \cap B_i \neq \emptyset$$)?
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
 	a fin de corroborar empíricamente la cota calculada anteriormente. 
 
-7.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
+8.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
 	del punto 5. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
-8. 	Agregar cualquier conclusión que parezca relevante.
+9. 	Agregar cualquier conclusión que parezca relevante.
 
 ## Entrega
 
