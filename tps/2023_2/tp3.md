@@ -81,7 +81,7 @@ $$C \cap B_i \neq \emptyset$$)?
 	final del modelo. Para redondear, obtenemos el valor $f$ de la máxima frecuencia
 	de un jugador entre los diferentes conjuntos (pedidos de la prensa), y definimos
 	que la variables de decisión de cada jugador serán 1 si su valor en el modelo
-	relajado es mayor a $1/f$. 
+	relajado es mayor a $$1/f$$. 
    
 	Este algoritmo sirve como una aproximación para resolver el hitting-set problem. 
 	Implementar dicho algoritmo, analizar su complejidad
