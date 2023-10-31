@@ -75,13 +75,12 @@ $$C \cap B_i \neq \emptyset$$)?
 	de volumen posible). Tomar mediciones de tiempos
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
-6. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente
-	algoritmo: usar el mismo algoritmo planteado en el punto 3, pero permitiendo
-	que las variables de decisión sean valores reales, y luego redondear el resultado
-	final del modelo. Para redondear, obtenemos el valor $f$ de la máxima frecuencia
-	de un jugador entre los diferentes conjuntos (pedidos de la prensa), y definimos
-	que la variables de decisión de cada jugador serán 1 si su valor en el modelo
-	relajado es mayor a $$1/f$$. 
+6. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente algoritmo:
+ 	usar el mismo algoritmo planteado en el punto 4, pero permitiendo que las variables de decisión
+	sean valores reales, y luego redondear el resultado final del modelo. Para redondear, obtenemos el
+	valor $$b$$ como la cantidad de aquel conjunto entre los diferentes conjuntos (pedidos de la prensa)
+	que tenga la mayor cantidad de jugadores, y  definimos que la variables de decisión de cada jugador
+	serán 1 si su valor en el modelo relajado es mayor o igual a $$1/b$$.
    
 	Este algoritmo sirve como una aproximación para resolver el hitting-set problem. 
 	Implementar dicho algoritmo, analizar su complejidad
