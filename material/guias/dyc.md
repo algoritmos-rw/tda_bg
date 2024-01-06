@@ -79,8 +79,14 @@ math: true
 	(`{C1, C2, D1, D2}`). Luego, pensar a partir de allí el caso de 8 elementos, etc...
 	para encontrar el patrón. 
 
-1.  (★★★★) Dado un arreglo de n enteros, encontrar el subarreglo contiguo de máxima suma, utilizando 
-    División y Conquista. Indicar y justificar la complejidad del algoritmo.
+1.  (★★★★) Dado un arreglo de n enteros (no olvidar que pueden haber números negativos), encontrar el subarreglo 
+    contiguo de máxima suma, utilizando División y Conquista. Indicar y justificar la complejidad del algoritmo.
+    Ejemplos:
+
+        [5, 3, 2, 4, -1] →  [5, 3, 2, 4]
+        [5, 3, -5, 4, -1] →  [5, 3]
+        [5, -4, 2, 4, -1] → [5, -4, 2, 4]
+        [5, -4, 2, 4] → [5, -4, 2, 4]
 
 1.	(★★) Debido a la trágica situación actual, es necesario realizar tests para detectar
 	si alguna persona está contagiada de COVID-19. El problema es que los insumos
