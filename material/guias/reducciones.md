@@ -65,9 +65,9 @@ math: true
     obtener el corte mínimo en una red de transporte. ¿Se puede concluir si alguno de estos problemas es NP-Completo, 
     o que no lo sea? ¿Estos problemas pertenecen a PSPACE? Justificar adecuadamente cada respuesta.
 
-1.  (★★★) Un set dominante (Dominating Set) de un grafo G es un subconjunto D de vértices de G, tal que todo vértice de G 
-    pertenece a D o es adyacente a un vértice en D. El problema de decisión del set dominante implica, dado un grafo G y 
-    un número k, determinar si existe un set dominante de a lo sumo tamaño k. 
+1.  (★★★) Un set dominante (Dominating Set) de un grafo G es un subconjunto **D** de vértices de G, tal que para todo vértice de G: 
+    o bien (i) _pertenece a D_; o bien (ii) es _adyacente a un vértice en D_. El problema de decisión del set dominante implica, dado un grafo G y 
+    un número k, determinar si existe un set dominante **D** de a lo sumo tamaño k.
     Demostrar que el Dominating Set Problem es un problema NP-Completo. 
     Ayuda: recomendamos recordar Vertex Cover, que puede ser útil para esto.
 
