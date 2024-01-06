@@ -1,29 +1,24 @@
-TP0:
-  id: TP0
-  publicacion: 2023-08-25
-  entrega: 2023-09-01
-  enunciado_link: /tps/tp0
+#TP0:
+#  id: TP0
+#  publicacion: 2023-08-25
+#  entrega: 2023-09-01
+#  enunciado_link: /tps/tp0
 
 TP1:
   id: TP1
-  publicacion: 2023-09-04
-  entrega: 2023-09-18
-  enunciado_link: /tps/2023_2/tp1
+  publicacion: 2024-01-10
+  entrega: 2024-01-24
+  enunciado_link: /tps/2024_0/tp1
 
 TP2:
   id: TP2
-  publicacion: 2023-09-25
-  entrega: 2023-10-09
-  enunciado_link: /tps/2023_2/tp2
+  publicacion: 2024-01-24
+  entrega: 2024-02-07
+  enunciado_link: /tps/2024_0/tp2
 
 TP3:
   id: TP3
-  publicacion: 2023-10-30
-  entrega: 2023-11-24
-  enunciado_link: /tps/2023_2/tp3
+  publicacion: 2024-02-09
+  entrega: 2024-02-27
+  enunciado_link: /tps/2024_0/tp3
 
-TP4:
-  id: TP4
-  publicacion: 2023-11-24
-  entrega: 2023-12-11
-  enunciado_link: /tps/2023_2/tp4
