@@ -24,13 +24,12 @@ math: true
 1.  (★) Implementar, por división y conquista, una función que dado un arreglo sin elementos repetidos y _casi ordenado_ (todos los elementos se 
     encuentran ordenados, salvo uno), obtenga el elemento fuera de lugar. Indicar y justificar su complejidad temporal.
 
-1.  (★) Se tiene un arreglo en el que se registran los resultados de tests automáticos de una porción de código. Este código se encontraba funcionando, 
-    pero debido a unos cambios que se están realizando, en algún momento dejó de funcionar. Se registra un 1 si pasa los tests, 0 en caso contrario.
+1.  (★) Se tiene un arreglo en el que se registran los resultados de tests automáticos de una porción de código. Este código se encontraba funcionando 
+    pero, debido a unos cambios que se están realizando, en algún momento dejó de funcionar. Se registra un 1 si pasa los tests, 0 en caso contrario.
     De esta manera, el arreglo tendrá la forma `[1, 1, 1, ..., 0, 0, ...]` (es decir, _unos seguidos de ceros_). Se pide:
     a. una función de orden $$\mathcal{O}(\log n)$$ que, por división y conquista, encuentre el índice del primer 0, de forma que se pueda reconocer 
     rápidamente en qué modificación del código se dejó de pasar los tests. Si no hay ningún 0 (solo hay unos), debe devolver -1.
     b. demostrar con el Teorema Maestro que la función es, en efecto, $$\mathcal{O}(\log n)$$.
-    {:.lower_alpha}
 
     Ejemplos:
 
@@ -63,7 +62,7 @@ math: true
     o incluso se puede realizar más rápido utilizando una tabla de hash. Para cumplir con la consigna,
     resolver **sin ordenar el arreglo ni con tabla de hash**, sino puramente por división y conquista.
 
-1.  (★★★★) Resolver el ejercicio anterior, por división y conquista, en un orden $$\mathcal{O}(n)$$, 
+1.  (★★★★) Resolver el ejercicio anterior, por división y conquista, en orden $$\mathcal{O}(n)$$, 
     dada la misma aclaración. Justificar el orden de la solución.
 
 1.  (★★★★) Implementar una función, que utilice división y conquista, de orden $$\mathcal{O}(n)$$
@@ -79,7 +78,10 @@ math: true
 	_Pista_: Pensar primero cómo habría que hacer si el arreglo tuviera 4 elementos 
 	(`{C1, C2, D1, D2}`). Luego, pensar a partir de allí el caso de 8 elementos, etc...
 	para encontrar el patrón. 
-	
+
+1.  (★★★★) Dado un arreglo de n enteros, encontrar el subarreglo contiguo de máxima suma, utilizando 
+    División y Conquista. Indicar y justificar la complejidad del algoritmo.
+
 1.	(★★) Debido a la trágica situación actual, es necesario realizar tests para detectar
 	si alguna persona está contagiada de COVID-19. El problema es que los insumos
 	tienden a ser bastante caros, y no vivimos en un país al que los recursos le sobren. 
@@ -107,8 +109,8 @@ math: true
 1. 	(★★) Se sabe, por el teorema de Bolzano, que si una función es continua en un intervalo `[a, b]`, 
 	y que en el punto `a` es positiva y en el punto `b` es negativa (o viceversa), necesariamente
 	debe haber (al menos) una raíz en dicho intervalo. Implementar una función 
-	`func raiz(f func(int)int, a int, b int) int` que reciba una función (univariable) y
-	los extremos mencionados y devuelva una raíz dentro de dicho intervalo (si hay más de una, 
+	raiz que reciba una función (univariable) y los extremos mencionados a y b,
+	y devuelva una raíz dentro de dicho intervalo (si hay más de una, 
 	simplemente quedarse con una). La complejidad de dicha función debe ser logarítmica del
 	largo del intervalo `[a, b]`. Asumir que por más que se esté trabajando con números enteros, 
 	hay raíz en dichos valores: Se puede trabajar con `floats`, y el algoritmo será equivalente, 
