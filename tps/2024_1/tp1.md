@@ -5,7 +5,7 @@ math: true
 {% assign tp = site.data.trabajos.TP1 %}
 {% capture fecha %}{{tp.entrega | date: "%e/%m"}}{% endcapture %}
 
-# Trabajo Práctico 1: Algoritmos Greedy
+# Trabajo Práctico 1: Algoritmos Greedy en la Nación del Fuego
 
 El presente trabajo busca evaluar el desarrollo y análisis de un algoritmo Greedy. 
 La fecha de entrega del mismo es el {{fecha}}.
