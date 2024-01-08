@@ -23,8 +23,48 @@ math: true
 
 1.  (★) Explicar por qué el Algoritmo de Kruskal (para obtener el MST de un grafo no dirigido) es un Algoritmo Greedy.
 
+1.  (★) Explicar por qué el Algoritmo de Prim (para obtener el MST de un grafo no dirigido) es un Algoritmo Greedy.
+
+1.  (★) Explicar por qué el Algoritmo de Dijkstra (para obtener caminos mínimos desde un vértice, en un grafo con pesos 
+    positivos) es un Algoritmo Greedy.
+
+1.  (★★) Dada un aula/sala donde se pueden dar charlas. Las charlas tienen horario de inicio y fin. Implementar un 
+    algoritmo Greedy que reciba el arreglo de los horarios de las charlas, representando en tuplas los horarios de inicios 
+    de las charlas, y sus horarios de fin, e indique cuáles son las charlas a dar para maximizar la cantidad total de charlas.
+    Indicar y justificar la complejidad del algoritmo implementado.
+
 1.  (★) Realizar un seguimiento de aplicar el Algoritmo de Huffman al texto “PRETERINTENCIONALIDAD”, indicando el 
     binario resultante de comprimirlo. ¿Por qué se trata de un algoritmo Greedy? Justificar
+
+1.  (★) Se tiene un sistema monetario (ejemplo, el nuestro). Se quiere dar "cambio" de una determinada cantidad de plata. Implementar 
+    un algoritmo Greedy que devuelva el cambio pedido, usando la mínima cantidad de monedas/billetes. El algoritmo recibirá un arreglo 
+    de valores del sistema monetario, y la cantidad de cambio objetivo a dar, y debe devolver qué monedas/billetes deben ser utilizados 
+    para minimizar la cantidad total utilizda. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo implementado 
+    encuentra siempre la solución óptima? Justificar si es óptimo, o dar un contraejemplo. ¿Por qué se trata de un algoritmo Greedy? Justificar
+
+1.  (★) Tenemos unos productos dados por un arreglo R, donde R[i] nos dice el precio del producto. Cada día podemos y debemos comprar 
+    uno (y sólo uno) de los productos, pero vivimos en una era de inflación y los precios aumentan todo el tiempo. El precio del 
+    producto i el día j es R[i]j + 1 (j comenzando en 0). Implementar un algoritmo greedy que nos indique el precio mínimo al 
+    que podemos comprar todos los productos. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo implementado 
+    encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
+    ¿Qué modificaciones se deben realizar para un estado de deflación, con productos que bajan de precio todo el tiempo?
+
+1.  (★★) Tenemos una mochila con una capacidad W. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
+    capacidad total. Queremos maximizar el valor de lo que llevamos sin exceder la capacidad. Implementar un algoritmo Greedy 
+    que, reciba dos arreglos de valores y pesos de los elementos, y devuelva qué elementos deben ser 
+    guardados para maximizar la ganancia total. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo 
+    implementado encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
+
+    ¿Qué diferencias se perciben si en vez de tener que colocar los elementos completos, se pueden fraccionar para nuestra conveniencia?
+    
+1.  (★★) Tenemos tareas con una duración y un deadline (fecha límite), pero pueden hacerse en cualquier momento, intentando que se 
+    hagan antes del deadline. Una tarea puede completarse luego de su deadline, pero ello tendra una penalización de latencia. 
+    Para este problema, buscamos minimizar la latencia máxima en el que las tareas se ejecuten. Es decir, dados los arreglos de: 
+    T tiempo de duraciones de las tareas y L representando al deadline de cada tarea,
+    si definimos que una tarea i empieza en Si, entonces termina en Fi = Si + Ti, y su latencia es Li = Fi - Di (si Fi > Di, sino 0).
+    Nuestra latencia máxima será aquella i que maximice el valor Li. Implementar un algoritmo que defina en qué orden deben realizarse
+    las tareas, sabiendo que al terminar una tarea se puede empezar la siguiente. Indicar y justificar la complejidad del algoritmo implementado. 
+    ¿El algoritmo implementado encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
 1.  (★) Una ruta tiene un conjunto de bifurcaciones para acceder a diferentes pueblos. El listado (ordenado por nombre del 
     pueblo) contiene el número de kilómetro donde está ubicada cada una. Se desea ubicar la menor cantidad de patrullas 
