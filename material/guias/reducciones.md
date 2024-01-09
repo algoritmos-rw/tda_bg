@@ -21,6 +21,51 @@ math: true
 
 ## Ejercicios propuestos
 
+1.  (★) El problema del Independent Set se define como: dado un grafo no dirigido, obtener el máximo subconjunto de vértices 
+    del grafo tal que ningun par de vértices del subconjunto sea adyacente entre si. Dicho conjunto es un Independet Set. 
+    Definir el _problema de decisión_ del Independent Set. Luego, implementar un verificador polinomial para este problema. 
+    ¿Cuál es la complejidad del verificador implementado? Justificar
+
+1.  (★) El problema del Vertex Cover se define como: dado un grafo no dirigido, obtener el mínimo subconjunto de vértices 
+    del grafo tal que toda arista del grafo tenga al menos uno de sus vértices perteneciendo al subconjunto. Dicho conjunto 
+    es un Vertex Cover. Definir el _problema de decisión_ del Vertex Cover. Luego, implementar un verificador polinomial para 
+    este problema. ¿Cuál es la complejidad del verificador implementado? Justificar
+
+1.  (★) Dados los problemas de decisiones de Independent Set y Vertex Cover, realizar dos reducciones. 
+    a. Reducir Independent Set a Vertex Cover. 
+    b. Reducir Vertex Cover a Independent Set.
+
+1.  (★) El problema de decisión de 3-SAT dice: dadas un número de cláusulas de variables booleanas, cada cláusula consta de la 
+    operación OR entre 3 términos, decidir si existe una configuración de las variables booleanas tal que sea posible cumplir 
+    todas las cláusulas. El problema de 3-SAT es NP-Completo. Dados los problemas de decisión de Independent Set y 3-SAT, 
+    demostrar que Independent Set es NP-Completo. Luego explicar de qué manera, con el trabajo hecho en la guía hasta este 
+    ejercicio, se puede afirmar que Vertex Cover es NP-Completo.
+
+1.  (★) Para cada uno de los siguientes problemas, implementar un verificador polinomial y justificar su complejidad.
+    a. Dado un número por parámetro, si es la solución al problema de Búsqueda del máximo en un arreglo
+    b. Dado un arreglo, si es la solución a tener el arreglo ordenado
+    c. Dadas un arreglo de posiciones de Reinas, si es la solución de colocar al menos N-reinas en un tablero NxN
+
+1.  (★) Definir el problema de decisión de las N-Reinas. Demostrar que se trata de un problema NP-Completo.
+
+1.  (★) Definir los problemas de decisión de Independent Set y K-Clique. Hacer una reducción de Independet Set a K-Clique. 
+    Dada esta reducción, ¿podemos afirmar que K-Clique es un problema NP-Completo?
+
+1.  (★) Definir los problemas de decisión de Camino Hamiltoniano y Ciclo Hamiltoniano. Sabiendo que Ciclo Hamiltoniano es 
+    NP-Completo, demostrar que Camino Hamiltoniano es NP-Completo.
+
+1.  (★) Definir los problemas de decisión de Grafo Bipartito y 3-Coloreo. Sabiendo que 3-Coloreo es NP-Completo, reducir 
+    Grafo Bipartito a 3-Coloreo. ¿Podemos afirmar que Grafo Bipartito es un problema NP-Completo?
+
+1.  (★) Definir los problemas de decisión de Subset Sum y Problema de la Mochila. Sabiendo que Subset Sum es 
+    NP-Completo, demostrar que el Problema de la Mochila es NP-Completo.
+
+1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos L y un entero n obtener todos 
+    los subconjuntos de L que suman exactamente n.
+
+1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos L y un entero n obtener un subconjunto 
+    de L que sume exactamente n, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de n.
+
 1.  (★★) Realizar una reducción polinomial del siguiente problema a otro de los vistos durante la cursada. Ayuda: pensar en 
     alguno de los vistos de programación dinámica. Dada esta reducción, ¿se puede afirmar que este problema es NP-Completo?
     
