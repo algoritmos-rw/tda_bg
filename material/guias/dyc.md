@@ -49,7 +49,21 @@ math: true
     b. Justificar el orden del algoritmo mediante el teorema maestro.
     {:.lower_alpha}
 
-1.  (★★★) Implementar una función, que utilice división y conquista, de orden $$\mathcal{O}(n \log n)$$
+1.  (★) Implementar Merge Sort. Justificar el orden del algoritmo mediante el teorema maestro.
+
+1.  (★) Implementar un algoritmo de multiplicación de dos números grandes de longitud n, por división y conquista, con 
+    un orden de complejidad mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el teorema maestro.
+
+1.  (★★) Implementar un algoritmo que dados n puntos en un plano, busque la pareja que se encuentre más cercana, por división 
+    y conquista, con un orden de complejidad mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el 
+    teorema maestro. Se puede asumir que ningún par de puntos tienen la misma coordenada x o y.
+
+1.  (★) Dados un conjunto de n elementos, y 2 arreglos de longitud n, con dichos elementos. El arreglo A está completamente 
+    ordenado de menor a mayor. El arreglo B se encuentra desordenado. Indicar, por división y conquista, la cantidad de 
+    inversioes necesarias al arreglo B para que quede ordenado de menor a mayor, con un orden de complejidad 
+    mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el teorema maestro.
+
+1.  (★★★) Implementar una función, que utilice división y conquista, de orden $$\mathcal{O}(n \log n)$$ 
     que dado un arreglo de $$n$$ números enteros devuelva `true` o `false` según si existe algún elemento que aparezca
     más de la mitad de las veces. Justificar el orden de la solución. Ejemplos:
 
