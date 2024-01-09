@@ -79,6 +79,8 @@ math: true
     | Lezama      | 156         |
     | Maipú       | 270         |
     | Sevigne     | 194         |
+
+
     Si pongo un patrullero en la bifurcación de Lezama, cubro Castelli y Sevigne. Pero no Gral Guido y Maipú. 
     Necesitaría en ese caso, poner otro. Agrego otro patrullero en Gral Guido. Con eso tengo 2 móviles policiales 
     en bifurcaciones que cubren todas los accesos a todas las ciudades con distancia menor a 50km.
