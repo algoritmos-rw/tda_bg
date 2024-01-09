@@ -21,6 +21,49 @@ math: true
 
 ## Ejercicios propuestos
 
+1.  (★) Implementar por backtracking un algoritmo que, dado un grafo no dirigido y un numero n menor a #V, devuelva si 
+    es posible obtener un subconjunto de n vertices tal que ningun par de vertices sea adyacente entre si.
+
+1.  (★) Implementar un algoritmo que reciba un grafo y un número n que, utilizando backtracking, indique si es posible 
+    pintar cada vértice con n colores de tal forma que no hayan dos vértices adyacentes con el mismo color.
+
+1.  (★) Dado un tablero de ajedrez NxN, implementar un algoritmo por backtracking que ubique (si es posible) a N reinas 
+    de tal manera que ninguna pueda comerse con ninguna.
+
+1.  (★★) Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
+    máximo Independent Set del mismo.
+
+1.  (★) Un camino hamiltoniano, es un camino de un grafo, que visita todos los vértices del grafo una sola vez. Implementar 
+    un algoritmo por backtracking que encuentre un camino hamiltoniano de un grafo dado.
+
+1.  (★) Dada una matriz de 9x9, implementar un algoritmo por backtracking que llene la matriz con números del 1 al 9, dadas 
+    las condiciones del Sudoku (si es posible). Las condiciones son: 
+    (i) Las celdas están dispuestas en 9 subgrupos de 3x3. 
+    (ii) Cada columna y cada fila no puede repetir número. 
+    (iii) Cada subgrupo de 3x3 no puede repetir número.
+
+1.  (★) Implementar un algoritmo de backtracking que, dado una pieza de caballo en un tablero de ajedrez, determine los 
+    movimientos a realizar para que el caballo logre pasar por todos los casilleros del tablero una única vez. 
+    Recordar que el caballo mueve en forma de L (dos casilleros en una dirección, y un casillero en forma perpendicular).
+
+1.  (★★) Implementar un algoritmo de backtracking que, dados dos grafos, determine si existe un Isomorfismo entre ambos.
+
+1.  (★) Se tiene una lista de materias que deben ser cursadas en el mismo cuatrimestre, cada materia está representada con 
+    una lista de cursos/horarios posibles a cursar (solo debe elegirse un horario por cada curso). Cada materia puede tener 
+    varios cursos. Implementar un algoritmo de backtracking que devuelva un listado con todas las combinaciones posibles que 
+    permitan asistir a un curso de cada materia sin que se solapen los horarios. Considerar que existe una función 
+    son_compatibles(curso_1, curso_2) que dados dos cursos devuelve un valor booleano que indica si se pueden cursar al mismo tiempo.
+
+1.  (★) Implementar un algoritmo tipo Backtracking que reciba una cantidad de dados n y una suma s. La función debe devolver todas 
+    las tiradas posibles de n dados cuya suma es s. Por ejemplo, con n = 2 y s = 7, debe devolver [1, 6] [2, 5] [3, 4] [4, 3] [5, 2] [6, 1].
+    ¿De qué orden es el algoritmo en tiempo? ¿Y en memoria?
+
+1.  (★) Escribir un algoritmo que, utilizando backtracking, dada una lista de enteros positivos L y un entero n devuelva todos 
+    los subconjuntos de L que suman exactamente n.
+
+1.  (★) Modificar el algoritmo anterior para que, dada una lista de enteros positivos L y un entero n, devuelva un subconjunto 
+    de L que sume exactamente n, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de n.
+
 1.  (★★) Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
     mínimo Vertex Cover del mismo.
 
