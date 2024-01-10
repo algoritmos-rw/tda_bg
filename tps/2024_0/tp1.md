@@ -45,10 +45,13 @@ Scaloni debe ver los videos tal que todos los análisis estén listos lo antes p
 
 ## Entrega
 
-Completar el [formulario de entrega]({{site.data.cuatrimestre.entrega_tps}}) con los integrantes y el link al repositorio donde se encuentre el código fuente, y donde debe encontrarse el informe en formato PDF.
+Enviarle a Martín (sea por slack, o por mail a mbuchwald@fi.uba.ar) y el link al repositorio donde se encuentre el código fuente, y 
+donde debe encontrarse el informe en formato PDF.
 Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
 los que se dan de ejemplo. Esto puede ser dentro del `README.md` del repositorio,
-u otra que les parezca clara. 
+u otra que les parezca clara.
+Se debe poder ejecutar el programa para poder obtener la solución a una instancia arbitraria (es decir, tiene que poder recibir
+el archivo a una nueva prueba e imprimir la solución a dicha instancia). 
 
 El informe debe ser:
 * Autocontenido: es decir, no debe ser necesario ponernos a buscar
