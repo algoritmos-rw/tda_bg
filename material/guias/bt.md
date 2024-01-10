@@ -21,10 +21,10 @@ math: true
 
 ## Ejercicios propuestos
 
-1.  (★) Implementar por backtracking un algoritmo que, dado un grafo no dirigido y un numero n menor a #V, devuelva si 
+1.  (★★) Implementar por backtracking un algoritmo que, dado un grafo no dirigido y un numero $$n$$ menor a $$|V|$$, devuelva si 
     es posible obtener un subconjunto de n vertices tal que ningun par de vertices sea adyacente entre si.
 
-1.  (★) Implementar un algoritmo que reciba un grafo y un número n que, utilizando backtracking, indique si es posible 
+1.  (★★) Implementar un algoritmo que reciba un grafo y un número $$n$$ que, utilizando backtracking, indique si es posible
     pintar cada vértice con n colores de tal forma que no hayan dos vértices adyacentes con el mismo color.
 
 1.  (★) Dado un tablero de ajedrez $$n \times n$$, implementar un algoritmo por backtracking que ubique (si es posible) a $$n$$ reinas 
@@ -33,7 +33,7 @@ math: true
 1.  (★★) Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
     máximo Independent Set del mismo.
 
-1.  (★) Un camino hamiltoniano, es un camino de un grafo, que visita todos los vértices del grafo una sola vez. Implementar 
+1.  (★★) Un camino hamiltoniano, es un camino de un grafo, que visita todos los vértices del grafo una sola vez. Implementar 
     un algoritmo por backtracking que encuentre un camino hamiltoniano de un grafo dado.
 
 1.  (★) Dada una matriz de 9x9, implementar un algoritmo por backtracking que llene la matriz con números del 1 al 9, dadas 
@@ -46,7 +46,7 @@ math: true
     movimientos a realizar para que el caballo logre pasar por todos los casilleros del tablero una única vez. 
     Recordar que el caballo mueve en forma de L (dos casilleros en una dirección, y un casillero en forma perpendicular).
 
-1.  (★★) Implementar un algoritmo de backtracking que, dados dos grafos, determine si existe un Isomorfismo entre ambos.
+1.  (★★★) Implementar un algoritmo de backtracking que, dados dos grafos, determine si existe un Isomorfismo entre ambos.
 
 1.  (★) Se tiene una lista de materias que deben ser cursadas en el mismo cuatrimestre, cada materia está representada con 
     una lista de cursos/horarios posibles a cursar (solo debe elegirse un horario por cada curso). Cada materia puede tener 
