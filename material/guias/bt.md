@@ -93,7 +93,7 @@ math: true
     iluminados, siendo que cada faro ilumina su celda y además todas las adyacentes (incluyendo las diagonales), y las 
     directamente adyacentes a estas (es decir, un “radio de 2 celdas”).
 
-1.  (★★★) Implementar un algoritmo que, por backtracking, obtenga todos los posibles ordenamientos topológicos de un grafo 
-    dirigido y acíclico.
+1.  (★★★) Implementar un algoritmo que, por backtracking, obtenga la cantidad total de posibles ordenamientos topológicos 
+    de un grafo dirigido y acíclico.
 
 {::options toc_levels="2" /}
