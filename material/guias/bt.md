@@ -27,7 +27,7 @@ math: true
 1.  (★) Implementar un algoritmo que reciba un grafo y un número n que, utilizando backtracking, indique si es posible 
     pintar cada vértice con n colores de tal forma que no hayan dos vértices adyacentes con el mismo color.
 
-1.  (★) Dado un tablero de ajedrez NxN, implementar un algoritmo por backtracking que ubique (si es posible) a N reinas 
+1.  (★) Dado un tablero de ajedrez $$n \times n$$, implementar un algoritmo por backtracking que ubique (si es posible) a $$n$$ reinas 
     de tal manera que ninguna pueda comerse con ninguna.
 
 1.  (★★) Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
@@ -54,15 +54,15 @@ math: true
     permitan asistir a un curso de cada materia sin que se solapen los horarios. Considerar que existe una función 
     son_compatibles(curso_1, curso_2) que dados dos cursos devuelve un valor booleano que indica si se pueden cursar al mismo tiempo.
 
-1.  (★) Implementar un algoritmo tipo Backtracking que reciba una cantidad de dados n y una suma s. La función debe devolver todas 
-    las tiradas posibles de n dados cuya suma es s. Por ejemplo, con n = 2 y s = 7, debe devolver [1, 6] [2, 5] [3, 4] [4, 3] [5, 2] [6, 1].
-    ¿De qué orden es el algoritmo en tiempo? ¿Y en memoria?
+1.  (★) Implementar un algoritmo tipo Backtracking que reciba una cantidad de dados $$n$$ y una suma $$s$$. La función debe devolver todas 
+    las tiradas posibles de $$n$$ dados cuya suma es $$s$$. Por ejemplo, con $$n = 2$$ y $$s = 7$$, debe devolver `[[1, 6], [2, 5], [3, 4], [4, 3], [5, 2], [6, 1]]`.
+    ¿De qué complejidad es el algoritmo en tiempo? ¿Y en espacio?
 
-1.  (★) Escribir un algoritmo que, utilizando backtracking, dada una lista de enteros positivos L y un entero n devuelva todos 
-    los subconjuntos de L que suman exactamente n.
+1.  (★) Escribir un algoritmo que, utilizando backtracking, dada una lista de enteros positivos $$L$$ y un entero $$n$$ devuelva todos 
+    los subconjuntos de $$L$$ que suman exactamente $$n$$.
 
-1.  (★) Modificar el algoritmo anterior para que, dada una lista de enteros positivos L y un entero n, devuelva un subconjunto 
-    de L que sume exactamente n, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de n.
+1.  (★) Modificar el algoritmo anterior para que, dada una lista de enteros positivos $$L$$ y un entero $$n$$, devuelva un subconjunto 
+    de $$L$$ que sume exactamente $$n$$, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de $$n$$.
 
 1.  (★★) Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
     mínimo Vertex Cover del mismo.
@@ -71,9 +71,9 @@ math: true
     o bien (i) _pertenece a D_; o bien (ii) es _adyacente a un vértice en D_.  Implementar un algoritmo que reciba un Grafo, y devuelva 
     un dominating set de dicho grafo con la mínima cantidad de vértices.
 
-1.  (★★★) Un bodegón tiene una única mesa larga con **W** lugares. Hay una persona en la puerta que anota los grupos que quieren 
+1.  (★★★) Un bodegón tiene una única mesa larga con $$W$$ lugares. Hay una persona en la puerta que anota los grupos que quieren 
     sentarse a comer, y la _cantidad de integrantes_ que conforma a cada uno. Para simplificar su trabajo, se los anota en 
-    un vector **P** donde P[i] contiene la cantidad de personas que integran el _grupo i_, siendo en total **n** grupos. Como se 
+    un vector $$P$$ donde $$P[i]$$ contiene la cantidad de personas que integran el _grupo i_, siendo en total $$n$$ grupos. Como se 
     trata de un restaurante familiar, las personas sólo se sientan en la mesa si _todos los integrantes de su grupo_ pueden 
     sentarse. Implementar un algoritmo que, **por backtracking**, obtenga el conjunto de grupos que ocupan 
     la mayor cantidad de espacios en la mesa (o en otras palabras, que dejan la menor cantidad de espacios vacíos).
@@ -81,9 +81,9 @@ math: true
 1.  (★★★) Para ayudar a personas con problemas visuales (por ejemplo, daltonismo) el gobierno de Agrabah decidió que en una 
     misma parada de colectivo nunca pararán dos colectivos que usen el mismo color. El problema es que ya saben que eso 
     está sucediendo hoy en día, así que van a repintar todas las líneas de colectivos. Por problemas presupuestarios, desean 
-    pintar los colectivos con la menor cantidad posible k colores diferentes. Como no quieren 
+    pintar los colectivos con la menor cantidad posible $$k$$ colores diferentes. Como no quieren 
     parecer un grupo de improvisados que malgasta los fondos públicos, quieren hacer un análisis para saber cuál es ese mínimo
-    valor para cumplir con lo pedido (pintar cada línea con alguno de los k colores, de tal forma que no hayan dos de mismo color 
+    valor para cumplir con lo pedido (pintar cada línea con alguno de los $$k$$ colores, de tal forma que no hayan dos de mismo color 
     coincidiendo en la misma parada). Considerando que se tiene la información de todas las paradas de colectivo y qué 
     líneas paran allí, modelar el problema utilizando grafos e implementar un algoritmo que determine si es posible resolver 
     el problema. Indicar la complejidad del algoritmo implementado.
