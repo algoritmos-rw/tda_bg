@@ -43,9 +43,9 @@ math: true
 
 1.  (★★) Dada una red residual, dar un algoritmo que encuentre un camino de aumento que minimice el número de aristas utilizadas.
 
-1.  (★★★) Dado un flujo máximo de un grafo, implementar un algoritmo que, si se le aumenta la capacidad a una artista, permita 
-    obtener el nuevo flujo máximo en tiempo lineal en vértices y aristas. Indicar y justificar la complejidad del algoritmo 
-    implementado.
+1.  (★★) Dado un flujo máximo de un grafo, implementar un algoritmo que, si se le aumenta en una unidad la capacidad a una 
+    artista (por ejemplo, a una arista de capacidad 3 se le aumenta a 4, permita obtener el nuevo flujo máximo en tiempo lineal 
+    en vértices y aristas. Indicar y justificar la complejidad del algoritmo implementado.
 
 1.  (★★) Hacer un seguimiento de obtener el flujo máximo en la siguiente red de transporte, realizando las modificaciones previas 
     que fueran necesarias. Luego, definir cuáles son los dos conjuntos del corte mínimo en dicha red.
@@ -87,8 +87,9 @@ math: true
 1.  (★★★) Carlos tiene un problema: sus 5 hijos no se soportan. Esto es a tal punto, que ni siquiera están dispuestos a caminar 
     juntos para ir a la escuela. Incluso más: ¡tampoco quieren pasar por una cuadra por la que haya pasado alguno de sus 
     hermanos! Sólo aceptan pasar por las esquinas, si es que algún otro pasó por allí. Por suerte, tanto la casa como la 
-    escuela quedan en esquinas, pero no está seguro si es posible enviar a sus 5 hijos a la misma escuela. Utilizando lo visto 
-    en la materia, formular este problema y resolverlo. Indicar y justificar la complejidad del algoritmo.
+    escuela quedan en esquinas, pero no está seguro si es posible enviar a sus 5 hijos a la misma escuela. No se puede asumir que
+    la ciudad tenga alguna forma en específico, por ejemplo, no hay que asumir que todas las calles sean cuadradas. Utilizando lo 
+    visto en la materia, formular este problema y resolverlo. Indicar y justificar la complejidad del algoritmo.
 
 1.  (★★★) Se está formando una nueva comisión de actividades culturales de un pueblo. Cada habitante es miembro de 0 o más 
     clubes, y de exactamente 1 partido político. Cada grupo de interés debe nombrar a un representante ante la nueva 
@@ -99,10 +100,11 @@ math: true
     implementado.
 
 1.  (★★★) En un hospital, se tiene un conjunto de médicos y un conjunto de pacientes. Cada médico tiene un horario con franjas 
-    horarias disponibles para citas médicas, y cada paciente tiene sus franjas horaria disponibles para ir al médico. Nuestro 
-    objetivo es emparejar médicos con pacientes de manera que se maximice el número total de citas médicas programadas. 
-    Se puede asumir que cada visita médica dura una cuota de tiempo fija, y que los pacientes pueden ser a priori atendidos por 
-    cualquier médico. Implementar un algoritmo que resuelva dicho problema de manera eficiente. Indicar y justificar la 
-    complejidad del algoritmo implementado.
+    horarias disponibles para citas médicas y su área de especialidad, y cada paciente tiene sus franjas horaria disponibles para 
+    ir al médico, junto con la información de qué tipo de especialidad requiere. Nuestro objetivo es emparejar médicos con pacientes 
+    de manera que se maximice el número total de citas médicas programadas. Se puede asumir que cada visita médica dura una cuota de 
+    tiempo fija, y que los pacientes pueden ser a priori atendidos por cualquier médico que coincida con el área de especialidad que 
+    requieren. Implementar un algoritmo que resuelva dicho problema de manera eficiente. Indicar y justificar la complejidad del 
+    algoritmo implementado.
 
 {::options toc_levels="2" /}
