@@ -71,7 +71,10 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
 6. 	El Maestro Pakku nos propone el siguiente algoritmo de aproxiamción:
- 	[AGREGAR]
+ 	Generar los $$k$$ grupos vacíos. Ordenar de mayor a menor los maestros en función de su habilidad
+ 	o fortaleza. Agregar al más habilidoso al grupo con menos habilidad hasta ahora (cuadrado de la 
+ 	suma). Repetir siguiendo con el siguiente más habilidoso, hasta que no queden más maestros por
+ 	asignar. [ANALIZAR CUAN FÁCIL ES CALCULAR LA COTA PARA ESTE ALGORITMO]
    
 	Este algoritmo sirve como una aproximación para resolver el problema de la tribu del agua. 
 	Implementar dicho algoritmo, analizar su complejidad
