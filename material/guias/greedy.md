@@ -33,7 +33,7 @@ math: true
     de las charlas, y sus horarios de fin, e indique cuáles son las charlas a dar para maximizar la cantidad total de charlas.
     Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★) Realizar un seguimiento de aplicar el Algoritmo de Huffman al texto “PRETERINTENCIONALIDAD”, indicando el 
+1.  (★) Realizar un seguimiento de aplicar el Algoritmo de Huffman al texto `“PRETERINTENCIONALIDAD”`, indicando el 
     binario resultante de comprimirlo. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
 1.  (★) Se tiene un sistema monetario (ejemplo, el nuestro). Se quiere dar "cambio" de una determinada cantidad de plata. Implementar 
@@ -42,14 +42,14 @@ math: true
     para minimizar la cantidad total utilizda. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo implementado 
     encuentra siempre la solución óptima? Justificar si es óptimo, o dar un contraejemplo. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
-1.  (★) Tenemos unos productos dados por un arreglo R, donde R[i] nos dice el precio del producto. Cada día podemos y debemos comprar 
+1.  (★) Tenemos unos productos dados por un arreglo $$R$$, donde $$R[i]$$ nos dice el precio del producto. Cada día podemos y debemos comprar 
     uno (y sólo uno) de los productos, pero vivimos en una era de inflación y los precios aumentan todo el tiempo. El precio del 
-    producto i el día j es R[i]j + 1 (j comenzando en 0). Implementar un algoritmo greedy que nos indique el precio mínimo al 
+    producto $$i$$ el día $$j$$ es $$R[i]^{j + 1}$$ ($$j$$ comenzando en 0). Implementar un algoritmo greedy que nos indique el precio mínimo al 
     que podemos comprar todos los productos. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo implementado 
     encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
     ¿Qué modificaciones se deben realizar para un estado de deflación, con productos que bajan de precio todo el tiempo?
 
-1.  (★★) Tenemos una mochila con una capacidad W. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
+1.  (★★) Tenemos una mochila con una capacidad $$W$$. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
     capacidad total. Queremos maximizar el valor de lo que llevamos sin exceder la capacidad. Implementar un algoritmo Greedy 
     que, reciba dos arreglos de valores y pesos de los elementos, y devuelva qué elementos deben ser 
     guardados para maximizar la ganancia total. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo 
@@ -60,9 +60,9 @@ math: true
 1.  (★★) Tenemos tareas con una duración y un deadline (fecha límite), pero pueden hacerse en cualquier momento, intentando que se 
     hagan antes del deadline. Una tarea puede completarse luego de su deadline, pero ello tendra una penalización de latencia. 
     Para este problema, buscamos minimizar la latencia máxima en el que las tareas se ejecuten. Es decir, dados los arreglos de: 
-    T tiempo de duraciones de las tareas y L representando al deadline de cada tarea,
-    si definimos que una tarea i empieza en Si, entonces termina en Fi = Si + Ti, y su latencia es Li = Fi - Di (si Fi > Di, sino 0).
-    Nuestra latencia máxima será aquella i que maximice el valor Li. Implementar un algoritmo que defina en qué orden deben realizarse
+    $$T$$ tiempo de duraciones de las tareas y L representando al deadline de cada tarea,
+    si definimos que una tarea $$i$$ empieza en $$S_i$$, entonces termina en $$F_i = S_i + T_i$$, y su latencia es $$L_i = F_i - D_i$$ (si $$F_i > D_i$$, sino 0).
+    Nuestra latencia máxima será aquella $$i$$ que maximice el valor $$L_i$$. Implementar un algoritmo que defina en qué orden deben realizarse
     las tareas, sabiendo que al terminar una tarea se puede empezar la siguiente. Indicar y justificar la complejidad del algoritmo implementado. 
     ¿El algoritmo implementado encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
@@ -96,8 +96,8 @@ math: true
     cómo se puede satisfacer la demanda de sangre (o si no puede hacerse). Indicar el orden del algoritmo y justificar por 
     qué el algoritmo propuesto es un algoritmo greedy.
 
-1.  (★★) Las bolsas de un supermercado se cobran por separado y soportan hasta un peso máximo $P$, por encima del cual 
-    se rompen. Implementar un algoritmo greedy que, teniendo una lista de pesos de $n$ productos comprados, encuentre 
+1.  (★★) Las bolsas de un supermercado se cobran por separado y soportan hasta un peso máximo $$P$$, por encima del cual 
+    se rompen. Implementar un algoritmo greedy que, teniendo una lista de pesos de $$n$$ productos comprados, encuentre 
     la mejor forma de distribuir los productos en la menor cantidad posible de bolsas. Realizar el seguimiento del algoritmo
     propuesto para bolsas con peso máximo 5 y para una lista con los pesos: `[ 4, 2, 1, 3, 5 ]`. ¿El algoritmo implementado 
     encuentra siempre la solución óptima? Justificar. Indicar y justificar la complejidad del algoritmo implementado.
@@ -116,9 +116,9 @@ math: true
     vez maximizando la cantidad de pedidos otorgados. Indicar y justificar la complejidad del algoritmo implementado. 
     Justificar por qué el algoritmo planteado es Greedy. ¿El algoritmo da la solución óptima siempre?
 
-1.  (★★) Tenemos una ruta recta muy larga, de K kilómetros, sobre la cual hay casas dispersas. En dichas casas vive gente que 
+1.  (★★) Tenemos una ruta recta muy larga, de $$K$$ kilómetros, sobre la cual hay casas dispersas. En dichas casas vive gente que 
     usa mucho sus celulares. El intendente a cargo la ruta debe renovar por completo el sistema de antenas, teniendo que 
-    construir sobre la ruta nuevas antenas. Cada antena tiene un rango de cobertura de R kilómetros (valor constante conocido).
+    construir sobre la ruta nuevas antenas. Cada antena tiene un rango de cobertura de $$R$$ kilómetros (valor constante conocido).
     Implementar un algoritmo Greedy que reciba **las ubicaciones de las casas**, en número de kilómetro sobre esta ruta (números 
     _reales positivos_) **desordenadas**, y devuelva los kilómetros sobre los que debemos construir las antenas para que todas las 
     casas tengan cobertura, y se construya para esto la menor cantidad de antenas posibles. Indicar y justificar la complejidad del 
@@ -130,19 +130,19 @@ math: true
     directamente adyacentes a estas (es decir, un “radio de 2 celdas”). Indicar y justificar la complejidad del algoritmo 
     implementado. ¿El algoritmo implementado da siempre la solución óptima? Justificar
 
-1.  (★★) Se tiene una colección de n libros con diferentes espesores, que pueden estar entre 1 y n (valores no necesariamente 
+1.  (★★) Se tiene una colección de n libros con diferentes espesores, que pueden estar entre 1 y $$n$$ (valores no necesariamente 
     enteros). Tu objetivo es guardar esos libros en la menor cantidad de cajas. Todas las cajas disponibles son de la 
-    misma capacidad L (se asegura que L ≥ n). Obviamente, no podés partir un libro para que vaya en múltiples cajas, 
+    misma capacidad $$L$$ (se asegura que $$L \geq n$$). Obviamente, no podés partir un libro para que vaya en múltiples cajas, 
     pero sí podés poner múltiples libros en una misma caja, siempre y cuando los espesore no superen esa capacidad L.
     Implementar un algoritmo Greedy que obtenga la mínima cantidad de cajas a utilizar. Indicar y justificar la complejidad 
     del algoritmo implementado. Justificar por qué se trata de un algoritmo greedy. ¿El algoritmo propuesto encuentra siempre 
     la solución óptima? Justificar.
 
-1.  (★★★) El club de amigos de la república Antillense prepara un ágape en sus instalaciones en la que desea invitar a la máxima 
-    cantidad de sus “n” socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede asistir si 
+1.  (★★★) El club de Amigos de Siempre prepara una cena en sus instalaciones en la que desea invitar a la máxima 
+    cantidad de sus $$n$$ socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede asistir si 
     conoce a al menos otras 4 personas invitadas
 
-    a. Nos solicitan seleccionar el mayor número posible de invitados. Proponga una estrategia greedy óptima para resolver el problema.
+    a. Nos solicitan seleccionar el mayor número posible de invitados. Proponer una estrategia greedy óptima para resolver el problema.
     b. Los organizadores desean que cada invitado pueda conocer nuevas personas. Por lo que nos solicitan que adicionemos una nueva 
     restricción a la invitación: Sólo puede asistir si NO conoce al menos otras 4 personas invitadas. Modifique su propuesta para 
     satisfacer esta nueva solución.
