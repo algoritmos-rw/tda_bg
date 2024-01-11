@@ -42,7 +42,7 @@ math: true
     para minimizar la cantidad total utilizda. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo implementado 
     encuentra siempre la solución óptima? Justificar si es óptimo, o dar un contraejemplo. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
-1.  (★) Tenemos unos productos dados por un arreglo $$R$$, donde $$R[i]$$ nos dice el precio del producto. Cada día podemos y debemos comprar 
+1.  (★★) Tenemos unos productos dados por un arreglo $$R$$, donde $$R[i]$$ nos dice el precio del producto. Cada día podemos y debemos comprar 
     uno (y sólo uno) de los productos, pero vivimos en una era de inflación y los precios aumentan todo el tiempo. El precio del 
     producto $$i$$ el día $$j$$ es $$R[i]^{j + 1}$$ ($$j$$ comenzando en 0). Implementar un algoritmo greedy que nos indique el precio mínimo al 
     que podemos comprar todos los productos. Indicar y justificar la complejidad del algoritmo implementado. ¿El algoritmo implementado 
@@ -137,6 +137,8 @@ math: true
     Implementar un algoritmo Greedy que obtenga la mínima cantidad de cajas a utilizar. Indicar y justificar la complejidad 
     del algoritmo implementado. Justificar por qué se trata de un algoritmo greedy. ¿El algoritmo propuesto encuentra siempre 
     la solución óptima? Justificar.
+    ¿Qué cambios aplicarías si supieras que los espesores sólo fueran números enteros? Describir cómo afecta a la complejidad,
+    y a su optimalidad.
 
 1.  (★★★) El club de Amigos de Siempre prepara una cena en sus instalaciones en la que desea invitar a la máxima 
     cantidad de sus $$n$$ socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede asistir si 
