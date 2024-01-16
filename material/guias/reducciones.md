@@ -31,11 +31,11 @@ math: true
     es un Vertex Cover. Definir el _problema de decisión_ del Vertex Cover. Luego, implementar un verificador polinomial para 
     este problema. ¿Cuál es la complejidad del verificador implementado? Justificar
 
-1.  (★) Dados los problemas de decisiones de Independent Set y Vertex Cover, realizar dos reducciones. 
+1.  (★★) Dados los problemas de decisiones de Independent Set y Vertex Cover, realizar dos reducciones. 
     a. Reducir Independent Set a Vertex Cover. 
     b. Reducir Vertex Cover a Independent Set.
 
-1.  (★) El problema de decisión de 3-SAT dice: dadas un número de cláusulas de variables booleanas, cada cláusula consta de la 
+1.  (★★★) El problema de decisión de 3-SAT dice: dadas un número de cláusulas de variables booleanas, cada cláusula consta de la 
     operación OR entre 3 términos, decidir si existe una configuración de las variables booleanas tal que sea posible cumplir 
     todas las cláusulas. El problema de 3-SAT es NP-Completo. Dados los problemas de decisión de Independent Set y 3-SAT, 
     demostrar que Independent Set es NP-Completo. Luego explicar de qué manera, con el trabajo hecho en la guía hasta este 
@@ -46,18 +46,18 @@ math: true
     b. Dado un arreglo, si es la solución a tener el arreglo ordenado
     c. Dadas un arreglo de posiciones de Reinas, si es la solución de colocar al menos N-reinas en un tablero NxN
 
-1.  (★) Definir el problema de decisión de las N-Reinas. Demostrar que se trata de un problema NP-Completo.
+1.  (★★) Definir el problema de decisión de las N-Reinas. Demostrar que se trata de un problema NP-Completo.
 
-1.  (★) Definir los problemas de decisión de Independent Set y K-Clique. Hacer una reducción de Independet Set a K-Clique. 
+1.  (★★) Definir los problemas de decisión de Independent Set y K-Clique. Hacer una reducción de Independet Set a K-Clique. 
     Dada esta reducción, ¿podemos afirmar que K-Clique es un problema NP-Completo?
 
-1.  (★) Definir los problemas de decisión de Camino Hamiltoniano y Ciclo Hamiltoniano. Sabiendo que Ciclo Hamiltoniano es 
+1.  (★★) Definir los problemas de decisión de Camino Hamiltoniano y Ciclo Hamiltoniano. Sabiendo que Ciclo Hamiltoniano es 
     NP-Completo, demostrar que Camino Hamiltoniano es NP-Completo.
 
-1.  (★) Definir los problemas de decisión de Grafo Bipartito y 3-Coloreo. Sabiendo que 3-Coloreo es NP-Completo, reducir 
+1.  (★★) Definir los problemas de decisión de Grafo Bipartito y 3-Coloreo. Sabiendo que 3-Coloreo es NP-Completo, reducir 
     Grafo Bipartito a 3-Coloreo. ¿Podemos afirmar que Grafo Bipartito es un problema NP-Completo?
 
-1.  (★) Definir los problemas de decisión de Subset Sum y Problema de la Mochila. Sabiendo que Subset Sum es 
+1.  (★★) Definir los problemas de decisión de Subset Sum y Problema de la Mochila. Sabiendo que Subset Sum es 
     NP-Completo, demostrar que el Problema de la Mochila es NP-Completo.
 
 1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos $$L$$ y un entero $$n$$ obtener todos 
