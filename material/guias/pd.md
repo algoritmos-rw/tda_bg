@@ -99,11 +99,6 @@ math: true
     que operar durante los n meses, sabiendo que queremos minimizar el total de los costos de operación. Se puede empezar en cualquier 
     ciudad. Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★★) Sea G un grafo dirigido “camino” (las aristas son de la forma _(vi, vi+1))_. Cada vertice tiene un valor (positivo). 
-    Implementar un algoritmo que, utilizando programación dinámica, obtenga el conjunto de vértices que den una suma máxima 
-    dentro de un grafo de dichas características, con la condición de que no se pueden seleccionar dos vértices adyacentes entre sí.
-    Indicar y justificar la complejidad del algoritmo implementado.
-
 1.  (★★) Dado un número **K**, se quiere obtener la mínima cantidad de operaciones para llegar desde 0 a K, siendo que las 
     operaciones posibles son: (i) aumentar el valor del operando en 1; (ii) duplicar el valor del operando.
     Implementar un algoritmo que, por programación dinámica obtenga la menor cantidad de operaciones a realizar (y cuáles son 
@@ -116,12 +111,6 @@ math: true
     Implementar un algoritmo que reciba esta información y devuelva cuáles campañas debe realizar Carlitos. Indicar y 
     justificar la complejidad del algoritmo propuesto. ¿Da lo mismo si los valores están expresados en pesos argentinos, 
     dólares u otra moneda? Por ejemplo, si una campaña cuesta 100 dólares, para pasar a pesos se debe hacer la conversión de divisa.
-
-1.  (★★★) Dado un número n, indicar la forma más económica (aquella que utiliza menos términos) de escribirlo como una 
-    suma de cuadrados, utilizando programación dinámica. Indicar y justificar el orden del algoritmo implementado.
-    Aclaración: siempre es posible escribir a **n** como suma de _n términos_ de la forma $1^2$, por lo que siempre existe
-    solución. Sin embargo, la expresión 10 = $3^2$ + $1^2$ es una manera más económica de escribirlo 
-    para n = 10, pues sólo tiene dos términos. Siempre se debe minimizar la cantidad de términos utilizados.
 
 1.  (★★★) Un bodegón tiene una única mesa larga con **W** lugares. Hay una persona en la puerta que anota los grupos que quieren 
     sentarse a comer, y la _cantidad de integrantes_ que conforma a cada uno. Para simplificar su trabajo, se los anota en 
