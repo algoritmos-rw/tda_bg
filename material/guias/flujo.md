@@ -32,7 +32,7 @@ math: true
 
     d. En la red hay más de un sumidero. 
 
-1.  (★) Implementar el algoritmo de Ford-Fulkerson, asumiendo que ya está implementada una función `actualizar_grafo_residual`, 
+1.  (★★) Implementar el algoritmo de Ford-Fulkerson, asumiendo que ya está implementada una función `actualizar_grafo_residual`, 
     definida como `actualizar_grafo_residual(grafo_residual, u, v, valor)`, que recibe el _grafo residual_, una arista dirigida dada 
     por los _vértices u y v_, y el nuevo _valor_ del flujo a través de la arista `(u,v)` y actualiza el grafo residual ya teniendo en 
     cuenta el peso anterior de la arista, y su antiparalela. Devolver un diccionario con los valores de los flujos para todas las 
@@ -41,7 +41,7 @@ math: true
 1.  (★★) Dada una red y un diccionario que representa los valores de los flujos para las aristas, todos valores que respetan la 
     restricción de cada arista, construir la red residual que refleja el estado actual de la red en función a los valores de flujo dados.
 
-1.  (★★) Dada una red residual, dar un algoritmo que encuentre un camino de aumento que minimice el número de aristas utilizadas.
+1.  (★) Dada una red residual, dar un algoritmo que encuentre un camino de aumento que minimice el número de aristas utilizadas.
 
 1.  (★★) Dado un flujo máximo de un grafo, implementar un algoritmo que, si se le aumenta en una unidad la capacidad a una 
     artista (por ejemplo, a una arista de capacidad 3 se le aumenta a 4, permita obtener el nuevo flujo máximo en tiempo lineal 
@@ -59,22 +59,22 @@ math: true
 
 1.  (★) ¿Cuál es la relación entre el flujo máximo de una red, y un corte mínimo que separe su fuente y sumidero?
 
-1.  (★) Dado un grafo no dirigido, un match es un subconjunto de las aristas en el cual para todo vértice $$v$$ a lo sumo una arista 
+1.  (★★) Dado un grafo no dirigido, un match es un subconjunto de las aristas en el cual para todo vértice $$v$$ a lo sumo una arista 
     del match incide en $$v$$ (en el match, tienen grado a lo sumo 1). Decimos que el vértice $$v$$ está matcheado si hay alguna arista que 
     incida en él (sino, está unmatcheado). El matching máximo es aquel en el que tenemos la mayor cantidad de aristas (matcheamos la 
     mayor cantidad posible). Dar una metodología para encontrar el matching máximo de un grafo, explicando en detalle cómo se modela 
     el problema, cómo se lo resuelve y cómo se consigue el matching máximo. ¿Cuál es el orden temporal de la solución implementada?
 
-1.  (★) Decimos que dos caminos son disjuntos si no comparten aristas (pueden compartir nodos). Dado un grafo dirigido y dos vértices 
+1.  (★★) Decimos que dos caminos son disjuntos si no comparten aristas (pueden compartir nodos). Dado un grafo dirigido y dos vértices 
     $$s$$ y $$t$$, encontrar el máximo número de caminos disjuntos `s-t` en G. Dar una metodología, explicando en detalle cómo se modela el problema, 
     cómo se lo resuelve y cómo se consigue el máximo número de caminos disjuntos. ¿Cuál es el orden temporal de la solución implementada?
 
-1.  (★) Supongamos que tenemos un sistema de una facultad en el que cada alumno puede pedir hasta 10 libros de la biblioteca. La biblioteca 
+1.  (★★★) Supongamos que tenemos un sistema de una facultad en el que cada alumno puede pedir hasta 10 libros de la biblioteca. La biblioteca 
     tiene 3 copias de cada libro. Cada alumno desea pedir libros diferentes. Implementar un algoritmo que nos permita obtener la forma de 
     asignar libros a alumnos de tal forma que la cantidad de préstamos sea máxima. Dar la metodología, explicando en detalle cómo se modela 
     el problema, cómo se lo resuelve y cómo se consigue la máxima cantidad de prestamos. ¿Cuál es el orden temporal de la solución implementada?
 
-1.  (★) Suponer que queremos schedulear cómo los aviones van de un aeropuerto a otro para cumplir sus horarios. Podemos decir que podemos 
+1.  (★★★) Suponer que queremos schedulear cómo los aviones van de un aeropuerto a otro para cumplir sus horarios. Podemos decir que podemos 
     usar un avión para un segmento/vuelo $$i$$ y luego para otro $$j$$ si se cumple alguna de las siguientes condiciones: 
     a. El destino de $$i$$ y el origen de $$j$$ son el mismo. o
     b. Podemos agregar un vuelo desde el destino de $$i$$ al origen de $$j$$ con tiempo suficiente. 
