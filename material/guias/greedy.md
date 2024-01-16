@@ -88,14 +88,6 @@ math: true
     En un caso alternativo donde solamente se consideren las bifurcaciones de Castelli, Gral Guido y Sevigne, la  
     única solución óptima sería colocar un móvil policial en Sevigne.
 
-1.  (★) Se tiene como posibles grupos sanguíneos de personas `O`, `A`, `B` y `AB`. Alguien con sangre tipo `O` sólo puede 
-    recibir sangre tipo `O`. Alguien de sangre `A` sólo puede recibir sangre de tipo `A` u `O`. Alguien de sangre tipo `B` 
-    sólo puede recibir sangre de tipo `B` u `O`. Alguien con sangre tipo `AB` puede recibir sangre de cualquier tipo. Se 
-    tienen las cantidades de bolsas de sangre disponibles $\left(S_A, S_B, S_{AB}, S_O\right)$ y la cantidad de sangre solicitada 
-    para tratar en cantidades de bolsas $\left(P_A, P_B, P_{AB}, P_O\right)$. Implementar un algoritmo greedy que determine 
-    cómo se puede satisfacer la demanda de sangre (o si no puede hacerse). Indicar el orden del algoritmo y justificar por 
-    qué el algoritmo propuesto es un algoritmo greedy.
-
 1.  (★★) Las bolsas de un supermercado se cobran por separado y soportan hasta un peso máximo $$P$$, por encima del cual 
     se rompen. Implementar un algoritmo greedy que, teniendo una lista de pesos de $$n$$ productos comprados, encuentre 
     la mejor forma de distribuir los productos en la menor cantidad posible de bolsas. Realizar el seguimiento del algoritmo
