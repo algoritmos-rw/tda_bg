@@ -30,7 +30,7 @@ math: true
     n --> Debe devolver la suma entre los dos anteriores números de fibonacci (los fibonacci n-2 y n-1)
     ```
 
-1.  (★★) Dada un aula/sala donde se pueden dar charlas. Las charlas tienen horario de inicio y fin. Además, cada charla tiene 
+1.  (★★★) Dada un aula/sala donde se pueden dar charlas. Las charlas tienen horario de inicio y fin. Además, cada charla tiene 
     asociado un valor de ganancia. Implementar un algoritmo que, utilizando programación dinámica, reciba 3 arreglos _inicios, 
     fines y valores_ representando los horarios de inicios de las charlas, sus horarios de fin, y los valores de las ganancias, 
     e indique cuáles son las charlas a dar para maximizar la ganancia total obtenida.
@@ -47,7 +47,7 @@ math: true
     n = 4 --> Debe devolver 7
     n = 5 --> Debe devolver 13
 
-1.  (★) Juan es ambicioso pero también algo vago. Dispone de varias ofertas de trabajo diarias, pero no quiere trabajar dos días 
+1.  (★★) Juan es ambicioso pero también algo vago. Dispone de varias ofertas de trabajo diarias, pero no quiere trabajar dos días 
     seguidos. Dado un arreglo con el monto esperado a ganar cada día, determinar, por programación dinámica, el máximo monto a ganar, 
     sabiendo que no aceptará trabajar dos días seguidos. Hacer una reconstrucción para verificar qué días debe trabajar. 
     Indicar y justificar la complejidad del algoritmo implementado.
@@ -76,23 +76,23 @@ math: true
     Empezando por 8, son válidos 88, 80, 85, 87, 89 (cantidad: 5)
     Empezando por 9, son válidos 99, 96, 98 (cantidad: 3)
 
-1.  (★) Tenemos una mochila con una capacidad W. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
+1.  (★★★) Tenemos una mochila con una capacidad W. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
     capacidad total. Queremos maximizar el valor de lo que llevamos sin exceder la capacidad. Implementar un algoritmo que, 
     por programación dinámica, reciba dos arreglos de valores y pesos de los elementos, y devuelva qué elementos deben ser 
     guardados para maximizar la ganancia total. Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★) Se tiene un sistema monetario (ejemplo, el nuestro). Se quiere dar "cambio" de una determinada cantidad de plata. Implementar 
+1.  (★★) Se tiene un sistema monetario (ejemplo, el nuestro). Se quiere dar "cambio" de una determinada cantidad de plata. Implementar 
     un algoritmo que devuelva el cambio pedido, usando la mínima cantidad de monedas/billetes. Implementar un algoritmo que, 
     por programación dinámica, reciba un arreglo de valores del sistema monetario, y la cantidad de cambio objetivo a dar, y devuelva 
     qué monedas/billetes deben ser utilizados para minimizar la cantidad total utilizda. 
     Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★) Tenemos un conjunto de números v1, v2, … Vn, y queremos obtener un subconjunto de todos esos números tal que su suma sea 
+1.  (★★★) Tenemos un conjunto de números v1, v2, … Vn, y queremos obtener un subconjunto de todos esos números tal que su suma sea 
     igual o menor a un valor V, tratando de aproximarse lo más posible a V. Implementar un algoritmo que, por programación dinámica, 
     reciba un arreglo de valores, y la suma objetivo V, y devuelva qué elementos deben ser utilizados para aproximar la suma lo más 
     posible a V, sin pasarse. Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★) Manejamos un negocio que atiende clientes en Londres y en California. Nos interesa cada mes decidir si operar en una u otra 
+1.  (★★★) Manejamos un negocio que atiende clientes en Londres y en California. Nos interesa cada mes decidir si operar en una u otra 
     ciudad. Los costos de operación para cada mes pueden variar y son dados por 2 arreglos: $$L$$ y $$C$$, con valores para todos los meses 
     hasta $$n$$. Naturalmente, si en un mes operamos en una ciudad, y al siguiente en una distinta, habrá un costo fijo $$M$$ por la mudanza. 
     Dados los arreglos de costos de operación en Londres ($$L$$) y California ($$C$$), indicar la secuencia de las $$n$$ localizaciones en las 
