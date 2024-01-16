@@ -60,8 +60,8 @@ math: true
 1.  (★) Definir los problemas de decisión de Subset Sum y Problema de la Mochila. Sabiendo que Subset Sum es 
     NP-Completo, demostrar que el Problema de la Mochila es NP-Completo.
 
-1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos L y un entero n obtener todos 
-    los subconjuntos de L que suman exactamente n.
+1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos $$L$$ y un entero $$n$$ obtener todos 
+    los subconjuntos de $$L$$ que suman exactamente $$n$$.
 
 1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos L y un entero n obtener un subconjunto 
     de L que sume exactamente n, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de n.
@@ -116,8 +116,8 @@ math: true
     Demostrar que el Dominating Set Problem es un problema NP-Completo. 
     Ayuda: recomendamos recordar Vertex Cover, que puede ser útil para esto.
 
-1.  (★★★★) El problema de elección de caminos (Path Selection) pregunta: dado un grafo dirigido G y un set de pedidos P1, P2, ..., Pc 
-    de caminos dentro de dicho grafo y un número k, ¿es posible seleccionar al menos k de esos caminos tales que ningún 
+1.  (★★★★) El problema de elección de caminos (Path Selection) pregunta: dado un grafo dirigido G y un set de pedidos $$P_1, P_2, \cdots, P_c$$ 
+    de caminos dentro de dicho grafo y un número $$k$$, ¿es posible seleccionar al menos $$k$$ de esos caminos tales que ningún 
     par de caminos seleccionados comparta ningún nodo? Demostrar que Path Selection es un problema NP-Completo. 
     Ayuda: este problema tiene mucha semejanza con Independent Set.
 
