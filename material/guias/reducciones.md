@@ -63,8 +63,8 @@ math: true
 1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos $$L$$ y un entero $$n$$ obtener todos 
     los subconjuntos de $$L$$ que suman exactamente $$n$$.
 
-1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos L y un entero n obtener un subconjunto 
-    de L que sume exactamente n, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de n.
+1.  (★) ¿Pertenece el siguiente problema a PSPACE? Dada una lista de enteros positivos $$L$$ y un entero $$n$$ obtener **un** subconjunto 
+    de $$L$$ que sume exactamente $$n$$, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de $$n$$.
 
 1.  (★★) Realizar una reducción polinomial del siguiente problema a otro de los vistos durante la cursada. Ayuda: pensar en 
     alguno de los vistos de programación dinámica. Dada esta reducción, ¿se puede afirmar que este problema es NP-Completo?
@@ -112,7 +112,7 @@ math: true
 
 1.  (★★★) Un set dominante (Dominating Set) de un grafo G es un subconjunto **D** de vértices de G, tal que para todo vértice de G: 
     o bien (i) _pertenece a D_; o bien (ii) es _adyacente a un vértice en D_. El problema de decisión del set dominante implica, dado un grafo G y 
-    un número k, determinar si existe un set dominante **D** de a lo sumo tamaño k.
+    un número $$k$$, determinar si existe un set dominante **D** de a lo sumo tamaño $$k$$.
     Demostrar que el Dominating Set Problem es un problema NP-Completo. 
     Ayuda: recomendamos recordar Vertex Cover, que puede ser útil para esto.
 
