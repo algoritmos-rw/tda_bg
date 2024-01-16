@@ -24,9 +24,11 @@ math: true
 1.  (★) Implementar un algoritmo que, utilizando programación dinámica, obtenga el valor del n-ésimo número de fibonacci.
     Indicar y justificar la complejidad del algoritmo implementado.
     Definición: 
+    ```
     n = 0 --> Debe devolver 1
     n = 1 --> Debe devolver 1
     n --> Debe devolver la suma entre los dos anteriores números de fibonacci (los fibonacci n-2 y n-1)
+    ```
 
 1.  (★★) Dada un aula/sala donde se pueden dar charlas. Las charlas tienen horario de inicio y fin. Además, cada charla tiene 
     asociado un valor de ganancia. Implementar un algoritmo que, utilizando programación dinámica, reciba 3 arreglos _inicios, 
@@ -50,15 +52,15 @@ math: true
     sabiendo que no aceptará trabajar dos días seguidos. Hacer una reconstrucción para verificar qué días debe trabajar. 
     Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★) Dado un laberinto representado por una grilla, queremos calcular la ganancia máxima que existe desde la posición (0,0) hasta 
-    la posición NxM. Los movimientos permitidos son, desde la esquina superior izquierda (el 0,0), nos podemos mover hacia abajo o hacia 
-    la derecha. Pasar por un casillero determinado _i,j_ nos da una ganancia de _Vij_. Implementar un algoritmo que, por programación 
+1.  (★) Dado un laberinto representado por una grilla, queremos calcular la ganancia máxima que existe desde la posición `(0,0)` hasta 
+    la posición NxM. Los movimientos permitidos son, desde la esquina superior izquierda (el `(0,0)`), nos podemos mover hacia abajo o hacia 
+    la derecha. Pasar por un casillero determinado $$(i, j)$$ nos da una ganancia de $$V_{i,j}$$. Implementar un algoritmo que, por programación 
     dinámica, obtenga la máxima ganancia a través del laberinto. Hacer una reconstrucción qué camino se debe transitar. Indicar 
     y justificar la complejidad del algoritmo implementado.
     Si hay algunos lugares por los que no podemos pasar (obstáculos), ¿cómo se debe modificar para resolver el mismo problema?
 
-1.  (★★) Dado el teclado numérico de un celular, y un número inicial k, encontrar la cantidad de posibles números de longitud N empezando 
-    por cierto botón inicial. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
+1.  (★★) Dado el teclado numérico de un celular, y un número inicial $$k$$, encontrar la cantidad de posibles números de longitud $$n$$ empezando 
+    por botón del número inicial $$k$$. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
     Implementar el algoritmo por programación dinámica. Indicar y justificar la complejidad del algoritmo implementado.
     Ejemplos:
     Para n=1 empezando por cualquie dígito, solamente hay un número válido (el correspondiente dígito)
@@ -91,9 +93,9 @@ math: true
     posible a V, sin pasarse. Indicar y justificar la complejidad del algoritmo implementado.
 
 1.  (★) Manejamos un negocio que atiende clientes en Londres y en California. Nos interesa cada mes decidir si operar en una u otra 
-    ciudad. Los costos de operación para cada mes pueden variar y son dados por 2 arreglos: L y C, con valores para todos los meses 
-    hasta n. Naturalmente, si en un mes operamos en una ciudad, y al siguiente en una distinta, habrá un costo fijo M por la mudanza. 
-    Dados los arreglos de costos de operación en Londres (L) y California (C), indicar la secuencia de las n localizaciones en las 
+    ciudad. Los costos de operación para cada mes pueden variar y son dados por 2 arreglos: $$L$$ y $$C$$, con valores para todos los meses 
+    hasta $$n$$. Naturalmente, si en un mes operamos en una ciudad, y al siguiente en una distinta, habrá un costo fijo $$M$$ por la mudanza. 
+    Dados los arreglos de costos de operación en Londres ($$L$$) y California ($$C$$), indicar la secuencia de las $$n$$ localizaciones en las 
     que operar durante los n meses, sabiendo que queremos minimizar el total de los costos de operación. Se puede empezar en cualquier 
     ciudad. Indicar y justificar la complejidad del algoritmo implementado.
 
@@ -108,9 +110,9 @@ math: true
     dichas operaciones). Desarrollar la ecuación de recurrencia. Indicar y justificar la complejidad del algoritmo implementado.
     Aclaración: asegurarse de que el algoritmo presentado sea de programación dinámica, con su correspondiente ecuación de recurrencia.
 
-1.  (★★★) Carlitos (primo de Juan, el vago) trabaja para una empresa de publicidad. Tiene un determinado presupuesto P que no 
-    puede sobrepasar, y tiene que una serie de campañas publicitarias para elegir. La campaña i cuesta $Ci. También se 
-    han realizado diversos estudios que permiten estimar cuánta ganancia nos dará cada campaña, que denominaremos Gi. 
+1.  (★★★) Carlitos (primo de Juan, el vago) trabaja para una empresa de publicidad. Tiene un determinado presupuesto $$P$$ que no 
+    puede sobrepasar, y tiene que una serie de campañas publicitarias para elegir. La campaña i cuesta $$\$C_i$$. También se 
+    han realizado diversos estudios que permiten estimar cuánta ganancia nos dará cada campaña, que denominaremos $$G_i$$. 
     Implementar un algoritmo que reciba esta información y devuelva cuáles campañas debe realizar Carlitos. Indicar y 
     justificar la complejidad del algoritmo propuesto. ¿Da lo mismo si los valores están expresados en pesos argentinos, 
     dólares u otra moneda? Por ejemplo, si una campaña cuesta 100 dólares, para pasar a pesos se debe hacer la conversión de divisa.
@@ -132,9 +134,9 @@ math: true
 1.  (★★★) Somos ayudantes del gran ladrón _el Lunático_, que está pensando en su próximo atraco. Decidió en este caso robar 
     toda una calle en un barrio privado, que tiene la particularidad de ser circular. Gracias a los trabajos de inteligencia 
     realizados, sabemos cuánto se puede obtener por robar en cada casa. Podemos enumerar a la primer casa como la casa 
-    0, de la cual podríamos obtener g0, la casa a su derecha es la 1, que nos daría g1, y así hasta llegar a la casa n − 1, que 
-    nos daría gn−1. Toda casa i se considera adyacente a las casas i-1 e i+1. Además, como la calle es 
-    circular, la casas 0 y n − 1 también **son vecinas**. El problema con el que cuenta _el Lunático_ 
+    0, de la cual podríamos obtener $$g_0$$, la casa a su derecha es la 1, que nos daría $$g_1$$, y así hasta llegar a la casa $$n − 1$$, que 
+    nos daría $$g_{n−1}$$. Toda casa $$i$$ se considera adyacente a las casas $$i-1$$ e $$i+1$$. Además, como la calle es 
+    circular, la casas 0 y $$n − 1$$ también **son vecinas**. El problema con el que cuenta _el Lunático_ 
     es que sabe de experiencias anteriores que, si roba en una casa, los vecinos directos se enterarían muy rápido. No le 
     daría tiempo a luego intentar robarles a ellos. Es decir, para robar una casa debe prescindir de robarle a sus vecinos 
     directos. El Lunático nos encarga saber cuáles casas debería atracar y cuál sería la ganancia máxima obtenible. Dado 
@@ -143,7 +145,7 @@ math: true
     partir de recibir un arreglo de las ganancias obtenibles. Para esto, escribir y describir la ecuación de recurrencia 
     correspondiente. Indicar y justificar la complejidad del algoritmo propuesto.
 
-1.  (★★★) Dada una soga de n metros (n ≥ 2) implementar un algoritmo que, utilizando programación dinámica, permita cortarla 
+1.  (★★★) Dada una soga de n metros ($$n \geq 2$$) implementar un algoritmo que, utilizando programación dinámica, permita cortarla 
     (en partes de largo entero) de manera tal que el producto del largo de cada una de las partes resultantes sea máximo. El 
     algoritmo debe devolver el valor del producto máximo alcanzable. Indicar y justificar la complejidad del algoritmo. 
     Ejemplos: 
