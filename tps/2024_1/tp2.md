@@ -13,7 +13,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 
 ## Introducción
 
-Es el año 100 DG.
+Es el año 80 DG.
 Ba Sing Se es una gran ciudad del Reino de la Tierra. Allí tiene lugar el palacio Real. 
 Por esto, se trata de una ciudad fortificada, que ha logrado soportar durante más de 110
 años los ataques de la Nación del Fuego. 
