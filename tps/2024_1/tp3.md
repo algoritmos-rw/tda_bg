@@ -14,7 +14,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 
 ## Introducción
 
-Es el año 115 DG. 
+Es el año 95 DG. 
 La Nación del Fuego sigue su ataque, esta vez hacia la Tribu del Agua, luego de
 una humillante derrota a manos del Reino de la Tierra, gracias a nuestra ayuda. 
 La tribu debe defenderse del ataque. 
@@ -61,13 +61,12 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 	Si se hace una reducción involucrando un problema no visto en clase, agregar una
 	(al menos resumida) demostración que dicho problema es NP-Completo. 
 
-3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema, valga la 
-	redundancia, a la versión de optimización planteada originalmente. 
+3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema (valga la 
+	redundancia) en la versión de optimización planteada originalmente. 
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
 4. 	Escribir un modelo de programación lineal que resuelva el problema de forma óptima. Ejecutarlo
-	para los mismos sets de datos para corroborar su correctitud (o al menos hasta la mayor cantidad
-	de volumen posible). Tomar mediciones de tiempos
+	para los mismos sets de datos para corroborar su correctitud. Tomar mediciones de tiempos
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
 6. 	El Maestro Pakku nos propone el siguiente algoritmo de aproxiamción:
@@ -88,7 +87,7 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
 	a fin de corroborar empíricamente la cota calculada anteriormente. 
 
-8.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
+8.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
 	del punto 5. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
