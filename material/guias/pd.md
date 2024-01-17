@@ -87,10 +87,10 @@ math: true
     qué monedas/billetes deben ser utilizados para minimizar la cantidad total utilizda. 
     Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★★★) Tenemos un conjunto de números v1, v2, … Vn, y queremos obtener un subconjunto de todos esos números tal que su suma sea 
-    igual o menor a un valor V, tratando de aproximarse lo más posible a V. Implementar un algoritmo que, por programación dinámica, 
-    reciba un arreglo de valores, y la suma objetivo V, y devuelva qué elementos deben ser utilizados para aproximar la suma lo más 
-    posible a V, sin pasarse. Indicar y justificar la complejidad del algoritmo implementado.
+1.  (★★★) Tenemos un conjunto de números $$v_1, v_2, \cdots, v_n$$, y queremos obtener un subconjunto de todos esos números tal que su suma sea 
+    igual o menor a un valor $$V$$, tratando de aproximarse lo más posible a V. Implementar un algoritmo que, por programación dinámica, 
+    reciba un arreglo de valores, y la suma objetivo $$V$$, y devuelva qué elementos deben ser utilizados para aproximar la suma lo más 
+    posible a $$V$$, sin pasarse. Indicar y justificar la complejidad del algoritmo implementado.
 
 1.  (★★★) Manejamos un negocio que atiende clientes en Londres y en California. Nos interesa cada mes decidir si operar en una u otra 
     ciudad. Los costos de operación para cada mes pueden variar y son dados por 2 arreglos: $$L$$ y $$C$$, con valores para todos los meses 
