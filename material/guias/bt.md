@@ -85,8 +85,8 @@ math: true
     parecer un grupo de improvisados que malgasta los fondos públicos, quieren hacer un análisis para saber cuál es ese mínimo
     valor para cumplir con lo pedido (pintar cada línea con alguno de los $$k$$ colores, de tal forma que no hayan dos de mismo color 
     coincidiendo en la misma parada). Considerando que se tiene la información de todas las paradas de colectivo y qué 
-    líneas paran allí, modelar el problema utilizando grafos e implementar un algoritmo que determine si es posible resolver 
-    el problema. Indicar la complejidad del algoritmo implementado.
+    líneas paran allí, modelar el problema utilizando grafos e implementar un algoritmo que determine el mínimo valor $$k$$ para  
+    resolver el problema. Indicar la complejidad del algoritmo implementado.
 
 1.  (★★★) Se tiene una matriz donde en cada celda hay submarinos, o no, y se quiere poner faros para iluminarlos a todos. 
     Implementar un algoritmo que dé la cantidad mínima de faros que se necesitan para que todos los submarinos queden 
