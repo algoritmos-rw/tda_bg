@@ -60,7 +60,7 @@ math: true
 
 1.  (★) Dados un conjunto de n elementos, y 2 arreglos de longitud n, con dichos elementos. El arreglo A está completamente 
     ordenado de menor a mayor. El arreglo B se encuentra desordenado. Indicar, por división y conquista, la cantidad de 
-    inversioes necesarias al arreglo B para que quede ordenado de menor a mayor, con un orden de complejidad 
+    inversiones necesarias al arreglo B para que quede ordenado de menor a mayor, con un orden de complejidad 
     mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el teorema maestro.
 
 1.  (★★★) Implementar una función, que utilice división y conquista, de orden $$\mathcal{O}(n \log n)$$ 
