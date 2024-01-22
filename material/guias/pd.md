@@ -31,8 +31,8 @@ math: true
     ```
 
 1.  (★★★) Dada un aula/sala donde se pueden dar charlas. Las charlas tienen horario de inicio y fin. Además, cada charla tiene 
-    asociado un valor de ganancia. Implementar un algoritmo que, utilizando programación dinámica, reciba 3 arreglos _inicios, 
-    fines y valores_ representando los horarios de inicios de las charlas, sus horarios de fin, y los valores de las ganancias, 
+    asociado un valor de ganancia. Implementar un algoritmo que, utilizando programación dinámica, reciba un arreglo que en cada
+    posición tenga una charla representada por una tripla de _inicio, fin y valor_ de cada charla, 
     e indique cuáles son las charlas a dar para maximizar la ganancia total obtenida.
     Indicar y justificar la complejidad del algoritmo implementado.
 
