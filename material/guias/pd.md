@@ -59,8 +59,8 @@ math: true
     y justificar la complejidad del algoritmo implementado.
     Si hay algunos lugares por los que no podemos pasar (obstáculos), ¿cómo se debe modificar para resolver el mismo problema?
 
-1.  (★★) Dado el teclado numérico de un celular, y un número inicial $$k$$, encontrar la cantidad de posibles números de longitud $$n$$ empezando 
-    por botón del número inicial $$k$$. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
+1.  (★★) Dado el teclado numérico de un celular, y un número inicial $$k$$, encontrar la cantidad de posibles números de longitud $$n$$ empezando por 
+    el botón del número inicial $$k$$. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
     Implementar el algoritmo por programación dinámica. Indicar y justificar la complejidad del algoritmo implementado.
     Ejemplos:
     Para n=1 empezando por cualquie dígito, solamente hay un número válido (el correspondiente dígito)
