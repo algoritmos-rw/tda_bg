@@ -96,6 +96,13 @@ math: true
     problema definido? Definir en ambos casos el problema de decisión. ¿qué reducción podríamos hacer? 
     ¿Podemos concluir que este problema es un problema NP-Completo?
 
+1.  (★★) El Hitting-Set Problem se define de la siguiente forma: Dado un conjunto de elemento $$A$$ de $$n$$ elementos, $$m$$ subconjuntos
+     $B_1, B_2, ..., B_m$$ de $$A$$ ($$B_i \subseteq A \forall i$$), y un número $$k$$, ¿existe un subconjunto $$C \subseteq A$$ con $$|C|
+    \leq k$$ tal que $$C$$ tenga al menos un elemento de cada $$B_i$$ (es decir, $$C \cap B_i \neq \emptyset$$)?
+
+    Demostrar que el Hitting-Set Problem es un problema NP-Completo.
+
+
 1.  (★★) En el reino de Gondor ha incrementado enormemente la delincuencia luego de su urbanización. El rey Aragorn no 
     quiere que todo su esfuerzo en construir calles resulte en vano, por lo que quiere poner guardianes a vigilar las calles por 
     las noches. El problema es que cuesta mucho dinero entrenar a dichos guardianes, por lo que quiere reducir al mínimo 
