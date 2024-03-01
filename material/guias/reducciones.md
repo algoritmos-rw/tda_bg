@@ -47,7 +47,8 @@ math: true
     b. Dado un arreglo, si es la solución a tener el arreglo ordenado
     c. Dadas un arreglo de posiciones de Reinas, si es la solución de colocar al menos N-reinas en un tablero NxN
 
-1.  (★★) Definir el problema de decisión de las N-Reinas. Demostrar que se trata de un problema NP-Completo.
+1.  (★★) Definir el problema de decisión de las N-Reinas. Usar que N-Reinas es un problema NP-Completo para demostrar que
+    Demostrar que Independent Set es un problema NP-Completo.
 
 1.  (★★) Definir los problemas de decisión de Independent Set y K-Clique. Hacer una reducción de Independet Set a K-Clique. 
     Dada esta reducción, ¿podemos afirmar que K-Clique es un problema NP-Completo?
