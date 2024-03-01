@@ -42,6 +42,7 @@ math: true
     ejercicio, se puede afirmar que Vertex Cover es NP-Completo.
 
 1.  (★) Para cada uno de los siguientes problemas, implementar un verificador polinomial y justificar su complejidad.
+
     a. Dado un número por parámetro, si es la solución al problema de Búsqueda del máximo en un arreglo
     b. Dado un arreglo, si es la solución a tener el arreglo ordenado
     c. Dadas un arreglo de posiciones de Reinas, si es la solución de colocar al menos N-reinas en un tablero NxN
