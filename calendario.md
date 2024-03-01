@@ -34,5 +34,5 @@ Los temas que entran en el parcial son:
 * Algoritmos Greedy
 * Programación Dinámica
 * Backtracking
-* Programación Lineal (excepto 2023C2)
+* Programación Lineal
 * Reducciones y Clases de Complejidad
