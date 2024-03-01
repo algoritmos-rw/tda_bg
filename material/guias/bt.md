@@ -2,7 +2,7 @@
 math: true
 ---
 
-# Fuerza Bruta y Backtracking
+# Backtracking
 {:.no_toc}
 
 

@@ -33,6 +33,6 @@ Los temas que entran en el parcial son:
 * División y Conquista (Avanzada)
 * Algoritmos Greedy
 * Programación Dinámica
-* Fuerza Bruta y Backtracking
-* Programación Lineal (excepto 2023C2)
+* Backtracking
+* Programación Lineal
 * Reducciones y Clases de Complejidad
