@@ -133,8 +133,8 @@ math: true
     y a su optimalidad.
 
 1.  (★★★) El club de Amigos de Siempre prepara una cena en sus instalaciones en la que desea invitar a la máxima 
-    cantidad de sus $$n$$ socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede asistir si 
-    conoce a al menos otras 4 personas invitadas
+    cantidad de sus $$n$$ socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede ser invitada si 
+    conoce a al menos otras 4 personas invitadas.
 
     a. Nos solicitan seleccionar el mayor número posible de invitados. Proponer una estrategia greedy óptima para resolver el problema.
     b. Los organizadores desean que cada invitado pueda conocer nuevas personas. Por lo que nos solicitan que adicionemos una nueva 
