@@ -10,6 +10,16 @@ docentes:
   mail: fdeluca@fi.uba.ar
   github: fdelu
 
+- nombre: Gerónimo Palavecino
+  foto: /assets/img/docentes/unknown.png
+  mail: gpalavecino@fi.uba.ar
+  github: geronimo-palavecino
+
+- nombre: Ignacio Castro
+  foto: /assets/img/docentes/nachoc.jpg
+  mail: jcastrom@fi.uba.ar
+  github: jignacio14
+
 - nombre: Ignacio Demarchi
   foto: /assets/img/docentes/nachod.jpg
   mail: idemarchi@fi.uba.ar
@@ -24,6 +34,11 @@ docentes:
   foto: /assets/img/docentes/martinb.jpg
   mail: mbuchwald@fi.uba.ar
   github: mbuchwald
+
+- nombre: Nehuén Cabibbo
+  foto: /assets/img/docentes/unknown.png
+  mail: ncabibbo@gmail.com
+  github: nehuencabibbo
 
 - nombre: Tomás Emanuel
   foto: /assets/img/docentes/tomase.jpg
