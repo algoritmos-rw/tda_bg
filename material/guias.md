@@ -7,8 +7,8 @@ sirven para iniciarse en el tema.
 
   * [División y Conquista](guias/dyc.md)
   * [Algoritmos Greedy](guias/greedy.md)
+  * [Backtracking](guias/bt.md)
   * [Programación Dinámica](guias/pd.md)
-  * [Fuerza Bruta y Backtracking](guias/bt.md)
   * [Programación Lineal](guias/pl.md)
   * [Redes de Transporte](guias/flujo.md)
   * [Reducciones y Clases de Complejidad](guias/reducciones.md)
