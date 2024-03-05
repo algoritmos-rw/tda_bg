@@ -55,7 +55,7 @@ math: true
 1.  (★) Dado un laberinto representado por una grilla, queremos calcular la ganancia máxima que existe desde la posición `(0,0)` hasta 
     la posición NxM. Los movimientos permitidos son, desde la esquina superior izquierda (el `(0,0)`), nos podemos mover hacia abajo o hacia 
     la derecha. Pasar por un casillero determinado $$(i, j)$$ nos da una ganancia de $$V_{i,j}$$. Implementar un algoritmo que, por programación 
-    dinámica, obtenga la máxima ganancia a través del laberinto. Hacer una reconstrucción qué camino se debe transitar. Indicar 
+    dinámica, obtenga la máxima ganancia a través del laberinto. Hacer una reconstrucción del camino que se debe transitar. Indicar 
     y justificar la complejidad del algoritmo implementado.
     Si hay algunos lugares por los que no podemos pasar (obstáculos), ¿cómo se debe modificar para resolver el mismo problema?
 
@@ -63,27 +63,39 @@ math: true
     el botón del número inicial $$k$$. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
     Implementar el algoritmo por programación dinámica. Indicar y justificar la complejidad del algoritmo implementado.
     Ejemplos:
-    Para n=1 empezando por cualquie dígito, solamente hay un número válido (el correspondiente dígito)
-    Para N=2, depende de cuál dígito se comienza.
+    
+    Para n=1 empezando por cualquier dígito, solamente hay un número válido (el correspondiente dígito)
+    
+    Para N=2, depende de con cuál dígito se comienza:
+    
     Empezando por 0, son válidos 00, 08 (cantidad: 2)
+
     Empezando por 1, son válidos 11, 12, 14 (cantidad: 3)
+    
     Empezando por 2, son válidos 22, 21, 23, 25 (cantidad: 4)
+    
     Empezando por 3, son válidos 33, 32, 36 (cantidad: 3)
+    
     Empezando por 4, son válidos 44, 41, 45, 47 (cantidad: 4)
+    
     Empezando por 5, son válidos 55, 52, 54, 56, 58 (cantidad: 5)
+    
     Empezando por 6, son válidos 66, 63, 65, 69 (cantidad: 4)
+    
     Empezando por 7, son válidos 77, 74, 78 (cantidad: 3)
+    
     Empezando por 8, son válidos 88, 80, 85, 87, 89 (cantidad: 5)
+    
     Empezando por 9, son válidos 99, 96, 98 (cantidad: 3)
 
 1.  (★★★) Tenemos una mochila con una capacidad W. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
     capacidad total. Queremos maximizar el valor de lo que llevamos sin exceder la capacidad. Implementar un algoritmo que, 
-    por programación dinámica, reciba dos arreglos de valores y pesos de los elementos, y devuelva qué elementos deben ser 
+    por programación dinámica, reciba los valores y pesos de los elementos, y devuelva qué elementos deben ser 
     guardados para maximizar la ganancia total. Indicar y justificar la complejidad del algoritmo implementado.
 
-1.  (★★) Se tiene un sistema monetario (ejemplo, el nuestro). Se quiere dar "cambio" de una determinada cantidad de plata. Implementar 
-    un algoritmo que devuelva el cambio pedido, usando la mínima cantidad de monedas/billetes. Implementar un algoritmo que, 
-    por programación dinámica, reciba un arreglo de valores del sistema monetario, y la cantidad de cambio objetivo a dar, y devuelva 
+1.  (★★) Se tiene un sistema monetario (ejemplo, el nuestro). Se quiere dar "cambio" de una determinada cantidad de plata. Se 
+    desea devolver el cambio pedido, usando la mínima cantidad de monedas/billetes. Implementar un algoritmo que, por 
+    programación dinámica, reciba un arreglo de valores del sistema monetario, y la cantidad de cambio objetivo a dar, y devuelva 
     qué monedas/billetes deben ser utilizados para minimizar la cantidad total utilizda. 
     Indicar y justificar la complejidad del algoritmo implementado.
 
@@ -100,8 +112,13 @@ math: true
     ciudad. Indicar y justificar la complejidad del algoritmo implementado.
 
 1.  (★★) Dado un número **K**, se quiere obtener la mínima cantidad de operaciones para llegar desde 0 a K, siendo que las 
-    operaciones posibles son: (i) aumentar el valor del operando en 1; (ii) duplicar el valor del operando.
-    Implementar un algoritmo que, por programación dinámica obtenga la menor cantidad de operaciones a realizar (y cuáles son 
+    operaciones posibles son:
+
+    (i) aumentar el valor del operando en 1;
+
+    (ii) duplicar el valor del operando.
+    
+    Implementar un algoritmo que, por programación dinámica, obtenga la menor cantidad de operaciones a realizar (y cuáles son 
     dichas operaciones). Desarrollar la ecuación de recurrencia. Indicar y justificar la complejidad del algoritmo implementado.
     Aclaración: asegurarse de que el algoritmo presentado sea de programación dinámica, con su correspondiente ecuación de recurrencia.
 
@@ -134,15 +151,22 @@ math: true
     partir de recibir un arreglo de las ganancias obtenibles. Para esto, escribir y describir la ecuación de recurrencia 
     correspondiente. Indicar y justificar la complejidad del algoritmo propuesto.
 
-1.  (★★★) Dada una soga de n metros ($$n \geq 2$$) implementar un algoritmo que, utilizando programación dinámica, permita cortarla 
-    (en partes de largo entero) de manera tal que el producto del largo de cada una de las partes resultantes sea máximo. El 
-    algoritmo debe devolver el valor del producto máximo alcanzable. Indicar y justificar la complejidad del algoritmo. 
-    Ejemplos: 
+1.  (★★★) Dada una soga de n metros ($$n \geq 2$$) implementar un algoritmo que, utilizando programación dinámica, permita 
+    cortarla (en partes de largo entero) de manera tal que el producto de los largos de cada una de las partes resultantes sea 
+    máximo. El algoritmo debe devolver el valor del producto máximo alcanzable. Tener en cuenta que la soga puede cortarse
+    varias veces, como se muestra en el ejemplo con n = 10. Indicar y justificar la complejidad del algoritmo. 
+    Ejemplos:
+    
     n = 2 --> Debe devolver 1 (producto máximo es 1 * 1)
+    
     n = 3 --> Debe devolver 2 (producto máximo es 2 * 1)
+    
     n = 4 --> Debe devolver 4 (producto máximo es 2 * 2)
+    
     n = 5 --> Debe devolver 6 (producto máximo es 2 * 3)
+    
     n = 6 --> Debe devolver 9 (producto máximo es 3 * 3)
+    
     n = 10 -> Debe devolver 36 (producto máximo es 3 * 3 * 4)
 
 {::options toc_levels="2" /}
