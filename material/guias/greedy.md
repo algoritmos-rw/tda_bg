@@ -68,7 +68,7 @@ math: true
 
 1.  (★) Una ruta tiene un conjunto de bifurcaciones para acceder a diferentes pueblos. El listado (ordenado por nombre del 
     pueblo) contiene el número de kilómetro donde está ubicada cada una. Se desea ubicar la menor cantidad de patrullas 
-    policiales (en las bifurcaciones) de tal forma que no haya bifurcaciones con vigilancia a menos de 50 km.
+    policiales (en las bifurcaciones) de tal forma que no haya bifurcaciones con vigilancia a más de 50 km.
     Justificar que la solución es óptima. Indicar y justificar la complejidad del algoritmo implementado.
     Ejemplo: 
 
@@ -102,7 +102,7 @@ math: true
     Si hay una mafia tomando control de algún determinado kilómetro, no puede haber otra haciendo lo mismo (es decir, no pueden 
     solaparse). Cada mafia pide por _un rango específico_. Arnook no cobra por kilómetraje sino por “otorgar el permiso”,  
     indistintamente de los kilómetros pedidos. Ahora bien, esto es una mafia, no una ONG, y no debe rendir cuentas con 
-    nadie, así lo único que es de interés es maximizar la cantidad de permisos otorgados (asegurándose de no otorgarle algún 
+    nadie, así que lo único que es de interés es maximizar la cantidad de permisos otorgados (asegurándose de no otorgarle algún 
     lugar a dos mafias diferentes). Implementar un algoritmo Greedy que reciba los rangos de kilómetros pedidos por cada 
     mafia, y determine a cuáles se les otorgará control, de forma que no hayan dos mafias ocupando mismo territorio, y a su 
     vez maximizando la cantidad de pedidos otorgados. Indicar y justificar la complejidad del algoritmo implementado. 
@@ -125,10 +125,10 @@ math: true
 1.  (★★) Se tiene una colección de n libros con diferentes espesores, que pueden estar entre 1 y $$n$$ (valores no necesariamente 
     enteros). Tu objetivo es guardar esos libros en la menor cantidad de cajas. Todas las cajas disponibles son de la 
     misma capacidad $$L$$ (se asegura que $$L \geq n$$). Obviamente, no podés partir un libro para que vaya en múltiples cajas, 
-    pero sí podés poner múltiples libros en una misma caja, siempre y cuando los espesore no superen esa capacidad L.
-    Implementar un algoritmo Greedy que obtenga la mínima cantidad de cajas a utilizar. Indicar y justificar la complejidad 
-    del algoritmo implementado. Justificar por qué se trata de un algoritmo greedy. ¿El algoritmo propuesto encuentra siempre 
-    la solución óptima? Justificar.
+    pero sí podés poner múltiples libros en una misma caja, siempre y cuando los espesores no superen esa capacidad L.
+    Implementar un algoritmo Greedy que obtenga las cajas, tal que se minimicen la cantidad de cajas a utilizar. Indicar y 
+    justificar la complejidad del algoritmo implementado. Justificar por qué se trata de un algoritmo greedy. ¿El algoritmo propuesto 
+    encuentra siempre la solución óptima? Justificar.
     ¿Qué cambios aplicarías si supieras que los espesores sólo fueran números enteros? Describir cómo afecta a la complejidad,
     y a su optimalidad.
 
@@ -137,6 +137,7 @@ math: true
     conoce a al menos otras 4 personas invitadas.
 
     a. Nos solicitan seleccionar el mayor número posible de invitados. Proponer una estrategia greedy óptima para resolver el problema.
+    
     b. Los organizadores desean que cada invitado pueda conocer nuevas personas. Por lo que nos solicitan que adicionemos una nueva 
     restricción a la invitación: Sólo puede asistir si NO conoce al menos otras 4 personas invitadas. Modifique su propuesta para 
     satisfacer esta nueva solución.
