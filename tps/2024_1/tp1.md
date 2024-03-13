@@ -59,8 +59,8 @@ Agregar los casos de prueba necesarios para dicha corroboración. Realizar gráf
 
 Completar el [formulario de entrega]({{site.data.cuatrimestre.entrega_tps}}) con los integrantes y el link al repositorio donde se encuentre el código fuente, y donde debe encontrarse el informe en formato PDF.
 Debe ser claro cómo ejecutar el programa pasando por parámetro un set de datos como
-los que se dan de ejemplo. Esto puede ser aclarado dentro del `README.md` del repositorio,
-u otra ubicación que les parezca clara. 
+los que se dan de ejemplo. No debe ser necesario tener la solución esperada (sino, ¿para qué programaríamos un programa para resolver un problema cuya respuesta ya conocemos?) 
+Esto puede ser aclarado dentro del `README.md` del repositorio, u otra ubicación que les parezca clara. 
 
 El informe debe ser:
 * Autocontenido: es decir, no debe ser necesario ponernos a buscar
