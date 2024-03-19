@@ -63,7 +63,11 @@ math: true
     $$T$$ tiempo de duraciones de las tareas y L representando al deadline de cada tarea,
     si definimos que una tarea $$i$$ empieza en $$S_i$$, entonces termina en $$F_i = S_i + T_i$$, y su latencia es $$L_i = F_i - D_i$$ (si $$F_i > D_i$$, sino 0).
     Nuestra latencia máxima será aquella $$i$$ que maximice el valor $$L_i$$. Implementar un algoritmo que defina en qué orden deben realizarse
-    las tareas, sabiendo que al terminar una tarea se puede empezar la siguiente. Indicar y justificar la complejidad del algoritmo implementado. 
+    las tareas, sabiendo que al terminar una tarea se puede empezar la siguiente. Indicar y justificar la complejidad del algoritmo implementado.
+
+    Devolver un arreglo de tuplas, una tupla por tarea, en el orden en que deben ser realizadas, y que cada tupla indique: (el tiempo $$T_i$$ de la tarea $$i$$,
+    y la latencia resultante $$L_i$$ de esa tarea).
+
     ¿El algoritmo implementado encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
 1.  (★) Una ruta tiene un conjunto de bifurcaciones para acceder a diferentes pueblos. El listado (ordenado por nombre del 
