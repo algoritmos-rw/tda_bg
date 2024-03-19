@@ -65,8 +65,8 @@ math: true
     Nuestra latencia máxima será aquella $$i$$ que maximice el valor $$L_i$$. Implementar un algoritmo que defina en qué orden deben realizarse
     las tareas, sabiendo que al terminar una tarea se puede empezar la siguiente. Indicar y justificar la complejidad del algoritmo implementado.
 
-    Devolver un arreglo de tuplas, una tupla por tarea, en el orden en que deben ser realizadas, y que cada tupla indique: (el tiempo de la tarea i T_tareas[i] y
-    la latencia resultante L_i de esa tarea).
+    Devolver un arreglo de tuplas, una tupla por tarea, en el orden en que deben ser realizadas, y que cada tupla indique: (el tiempo $$T_i$$ de la tarea $$i$$,
+    y la latencia resultante $$L_i$$ de esa tarea).
 
     ¿El algoritmo implementado encuentra siempre la solución óptima? Justificar. ¿Por qué se trata de un algoritmo Greedy? Justificar
 
