@@ -7,24 +7,24 @@ TP0:
 TP1:
   id: TP1
   publicacion: 2024-03-21
-  entrega: 2024-04-04
+  entrega: 2024-04-08
   enunciado_link: /tps/2024_1/tp1
 
 TP2:
   id: TP2
-  publicacion: 2024-04-11
-  entrega: 2024-04-29
+  publicacion: 2024-04-18
+  entrega: 2024-05-06
   enunciado_link: /tps/2024_1/tp2
 
 TP3:
   id: TP3
-  publicacion: 2024-05-16
+  publicacion: 2024-05-23
   entrega: 2024-06-13
   enunciado_link: /tps/2024_1/tp3
 
 Automatas:
   id: Autómatas
-  publicacion: 2024-06-24
-  entrega: 2024-07-14
+  publicacion: 2024-06-13
+  entrega: 2024-07-08
   enunciado_link: /tps/automatas
 
