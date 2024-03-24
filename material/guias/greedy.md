@@ -133,7 +133,7 @@ math: true
     Implementar un algoritmo Greedy que obtenga las cajas, tal que se minimicen la cantidad de cajas a utilizar. Indicar y 
     justificar la complejidad del algoritmo implementado. Justificar por qué se trata de un algoritmo greedy. ¿El algoritmo propuesto 
     encuentra siempre la solución óptima? Justificar.
-    ¿Qué cambios aplicarías si supieras que los espesores sólo fueran números enteros? Describir cómo afecta a la complejidad,
+    ¿Qué cambios aplicarías si supieras que los espesores sólo fueran números enteros de un rango acotado? Describir cómo afecta a la complejidad,
     y a su optimalidad.
 
 1.  (★★★) El club de Amigos de Siempre prepara una cena en sus instalaciones en la que desea invitar a la máxima 
