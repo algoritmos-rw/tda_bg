@@ -26,7 +26,7 @@ un ataque ráfaga con miles de soldados maestros Fuego. El ataque sería de la s
 forma: 
 * Una ráfaga de soldados llegaría durante el transcurso de $$n$$ minutos. En el $$i$$-ésimo
 minuto llegarán $$x_i$$ soldados. Gracias a las mediciones sísmicas hechas con sus técnicas,
-los Dai Li reales de Ba Sing Se conocen los valores de $$x_1, x_2, \cdots, x_n$$. 
+los Dai Li lograron obtener los valores de $$x_1, x_2, \cdots, x_n$$. 
 * Cuando los integrantes del equipo juntan sus fuerzas, pueden generar fisuras que permiten
 destruir parte de las armadas enemigas. La fuerza de este ataque depende cuánto tiempo
 se utilizó para cargar energía. Más específicamente, podemos decir que hay una función 
