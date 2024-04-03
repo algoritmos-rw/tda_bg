@@ -64,8 +64,10 @@ math: true
 1.  (★) Modificar el algoritmo anterior para que, dada una lista de enteros positivos $$L$$ y un entero $$n$$, devuelva un subconjunto 
     de $$L$$ que sume exactamente $$n$$, o, en caso de no existir, que devuelva el subconjunto de suma máxima sin superar el valor de $$n$$.
 
-1.  (★★) Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
-    mínimo Vertex Cover del mismo.
+1.  (★★) Un Vertex Cover de un Grafo G es un conjunto de vértices del grafo en el cual todas las aristas del grafo tienen al menos uno de sus extremos en
+    dicho conjunto. Por ejemplo, el conjunto de todos los vértices del grafo siempre será un Vertex Cover.
+    Implementar un algoritmo que dado un Grafo no dirigido nos devuelva un conjunto de vértices que representen un 
+    mínimo Vertex Cover del mismo (es decir, que sea el conjunto de tamaño mínimo).
 
 1.  (★★★) Un set dominante (Dominating Set) de un grafo G es un subconjunto **D** de vértices de G, tal que para todo vértice de G: 
     o bien (i) _pertenece a D_; o bien (ii) es _adyacente a un vértice en D_.  Implementar un algoritmo que reciba un Grafo, y devuelva 
