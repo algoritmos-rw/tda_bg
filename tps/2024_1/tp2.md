@@ -17,14 +17,14 @@ Es el año 80 DG.
 Ba Sing Se es una gran ciudad del Reino de la Tierra. Allí tiene lugar el palacio Real. 
 Por esto, se trata de una ciudad fortificada, que ha logrado soportar durante más de 110
 años los ataques de la Nación del Fuego. 
-Los Dai Li (policia secreta de la ciudad) la defienden utilizando técnicas 
+Los Dai Li (policía secreta de la ciudad) la defienden utilizando técnicas 
 de artes marciales, Tierra-control, y algunos algoritmos. Nosotros somos los jefes
 estratégicos de los Dai Li.
 
-Gracias a las técnicas de Tierra-control, lograron sensar que la Nación del Fuego planea 
+Gracias a las técnicas de Tierra-control, lograron detectar que la Nación del Fuego planea 
 un ataque ráfaga con miles de soldados maestros Fuego. El ataque sería de la siguiente
 forma: 
-* Una ráfaga de soldados llegaría durante el transcurso de $$n$$ minutos. En el $$i$$-ésimo
+* Ráfagas de soldados llegarían durante el transcurso de $$n$$ minutos. En el $$i$$-ésimo
 minuto llegarán $$x_i$$ soldados. Gracias a las mediciones sísmicas hechas con sus técnicas,
 los Dai Li lograron obtener los valores de $$x_1, x_2, \cdots, x_n$$. 
 * Cuando los integrantes del equipo juntan sus fuerzas, pueden generar fisuras que permiten
@@ -39,7 +39,7 @@ se utilizó toda la energía que se había acumulado).
 * La función de recarga será una función monótona creciente. 
 
 Como jefes estratégicos de los Dai Li, es nuestro deber determinar en qué momentos
-debemos realizar estos ataques de fisuras para eliminar a tantos enemigos como sea posible.
+debemos realizar estos ataques de fisuras para eliminar a tantos enemigos en total como sea posible.
 
 ## Consigna
 
@@ -47,17 +47,19 @@ debemos realizar estos ataques de fisuras para eliminar a tantos enemigos como s
 	y proponer un algoritmo por programación dinámica 
 	que obtenga la solución óptima al problema planteado: Dada la secuencia de de llegadas
 	de enemigos $$x_1, x_2, \cdots, x_n$$ y la función de recarga $$f(\cdot)$$ (dada
-	por una tabla, con lo cual pueden considerarse directamente como una secuencia de valores),
+	por una tabla, con lo cual puede considerarse directamente como una secuencia de valores),
 	determinar la cantidad máxima de enemigos que se pueden atacar, y en qué momentos se harían
 	los correspondientes ataques. 
 2. 	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar 
-	si (y cómo) afecta a los tiempos y optimalidad del algoritmo planteado la variabilidad de los valores 
+	si (y cómo) afecta a los tiempos del algoritmo planteado la variabilidad de los valores 
 	de las llegadas de enemigos y recargas
-3. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
+3. 	Analizar si (y cómo) afecta a la optimalidad del algoritmo planteado la variabilidad de los valores 
+	de las llegadas de enemigos y recargas
+4. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
 	el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-4. 	De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica 
-	indicada. Realizar gráficos correspondientes. 
-5.	Agregar cualquier conclusión que parezca relevante.  
+5. 	De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica 
+	indicada. Realizar gráficos correspondientes. Generar todo set de datos necesarios para estas pruebas.
+6.	Agregar cualquier conclusión que parezca relevante.  
 
 
 ## Entrega
