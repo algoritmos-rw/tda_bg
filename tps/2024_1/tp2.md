@@ -52,7 +52,7 @@ debemos realizar estos ataques de fisuras para eliminar a tantos enemigos en tot
 	los correspondientes ataques. 
 2. 	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar 
 	si (y cómo) afecta a los tiempos del algoritmo planteado la variabilidad de los valores 
-	de las llegadas de enemigos y recargas
+	de las llegadas de enemigos y recargas.
 3. 	Analizar si (y cómo) afecta a la optimalidad del algoritmo planteado la variabilidad de los valores 
 	de las llegadas de enemigos y recargas
 4. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
