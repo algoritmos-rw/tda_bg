@@ -35,7 +35,8 @@ entonces es capaz de eliminar hasta $$f(j)$$ soldados enemigos.
 * Si se utiliza este ataque en el $$k$$-ésimo minuto, y transcurrieron $$j$$ minutos desde
 su último uso, entonces se eliminará a $$\min(x_k, f(j))$$ soldados (y luego de su uso, 
 se utilizó toda la energía que se había acumulado).
-* Inicialmente los Dai Li comienzan sin energía acumulada. 
+* Inicialmente los Dai Li comienzan sin energía acumulada (es decir, para el primer minuto, le
+correspondería $$f(1)$$ de energía si decidieran atacar inmediatamente). 
 * La función de recarga será una función monótona creciente. 
 
 Como jefes estratégicos de los Dai Li, es nuestro deber determinar en qué momentos
