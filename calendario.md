@@ -35,4 +35,5 @@ Los temas que entran en el parcial son:
 * Programación Dinámica
 * Backtracking
 * Programación Lineal
+* Redes de Flujo
 * Reducciones y Clases de Complejidad
