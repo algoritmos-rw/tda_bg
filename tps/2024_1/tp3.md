@@ -89,7 +89,7 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 
 8.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
-	del punto 5. Indicar y justificar su complejidad. No es obligatorio
+	del punto anterior. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
 9. 	Agregar cualquier conclusión que parezca relevante.
