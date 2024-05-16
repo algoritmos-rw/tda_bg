@@ -69,7 +69,7 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 	para los mismos sets de datos para corroborar su correctitud. Tomar mediciones de tiempos
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
-6. 	El Maestro Pakku nos propone el siguiente algoritmo de aproxiamción:
+5. 	El Maestro Pakku nos propone el siguiente algoritmo de aproxiamción:
  	Generar los $$k$$ grupos vacíos. Ordenar de mayor a menor los maestros en función de su habilidad
  	o fortaleza. Agregar al más habilidoso al grupo con menos habilidad hasta ahora (cuadrado de la 
  	suma). Repetir siguiendo con el siguiente más habilidoso, hasta que no queden más maestros por
@@ -87,12 +87,12 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
 	a fin de corroborar empíricamente la cota calculada anteriormente. 
 
-8.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
+6.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
 	del punto anterior. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
-9. 	Agregar cualquier conclusión que parezca relevante.
+7. 	Agregar cualquier conclusión que parezca relevante.
 
 ## Entrega
 
