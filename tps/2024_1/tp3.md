@@ -36,9 +36,9 @@ tenemos todos los valores $$x_1, x_2, \cdots, x_n$$ (todos valores positivos).
 Para que los grupos estén parejos, lo que buscaremos es minimizar la adición
 de los cuadrados de las sumas de las fuerzas de los grupos. Es decir:
 
-$$ \min \sum_{i = 1}^k \left( \sum_{x_j \in S_j} x_j\right)^2$$
+$$ \min \sum_{i = 1}^k \left( \sum_{x_j \in S_i} x_j\right)^2$$
 
-El Maestro Pakku nos dice que esta es una terea difícil, pero que _con tiempo y paciencia_
+El Maestro Pakku nos dice que esta es una tarea difícil, pero que _con tiempo y paciencia_
 podemos obtener el resultado ideal.
 
 
@@ -78,7 +78,7 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
 	Este algoritmo sirve como una aproximación para resolver el problema de la tribu del agua. 
 	Implementar dicho algoritmo, analizar su complejidad
 	y analizar cuán buena aproximación es. Para esto, considerar lo siguiente: 
-	Sea $$I$$ una instancia cualquiera del Hitting-Set Problem, y $$z(I)$$ una
+	Sea $$I$$ una instancia cualquiera del problema, y $$z(I)$$ una
 	solución óptima para dicha instancia, y sea $$A(I)$$ la solución aproximada, 
 	se define $$\frac{A(I)}{z(I)} \leq r(A)$$ para todas las instancias posibles. 
 	Calcular $$r(A)$$ para el algoritmo dado, demostrando que la cota está bien
