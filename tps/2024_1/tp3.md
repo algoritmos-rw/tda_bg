@@ -73,26 +73,27 @@ Cada elemento $$x_i$$ debe estar asignado a un grupo y sólo un grupo.
  	Generar los $$k$$ grupos vacíos. Ordenar de mayor a menor los maestros en función de su habilidad
  	o fortaleza. Agregar al más habilidoso al grupo con menos habilidad hasta ahora (cuadrado de la 
  	suma). Repetir siguiendo con el siguiente más habilidoso, hasta que no queden más maestros por
- 	asignar. [ANALIZAR CUAN FÁCIL ES CALCULAR LA COTA PARA ESTE ALGORITMO]
+ 	asignar.
    
 	Este algoritmo sirve como una aproximación para resolver el problema de la tribu del agua. 
 	Implementar dicho algoritmo, analizar su complejidad
 	y analizar cuán buena aproximación es. Para esto, considerar lo siguiente: 
 	Sea $$I$$ una instancia cualquiera del problema, y $$z(I)$$ una
 	solución óptima para dicha instancia, y sea $$A(I)$$ la solución aproximada, 
-	se define $$\frac{A(I)}{z(I)} \leq r(A)$$ para todas las instancias posibles. 
-	Calcular $$r(A)$$ para el algoritmo dado, demostrando que la cota está bien
-	calculada. Realizar mediciones utilizando el algoritmo exacto y la aproximación,
-	con el objetivo de verificar dicha relación. Realizar también mediciones
+	se define $$\frac{A(I)}{z(I)} \leq r(A)$$ para todas las instancias posibles.
+	Realizar mediciones utilizando el algoritmo exacto y la aproximación,
+	con el objetivo de definir dicha relación. Realizar también mediciones
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
-	a fin de corroborar empíricamente la cota calculada anteriormente. 
+	a fin de corroborar empíricamente la cota calculada anteriormente (implementando
+	para sets de datos cuya solución se sepa de antemano).
+   	Para este punto no es requisito la demostracion formal de la cota.  
 
-6.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
+7.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
 	del punto anterior. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
-7. 	Agregar cualquier conclusión que parezca relevante.
+8. 	Agregar cualquier conclusión que parezca relevante.
 
 ## Entrega
 
