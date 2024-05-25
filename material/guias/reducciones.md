@@ -84,7 +84,7 @@ math: true
     incluso repitiendo figuritas en caso de ser necesario. El problema de las figuritas de Carlitos dice: dados los valores de los 
     diferentes tipos de figuritas y un monto al que llegar, determinar cuáles figuritas debe dar Carlitos para cumplir exactamente 
     con dicho monto dando la mínima cantidad de figuritas para ello. Asumir todos valores enteros, y que hay figurita de valor 1.
-    Por otro lado, recordemos que el _Problema de la Mochila_ es NP-Completo.
+    Por otro lado, recordemos que el _Problema de SubsetSum_ es NP-Completo.
     **Redefinir** ambos problemas en sus versiones de problema de decisión, y **realizar** una _reducción polinomial_ de uno a otro. 
     ¿Podemos con esta reducción afirmar que el problema de Carlitos es NP-Completo?
 
