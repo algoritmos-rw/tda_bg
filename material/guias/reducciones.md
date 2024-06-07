@@ -136,4 +136,9 @@ math: true
     Ahora bien, queremos demostrar nuevamente (_pero de otra forma a la vista en clase_) que Independent Set es un problema NP-Completo. 
     Demostrar que Independent Set es un problema NP-Completo, utilizando Path Selection para esto.
 
+1.  (★) Mbappé, jugador de la selección francesa, es reconocido tanto por su increíble talento para jugar al fútbol, como su
+    increíble talento para decir boludeces. Una de sus frases ha sido
+    ["La Eurocopa es más difícil que el Mundial"](https://www.pagina12.com.ar/742161-para-kylian-mbappe-es-mas-facil-ganar-la-eurocopa-que-el-mun).
+    Primero, demostrar que su afirmación es falsa. Segundo, Francia. 
+
 {::options toc_levels="2" /}
