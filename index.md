@@ -19,3 +19,4 @@ crear un issue en [la página de issues del repositorio]({{site.github.repositor
 * [Template de Latex para informes]({{site.data.sitios.template_latex}})
 * <a href="{{site.data.sitios.youtube}}"><i class="fab fa-youtube"/> Canal de YouTube</a> del curso
 * [Guías de ejercicios](material/guias.md)
+* [Criterios generales de correcciones]({{site.data.sitios.doc_criterios_grales}})
