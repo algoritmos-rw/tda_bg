@@ -18,7 +18,7 @@ Régimen de cursada
 ### Parcial
 
 * Para aprobar la cursada debe aprobarse el parcial, en alguna de sus tres instancias (primera instancia y 2 recuperatorios).
-* El parcial se aprueba con nota 4 o superrior, y consta de 5 ejercicios (se requieren 3 ejercicios bien para aprobar).
+* El parcial se aprueba con nota 4 o superior, y consta de 5 ejercicios (se requieren 3 ejercicios bien para aprobar).
 * Se puede recuperar el parcial para levantar nota sin riesgo a empeorarla (se considera la nota mayor de las obtenidas).
 * Copiarse en un parcial o recuperatorio implica desaprobar la cursada y por lo tanto la materia.
 
