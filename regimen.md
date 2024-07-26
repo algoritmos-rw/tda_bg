@@ -24,4 +24,4 @@ Régimen de cursada
 
 ### Calificación
 
-* La nota de la materia surge del promedio de las notas de los tps (50%) y el parcial (50%) (con redondeo conceptual por parte del ayudante asignado). 
+* La nota de la materia surge del promedio de las notas de los tps (50%) y el parcial (50%) (con redondeo conceptual por parte del ayudante asignado). En general el redondeo tirará hacia el lado de la nota del parcial en caso de tener una nota con 50 centésimas (e.g. "6.5"). 
