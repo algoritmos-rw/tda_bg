@@ -1,5 +1,10 @@
 docentes:
 
+- nombre: Andrea Figueroa
+  foto: /assets/img/docentes/andyf.jpg
+  mail: andrea.figueroa.rodriguez77@gmail.com
+  github: AndreaFigueroaR
+
 - nombre: Ezequiel Genender
   foto: /assets/img/docentes/ezeg.jpg
   mail: egenender@gmail.com
@@ -20,10 +25,20 @@ docentes:
   mail: jcastrom@fi.uba.ar
   github: jignacio14
 
-- nombre: Ignacio Demarchi
-  foto: /assets/img/docentes/nachod.jpg
-  mail: idemarchi@fi.uba.ar
-  github: IgnacioDemarchi
+- nombre: Joaquín Prada
+  foto: /assets/img/docentes/joaquinp.jpeg
+  mail: jprada@fi.uba.ar
+  github: PradaJoaquin
+
+- nombre: Leticia Figueroa
+  foto: /assets/img/docentes/letif.jpg
+  mail: lfigueroar@fi.uba.ar
+  github: leticiafrR
+
+- nombre: Luna Dufour
+  foto: /assets/img/docentes/lunad.jpg
+  mail: ldufour@fi.uba.ar
+  github: Lunit00ns
 
 - nombre: Marcos Bat Mentzel
   foto: /assets/img/docentes/marcosb.jpg
@@ -35,14 +50,19 @@ docentes:
   mail: mbuchwald@fi.uba.ar
   github: mbuchwald
 
-- nombre: Nehuén Cabibbo
-  foto: /assets/img/docentes/nehuenc.jpg
-  mail: ncabibbo@gmail.com
-  github: nehuencabibbo
+- nombre: Matías Bartellone
+  foto: /assets/img/docentes/matib.jpeg
+  mail: mbartellone@fi.uba.ar
+  github: MatiBartellone
 
-- nombre: Tomás Emanuel
-  foto: /assets/img/docentes/tomase.jpg
-  mail: temanuel@fi.uba.ar
-  github: tomasemanuel
+- nombre: Thiago Pacheco
+  foto: /assets/img/docentes/thiagop.jpg
+  mail: tpacheco@fi.uba.ar
+  github: thiagopservian
+
+- nombre: Valentín Santander
+  foto: /assets/img/docentes/valentins.jpg
+  mail: vsantander@fi.uba.ar
+  github: 
 
 
