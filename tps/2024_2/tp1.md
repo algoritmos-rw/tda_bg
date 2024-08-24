@@ -62,5 +62,3 @@ La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad
 como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
 datos, o estrategias de generación de sets, en el caso que corresponda. 
-
-
