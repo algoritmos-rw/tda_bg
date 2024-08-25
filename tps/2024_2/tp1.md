@@ -23,7 +23,7 @@ El problema es que Mateo es aún pequeño para entender cómo funciona esto, por
 
 1. Hacer un análisis del problema, y proponer un algoritmo greedy que obtenga **la solución óptima** al 
 problema planteado:
-Dados los $$n$$ valores de todas las monedas, indicar qué monedas debe ir eligiendo Sophia para si misma y para Mateo, de tal forma que se asegure de ganar siempre. Considerar que Sophia siempre comienza. 
+Dados los $$n$$ valores de todas las monedas, indicar qué monedas debe ir eligiendo Sophia para si misma y para Mateo, de tal forma que se asegure de ganar siempre. Para esto, debe dar la secuencia monedas a agarrar para que Sophia maximice su valor acumulado. Considerar que Sophia siempre comienza (para sí misma). 
 2. Demostrar que el algoritmo planteado obtiene siempre la solución óptima (desestimando el caso de una cantidad par de monedas de mismo valor). 
 3. Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si 
 (y cómo) afecta la variabilidad de los valores de las diferentes monedas a los tiempos del algoritmo planteado. 
