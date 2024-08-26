@@ -35,9 +35,8 @@ pertenece al dominating set.
 ### Solución
 
 Una primera idea que puede surgir es justamente pensar en los grados de los vértices. Tal como vimos
-en clase, todo árbol de al menos 2 vértices tiene al menos 2 hojas. En particular, es claro que estas hojas
-deben "ser dominadas". Es decir, o bien estas estar en el dominating set, o sus respectivos adyacentes deben
-estarlo. Lo fácil es que dichos vértices sólo tienen un adyacente, por lo que no hay que pensar mucho al respecto. 
+Además, sabiendo que todo árbol de al menos 2 vértices tiene al menos 2 hojas que (al igual que el resto de vértices en el árbol)
+deben "ser dominadas", quedaría una decisión que tomar: o bien incluir la hoja en el dominating set, o a sus respectivos adyacentes.
 Dado que queremos minimizar la cantidad de vértices en el dominating set, nos conviene poner el vértice que "más
 pueda dominar". En particular, es claro que conviene el adyacente a la hoja, que puede cubrir más de uno. 
 
@@ -45,7 +44,7 @@ Acá pueden surgir varios errores. El error más común es el siguiente: ordenar
 vértice y "anulando los que siguen". Esto es un error porque estamos justamente agarrando al vértice contrario al
 que nos conviene (de óptimo local, nada). Ok, corrijamos eso, podríamos decir que ordenamos de menor a mayor grado,
 y en ese orden nos quedamos con el adyacente a dicho vértice. El problema ahora es que puede haber vértices ya dominados
-que seguimos considerando. Entonces lo que hacemos es considerar cuáles vértices ya están siendo dominados (es decir,
+que generan la falsa ilusión de que un vértice estaría dominando efectivamente la mayor cantidad posible de vértices por ser sus adyacentes. Entonces, por lo mencionado, tenemos que considerar cuáles vértices ya están siendo dominados (es decir,
 quienes o bien están en el conjunto o tienen un ayacente en el conjunto). Esto empieza a tener algo de sentido. ¿El problema?
 Esto tiene un error conceptual gravísimo: técnicamente, no es un algoritmo greedy. Si quien lee dice "pero si ordené!", 
 ordenar no hace que un algoritmo sea greedy. Ordenar es únicamente una optimización que encontramos cuando el valor por el
