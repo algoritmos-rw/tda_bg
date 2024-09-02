@@ -32,7 +32,7 @@ algoritmo planteado.
 5. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el 
 curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
 6. Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. 
-Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse realizando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. 
+Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. 
 7. Agregar cualquier conclusión que les parezca relevante.
 
 ## Entrega
