@@ -44,7 +44,7 @@ Esto puede ser aclarado dentro del `README.md` del repositorio, u otra ubicació
 
 El informe debe ser:
 * Autocontenido: es decir, no debe ser necesario ponernos a buscar
-el código por diferentes lugares. El código que debe ser incluido es el código de los algoritmos a desarrollar (no es de interés un main, o el procesamiento de archivos), y estos deben estar incluidos donde consideren correcto dado el desarrollo del informe para el entendimiento. 
+el código por diferentes lugares. El código que debe ser incluido es el código de los algoritmos a desarrollar (no es de interés un main, o el procesamiento de archivos), y estos deben estar incluidos donde consideren correcto dado el desarrollo del informe, para su entendimiento. 
 * Tener todo el análisis correspondiente. 
 * Ser realizado en un formato profesional. Para esto, les brindamos [un template]({{site.data.sitios.template_latex}}) en $$\LaTeX$$
 para que puedan utilizar (también se encuentra en la home de la página del curso). 
