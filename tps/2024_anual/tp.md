@@ -16,14 +16,14 @@ Cuando Mateo nació, Sophia estaba muy contenta. Finalmente tendría un hermano 
 Pasaron los años, y fueron cambiando los juegos. Cuando Mateo cumplió 4 años, el padre de ambos le explicó un juego a Sophia: 
 Se dispone una fila de $$n$$ monedas, de diferentes valores. En cada turno, un jugador debe elegir alguna moneda. Pero no puede elegir cualquiera: sólo puede elegir o bien la primera de la fila, o bien la última. Al elegirla, la remueve de la fila, y le toca luego al otro jugador, quien debe elegir otra moneda siguiendo la misma regla. Siguen agarrando monedas hasta que no quede ninguna. Quien gane será quien tenga el mayor valor acumulado (por sumatoria). 
 
-El problema es que Mateo es aún pequeño para entender cómo funciona esto, por lo que Sophia debe elegir las monedas por él. Digamos, Mateo está "jugando" (insertar meme de los simpsons). Aquí surge otro problema: Sophia es muy competitiva. Será buena hermana, pero no se va a dejar ganar. Todo lo contrario. En la primaria aprendió algunas cosas sobre algoritmos greedy, y lo va a aplicar. 
+El problema es que Mateo es aún pequeño para entender cómo funciona esto, por lo que Sophia debe elegir las monedas por él. Digamos, [Mateo está "jugando"](https://youtu.be/5cZqe90zxNE?t=20). Aquí surge otro problema: Sophia es muy competitiva. Será buena hermana, pero no se va a dejar ganar (consideremos que tiene 7 nada más). Todo lo contrario. En la primaria aprendió algunas cosas sobre algoritmos greedy, y lo va a aplicar. 
 
 ### Consigna
 
 1. Hacer un análisis del problema, y proponer un algoritmo greedy que obtenga **la solución óptima** al 
 problema planteado:
-Dados los $$n$$ valores de todas las monedas, indicar qué monedas debe ir eligiendo Sophia para si misma y para Mateo, de tal forma que se asegure de ganar siempre. Considerar que Sophia siempre comienza. 
-2. Demostrar que el algoritmo planteado obtiene siempre la solución óptima. 
+Dados los $$n$$ valores de todas las monedas, indicar qué monedas debe ir eligiendo Sophia para si misma y para Mateo, de tal forma que se asegure de **ganar siempre**. Considerar que Sophia siempre comienza (para sí misma). 
+2. Demostrar que el algoritmo planteado obtiene siempre la solución óptima (desestimando el caso de una cantidad par de monedas de mismo valor, en cuyo caso siempre sería empate más allá de la estrategia de Sophia). 
 3. Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si 
 (y cómo) afecta la variabilidad de los valores de las diferentes monedas a los tiempos del algoritmo planteado. 
 4. Analizar si (y cómo) afecta la variabilidad de los valores de las diferentes monedas a la optimalidad del 
@@ -31,28 +31,37 @@ algoritmo planteado.
 5. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el 
 curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
 6. Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. 
-Agregar los casos de prueba necesarios para dicha corroboración. Realizar gráficos correspondientes. 
+Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. 
 7. Agregar cualquier conclusión que les parezca relevante.
 
 
 ## Segunda parte: Mateo empieza a Jugar
 
-Pasan los años. Mateo ahora tiene 7 años. Los mismos años que tenía Sophia cuando comenzaron a jugar al juego de las monedas. Eso quiere decir que Mateo también ya aprendió sobre algoritmos greedy, y lo comenzó a aplicar. Esto hace que ahora quién gane dependa más de quién comience y un tanto de suerte. 
+Pasan los años. Mateo ahora tiene 7 años. Los mismos años que tenía Sophia cuando comenzaron a jugar al juego de las monedas. Eso quiere decir que Mateo también ya aprendió sobre algoritmos greedy, y lo comenzó a aplicar. Va a aplicar una lógica infalible. Esto hace que ahora quién gane dependa más de quién comience y un tanto de suerte. 
 
 Esto no le gusta nada a Sophia. Ella quiere estar segura de ganar siempre. Lo bueno es que ella comenzó a aprender sobre programación dinámica. Ahora va a aplicar esta nueva técnica para asegurarse ganar. 
 
 
 ### Consigna
 
-1. Hacer un análisis del problema, y proponer un algoritmo de programación dinámcia que obtenga **la solución óptima** al 
-problema planteado:
-Dados los $$n$$ valores de todas las monedas, indicar qué monedas debe ir eligiendo Sophia para si misma, para asegurarse ganar, sabiendo que Mateo va a aplicar siempre el algoritmo Greedy de la parte anterior. Considerar que Sophia siempre comienza. Para esto, escribir y describir la ecuación de recurrencia correspondiente a la solución. 
-
-2. 	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si (y cómo) afecta la variabilidad de los valores de las monedas a los tiempos y optimalidad del algoritmo planteado. 
-3. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-4. De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica indicada. Realizar gráficos correspondientes. 
-5. Suponer que siguen pasando los años. Ahora es Mateo quien tiene 10 años, y ahora también aprendió sobre programación dinámica. Ahora ambos juegan sabiendo que el otro va a aplicar la solución óptima por programación dinámica. Indicar cómo es la ecuación de recurrencia de ambos jugadores (quien comienza y quien va segundo).
-6. Agregar cualquier conclusión que parezca relevante.  
+1. 	Hacer un análisis del problema, plantear la ecuación de recurrencia correspondiente
+	y proponer un algoritmo por programación dinámica 
+	que obtenga la solución óptima al problema planteado: Dada la secuencia de monedas
+	$$m_1, m_2, \cdots, m_n$$, sabiendo que Sophia empieza el juego y que Mateo siempre elegirá
+	la moneda más grande para sí entre la primera y la última moneda en sus respectivos turnos, 
+	definir qué monedas debe elegir Sophia para asegurarse obtener el **máximo valor acumulado posible**. 
+2. 	Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos lleva al
+	resultado óptimo. 
+3.	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar 
+	si (y cómo) afecta a los tiempos del algoritmo planteado la variabilidad de los valores 
+	de las llegadas de enemigos y recargas.
+4. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
+	el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
+5. 	Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. 
+	Agregar los casos de prueba necesarios para dicha corroboración (generando sus propios sets de datos). 
+	Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la 
+	técnica de cuadrados mínimos.
+6.	Agregar cualquier conclusión que parezca relevante.
 
 
 ### Tercera parte: Cambios
