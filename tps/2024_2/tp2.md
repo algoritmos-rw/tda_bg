@@ -25,7 +25,9 @@ Esto no le gusta nada a Sophia. Ella quiere estar segura de ganar siempre. Lo bu
 	que obtenga la solución óptima al problema planteado: Dada la secuencia de monedas
 	$$m_1, m_2, \cdots, m_n$$, sabiendo que Sophia empieza el juego y que Mateo siempre elegirá
 	la moneda más grande para sí entre la primera y la última moneda en sus respectivos turnos, 
-	definir qué monedas debe elegir Sophia para asegurarse obtener el **máximo valor acumulado posible**. 
+	definir qué monedas debe elegir Sophia para asegurarse obtener el **máximo valor acumulado posible**.
+	Esto no necesariamente le asegurará a Sophia ganar, ya que puede ser que esto no sea obtenible, dado
+	por cómo juega Mateo. Por ejemplo `[1, 10, 5]`, no importa lo que haga Sophia, Mateo ganará. 
 2. 	Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos lleva al
 	resultado óptimo. 
 3.	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar 
