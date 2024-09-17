@@ -16,7 +16,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 Seguimos con la misma situación planteada en el trabajo práctico anterior, pero ahora pasaron varios años. 
 Mateo ahora tiene 7 años. Los mismos años que tenía Sophia cuando comenzaron a jugar al juego de las monedas. Eso quiere decir que Mateo también ya aprendió sobre algoritmos greedy, y lo comenzó a aplicar. Esto hace que ahora quién gane dependa más de quién comience y un tanto de suerte. 
 
-Esto no le gusta nada a Sophia. Ella quiere estar segura de ganar siempre. Lo bueno es que ella comenzó a aprender sobre programación dinámica. Ahora va a aplicar esta nueva técnica para asegurarse ganar. 
+Esto no le gusta nada a Sophia. Ella quiere estar segura de ganar siempre. Lo bueno es que ella comenzó a aprender sobre programación dinámica. Ahora va a aplicar esta nueva técnica para asegurarse ganar siempre que pueda. 
 
 ## Consigna
 
@@ -27,12 +27,12 @@ Esto no le gusta nada a Sophia. Ella quiere estar segura de ganar siempre. Lo bu
 	la moneda más grande para sí entre la primera y la última moneda en sus respectivos turnos, 
 	definir qué monedas debe elegir Sophia para asegurarse obtener el **máximo valor acumulado posible**.
 	Esto no necesariamente le asegurará a Sophia ganar, ya que puede ser que esto no sea obtenible, dado
-	por cómo juega Mateo. Por ejemplo `[1, 10, 5]`, no importa lo que haga Sophia, Mateo ganará. 
-2. 	Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos lleva al
-	resultado óptimo. 
+	por cómo juega Mateo. Por ejemplo, para `[1, 10, 5]`, no importa lo que haga Sophia, Mateo ganará. 
+2. 	Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos lleva a
+	obtener el **máximo valor acumulado posible**. 
 3.	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar 
 	si (y cómo) afecta a los tiempos del algoritmo planteado la variabilidad de los valores 
-	de las llegadas de enemigos y recargas.
+	de las monedas.
 4. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
 	el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
 5. 	Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. 
