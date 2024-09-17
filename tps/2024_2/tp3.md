@@ -15,7 +15,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 ## Introducción
 
 Los hermanos siguieron creciendo. Mateo también aprendió sobre programación dinámica, y cada uno aplicaba la lógica sabiendo que el otro también lo hacía. El juego de las monedas se tornó aburrido en cuánto notaron que siempre ganaba quien empezara, o según la suerte. Los años pasaron, llegó la adolescencia y empezaron a tener gustos diferentes. En general, jugaban a juegos individuales. 
-En particular, Sophia estaba muy enganchada con un juego inventado por el argentino Jaime Poniachik en 1982: La Batalla Naval Individual. 
+En particular, Sophia estaba muy enganchada con un juego inventado en Argentina por Jaime Poniachik en 1982: La Batalla Naval Individual. 
 
 En dicho juego, tenemos un tablero de $$n \times m$$ casilleros, y $$k$$ barcos. Cada barco $$i$$ tiene $$b_i$$ de largo. Es decir, requiere de $$b_i$$ casilleros para ser ubicado. Todos los barcos tienen 1 casillero de ancho. El tablero a su vez tiene un requisito de consumo tanto en sus filas como en sus columnas. Si en una fila indica un 3, significa que deben haber 3 casilleros de dicha fila siendo ocupados. Ni más, ni menos. No podemos poner dos barcos de forma adyacente (es decir, no pueden estar contiguos ni por fila, ni por columna, ni en diagonal directamente). Debemos ubicar todos los barcos de tal manera que se cumplan todos los requisitos. A continuación mostramos un ejemplo de un juego resuelto: 
 
@@ -36,7 +36,7 @@ Para los primeros dos puntos considerar la versión de decisión del problema de
 	$$k$$ barcos (donde el barco $$i$$ tiene $$b_i$$ de largo), dar la asignación de posiciones de los barcos
 	de tal forma que se reduzca al mínimo la cantidad de demanda incumplida. Si simplemente no se cumple que 
 	una columna que debería tene 3 casilleros ocupados tiene 1, entonces contará como 2 de demanda incumplida. 
-	No se pueden ocupar casilleros por demás. 
+	Por el contrario, no está permitido exceder la cantidad demandada.
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
 4. 	Escribir un modelo de programación lineal que resuelva el problema de forma óptima. Ejecutarlo
