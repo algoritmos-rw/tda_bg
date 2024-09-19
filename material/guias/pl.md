@@ -15,9 +15,18 @@ math: true
 
 ## Ejercicio resuelto
 
-#### Demostración del orden
-
 ## Ejercicios propuestos
 
+1.	Implementar un modelo de programación lineal que resuelva el problema de la mochila de valor máximo (ejercicio 7 de PD). 
+
+1. 	Implementar un modelo de programación lineal que resuelva el problema de Juan (ejercicio 4 de PD).
+
+1. 	Implementar un modelo de programación lineal que resuelva el problema de Vertex Cover mínimo (ejercicio 13 de BT). 
+
+1. 	Implementar un modelo de programación lineal que resuelva el problema de Dominating Set mínimo (ejercicio 14 de BT).
+
+1.	Implementar un modelo de programación lineal que resuelva el problema de 3-SAT mínimo: que encuentre una solución que satisfaga, utlizando la menor cantidad de variables en `true` posible.
+
+1.	Implementar un modelo de programación lineal que nos obtenga el árbol de tendido mínimo de un grafo. 
 
 {::options toc_levels="2" /}
