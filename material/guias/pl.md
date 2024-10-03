@@ -27,9 +27,9 @@ math: true
 
 1.	(★) Implementar un modelo de programación lineal que resuelva el problema de 3-SAT mínimo: que encuentre una solución que satisfaga, utlizando la menor cantidad de variables en `true` posible.
 
-1.	(★★★) Implementar un modelo de programación lineal que nos obtenga el Árbol de Tendido mínimo de un grafo. 
+1.	(★★★★) Implementar un modelo de programación lineal que nos obtenga el Árbol de Tendido mínimo de un grafo. 
 
-1. 	(★★) Implementar un modelo de programación lineal que resuelva el problema de Independent Set Máximo.
+1. 	(★★★) Implementar un modelo de programación lineal que resuelva el problema de Independent Set Máximo.
 
 1. 	(★★) Implementar un modelo de programación lineal que determine la cantidad mínima de colores a utilizar para poder pintar
 	a un grafo de colores, de tal forma que ningún adyacente comparta color entre sí. 
