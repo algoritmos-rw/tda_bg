@@ -15,9 +15,7 @@ math: true
 
 ## Ejercicio resuelto
 
-### Solución
-
-#### Demostración del orden
+[Aquí el ejercicio](https://drive.google.com/file/d/1VwJgSQzViEoLdShlNFu8OZuIN_WBtReg/view?usp=sharing).
 
 ## Ejercicios propuestos
 
