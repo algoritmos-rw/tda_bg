@@ -35,8 +35,9 @@ Para los primeros dos puntos considerar la versión de decisión del problema de
 	redundancia) en la versión de optimización: Dado un tablero de $$n \times m$$ casilleros, y una lista de 
 	$$k$$ barcos (donde el barco $$i$$ tiene $$b_i$$ de largo) una lista de las demandas de las $$n$$ filas y
 	una lista de las $$m$$ demandas de las columnas, dar la asignación de posiciones de los barcos
-	de tal forma que se reduzca al mínimo la cantidad de demanda incumplida. Si simplemente no se cumple que 
-	una columna que debería tene 3 casilleros ocupados tiene 1, entonces contará como 2 de demanda incumplida. 
+	de tal forma que se reduzca al mínimo la cantidad de demanda incumplida. Pueden no utilizarse todos los barcos. 
+	Si simplemente no se cumple que una columna que debería tene 3 casilleros ocupados tiene 1, entonces 
+	contará como 2 de demanda incumplida. 
 	Por el contrario, no está permitido exceder la cantidad demandada.
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
