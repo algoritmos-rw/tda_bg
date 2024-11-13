@@ -30,6 +30,9 @@ Para los primeros dos puntos considerar la versión de decisión del problema de
 2. 	Demostrar que el Problema de la Batalla Naval es, en efecto, un problema NP-Completo. 
 	Si se hace una reducción involucrando un problema no visto en clase, agregar una
 	(al menos resumida) demostración que dicho problema es NP-Completo. 
+	Para esto, recomendamos ver ya sea los problemas _3-Partition_ o _Bin-Packing_, ambos
+	en su versión unaria. Si bien sería tentador utilizar _2-Partition_, esta reducción
+	no sería correcta. En caso de querer saber más al respecto, consultarnos :-)
 
 3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema (valga la 
 	redundancia) en la versión de optimización: Dado un tablero de $$n \times m$$ casilleros, y una lista de 
