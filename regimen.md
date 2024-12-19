@@ -16,7 +16,7 @@ Régimen de cursada
 
 ### Ejercicios Obligatorios
 
-* Hay diferentes sets de ejercicios obligatorios a ser entregados en las fechas que indique el calendario. La forma de entregarlos es realizarlo por RPL, obteniendo que todas las pruebas automatizadas pasen. En general, estas fechas límite coincide con una práctica pre-examen de del tema de los ejercicios, con el objetivo de asegurar que los alumnos vengan un mínimo al día con los temas para abordar esas casles. El no cumplimiento de la entrega de los ejercicios obligatorios en las fechas establecidas implicará desaprobar la cursada y por lo tanto la materia. Se considerarán eventuales problemas en la plataforma para añadir 1 día o 2. 
+* Hay diferentes sets de ejercicios obligatorios a ser entregados en las fechas que indique el calendario. La forma de entregarlos es realizarlo por RPL, obteniendo que todas las pruebas automatizadas pasen. En general, estas fechas límite coincide con una práctica pre-examen del tema de los ejercicios (lo cual puede verse en el calendario), con el objetivo de asegurar que los alumnos vengan un mínimo al día con los temas para abordar esas clases. El no cumplimiento de la entrega de los ejercicios obligatorios en las fechas establecidas implicará desaprobar la cursada y por lo tanto la materia. Se considerarán eventuales problemas en la plataforma para añadir 1 día o 2. 
 * Hay una última entrega de ejercicios relacionados a Autómatas que pueden ser entregado hasta 2 semanas después de haber terminado la cursada (simplemente pasando las pruebas automáticas). 
 
 ### Parciales
