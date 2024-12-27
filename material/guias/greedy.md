@@ -71,20 +71,33 @@ aplica una simple regla para buscar el óptimo local.
 
 Entonces, volvemos a plantear la solución realmente greedy: 
 * Buscamos un vértice de grado 1. A su adyacente lo agregamos al dominating set.
+* Agregamos al conjunto de vértices dominados al vértice que agregamos al dominating set y a todos sus adyacentes
 * Eliminamos del grafo a: el vértice de grado 1, al agregado al dominating set, y también a todos los adyacentes al vértice agregado que sean hojas (es decir, este podría estar vinculado a varias hojas), o que por eliminar a este pasaran a ser hojas (ya dominadas, no traen otro beneficio).
-* Volvemos a buscar algún vértice de grado 1 aplicando la misma lógica, hasta que no queden vértices en el grafo.
+* Volvemos a buscar algún vértice de grado 1 aplicando la misma lógica, hasta que no queden vértices en el grafo, o solo queden vértices de grado 0
+* Finalmente, si no quedan vertices de grado 1 pero el grafo aún tiene vertices (necesariamente todos los vértices que quedan tienen grado 0), agregamos al dominating set a los vértices del grafo que aún no están en el conjunto de dominados.
 
 ```python
 def dominating_set_arbol(grafo):
     ds = set()
+    dominados = set()
     while len(grafo) > 0:
         v = obtener_vertice_grado_1(grafo)
+        if v is None:
+            break
+
         w = grado.adyacentes(v)[0]
         ds.add(w)
+        dominados.add(w)
         for x in grafo.adyacentes(w):
+            dominados.add(x)
             if len(grafo.adyacentes(x)) <= 2:
                 grafo.borrar_vertice(x)
         grafo.borrar_vertice(w)
+    
+    for v in grafo:
+        if v not in dominados:
+            ds.add(v)
+
     return ds
 
 def obtener_vertice_grado_1(grafo):
@@ -95,7 +108,7 @@ def obtener_vertice_grado_1(grafo):
 
 Hay otras formas de implementar esto (buscar en cada iteración a los vértices de grado 1 y aplicar esta lógica), que en sí sería lo mismo. También se puede obviar "eliminar" los vértices y simplemente ir modificando un diccionario con grados y cosas por el estilo. 
 
-La complejidad de este algoritmo es $\mathcal{O}(n^2)$, por la búsqueda de vértices de grado 1 en cada iteración. El algoritmo es greedy ya que iterativamente, a través de una regla sencilla, se busca aquel vértice que me maximiza la cantidad de hojas a dominar, las cuales son fáciles de detectar lo que conviene. Siendo este el óptimo local. Al saber que alguno de estos tiene que ir si o si, y que al eliminar una hoja siempre vamos a seguir teniendo un árbol ($\rightarrow$ va a tener al menos 2 hojas), entonces esta lógica siempre será correcta. Y por esto mismo el algoritmo será óptimo (no pedimos una demostración formal en el parcial, pero la idea viene justamente por ese lado, y usando el absurdo). 
+La complejidad de este algoritmo es $$\mathcal{O}(n^2)$$, por la búsqueda de vértices de grado 1 en cada iteración. El algoritmo es greedy ya que iterativamente, a través de una regla sencilla, se busca aquel vértice que me maximiza la cantidad de hojas a dominar, las cuales son fáciles de detectar lo que conviene. Siendo este el óptimo local. Al saber que alguno de estos tiene que ir si o si, y que al eliminar una hoja siempre vamos a seguir teniendo un árbol ($$\rightarrow$$ va a tener al menos 2 hojas), entonces esta lógica siempre será correcta. Y por esto mismo el algoritmo será óptimo (no pedimos una demostración formal en el parcial, pero la idea viene justamente por ese lado, y usando el absurdo). 
 
 Alguien podría pensar que al no borrar todos los vértices adyacentes al que estamos agregando cometemos un error porque no estamos considerando que este ya se encuentra dominado. Esto es un error: estamos justamente considerando que a pesar de estar dominado, esto no hace que no convenga nunca incluirlo (mirar el contraejemplo anterior). Si no se lo elimina es porque tiene otro adyacente que aún falta por dominar. 
 
