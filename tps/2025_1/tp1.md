@@ -12,7 +12,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 
 ## Introducción y primeros años
 
-Trabajamos para la mafia de los amigos Amarilla Perez y el Gringo Hinz. 
+Trabajamos para la mafia de los amigos Amarilla Pérez y el Gringo Hinz. 
 En estos momentos hay un problema: alguien les está robando dinero. 
 No saben bien cómo, no saben exactamente cuándo, y por supuesto que no saben
 quién. Evidentemente quien lo está haciendo es muy hábil (probablemente haya
