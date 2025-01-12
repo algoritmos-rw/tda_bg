@@ -87,10 +87,12 @@ arista dentro del grafo.
 	* $c_i$: es la comunidad del vértice $i$.
 	* $\delta$: función delta de Kronecker, que es básicamente 1 si ambas comunidades son iguales, 0 si son diferentes.
 
-	¿El problema? Maximizar la modularización es también un problema NP-Completo. ¿Lo bueno? Es conocido un algoritmo 
-	greedy que funciona muy bien para esto: [El Algoritmo de Louvain](https://en.wikipedia.org/wiki/Louvain_method).
+	¿El problema? [Maximizar la modularización es también un problema NP-Completo](https://arxiv.org/pdf/physics/0608255). 
+	¿Lo bueno? Es conocido un algoritmo  greedy que funciona muy bien para esto: 
+	[El Algoritmo de Louvain](https://en.wikipedia.org/wiki/Louvain_method).
 	Obviamos transcribir la descripción del algoritmo, que pueden leer allí, pero la agente T logró obtener 
-	[una grabación de una clase de la facultad de ingeniería donde explicaban este algoritmo](https://www.youtube.com/watch?v=EbIC_wTP44Q&t=540s). Por supuesto, si les interesa el tema pueden revisar el video entero. 
+	[una grabación de una clase de la facultad de ingeniería donde explicaban este algoritmo](https://www.youtube.com/watch?v=EbIC_wTP44Q&t=540s). 
+	Por supuesto, si les interesa el tema pueden revisar el video entero. 
 	Dejamos también un link [a las diapositivas de dicha clase](https://docs.google.com/presentation/d/1FLXTYtSDeMLxNOa9xW_zjEb2FhJIgZzXWuxvGHUxP5I/edit#slide=id.gae5b01dea1_1_36). 
 
 
