@@ -67,7 +67,7 @@ arista dentro del grafo.
 
 5. 	Ya pudiendo mostrar que no es una buena idea trabajar con estas métricas para obtener las comunidades
 	de una organización tan grande, la agente T nos recomendó analizar la posibilidad de no clusterizar
-	por bajo diámetro, sino minimizando la Modularidad. 
+	por bajo diámetro, sino maximizando la Modularidad. 
 
 	> ¿La qué? 
 
