@@ -103,7 +103,7 @@ arista dentro del grafo.
 
 7.	**Opcional**: Implementar alguna otra aproximación (o algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
-	del punto anterior. Indicar y justificar su complejidad. No es obligatorio
+	del punto anterior. Indicar y justificar su complejidad, en lo posible. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta un punto no hacerlo).
 
 8. 	Agregar cualquier conclusión que parezca relevante.
