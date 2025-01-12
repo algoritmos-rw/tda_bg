@@ -77,7 +77,7 @@ arista dentro del grafo.
 	tiempo pocas _hacia afuera_.
 	Podemos definir la modularidad como: 
 
-	$$ Q = \frac{1}{2m} \sum_i \sum_j \left(peso(v_i, v_j) - \frac{k_ik_j}{2m}\right) \delta(c_i, c_j) $$
+	$$Q = \frac{1}{2m} \sum_i \sum_j \left(peso(v_i, v_j) - \frac{k_ik_j}{2m}\right) \delta(c_i, c_j)$$
 
 	Donde: 
 
