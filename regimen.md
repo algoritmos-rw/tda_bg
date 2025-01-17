@@ -3,7 +3,7 @@ Régimen de cursada
 
 ### Aprobación
 
-* Para aprobar la cursada es necesario aprobar los 3 trabajos prácticos así como los parciales, así como el TP0 y los ejercicios obligatorios. 
+* Para aprobar la cursada es necesario aprobar los 3 trabajos prácticos así 5 de los 8 temas de los parciales (explicado más abajo), así como el TP0 y los ejercicios obligatorios. 
 * Una vez aprobada la cursada, será aprobada la materia (el curso no cuenta con final).
 
 ### Trabajos Prácticos
