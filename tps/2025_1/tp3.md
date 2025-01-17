@@ -53,7 +53,8 @@ arista dentro del grafo.
 3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema (valga la 
 	redundancia) en la versión de optimización: Dado un grafo no dirigido y no pesado, y un valor $k$,
 	determinar los $k$ clusters para que la distancia máxima de cada cluster sea mínima. Para esto, considerar
-	minimizar la sumatoria de todas las distancias máximas. 
+	minimizar el máximo de las distancias máximas (es decir, de las distancias máximas de cada cluster, nos quedamos
+	con la mayor, y ese valor es el que queremos minimizar). 
 
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
@@ -135,4 +136,3 @@ La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad
 como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
 datos, o estrategias de generación de sets, en el caso que corresponda.
-
