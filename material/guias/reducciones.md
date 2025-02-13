@@ -51,7 +51,7 @@ math: true
 1.  (★★) Definir los problemas de decisión de Independent Set y K-Clique. Hacer una reducción de Independet Set a K-Clique. 
     Dada esta reducción, ¿podemos afirmar que K-Clique es un problema NP-Completo?
 
-1.  (★★) Definir los problemas de decisión de Camino Hamiltoniano y Ciclo Hamiltoniano. Sabiendo que Ciclo Hamiltoniano es 
+1.  (★★★) Definir los problemas de decisión de Camino Hamiltoniano y Ciclo Hamiltoniano. Sabiendo que Ciclo Hamiltoniano es 
     NP-Completo, demostrar que Camino Hamiltoniano es NP-Completo.
 
 1.  (★★) Definir los problemas de decisión de Grafo Bipartito y 3-Coloreo. Sabiendo que 3-Coloreo es NP-Completo, reducir 
@@ -137,6 +137,24 @@ math: true
 1.  (★) Mbappé, jugador de la selección francesa, es reconocido tanto por su increíble talento para jugar al fútbol, como su
     increíble talento para decir boludeces. Una de sus frases ha sido
     ["La Eurocopa es más difícil que el Mundial"](https://www.pagina12.com.ar/742161-para-kylian-mbappe-es-mas-facil-ganar-la-eurocopa-que-el-mun).
-    Primero, demostrar que su afirmación es falsa. Segundo, Francia. 
+    Primero, demostrar que su afirmación es falsa. Segundo, Francia.
+
+1.  (★★★) El problema de _Separación en R Cliques_ (SRC) se enuncia como: Dado un grafo,
+	y un valor entero $R$, ¿se pueden separar todos los vértices del gráfo en a lo sumo
+	$R$ cliques? (cada clique puede tener una cantidad diferente de vértices). 
+	De una manera más formal, se puede enunciar: ¿existen $S_1, S_1, ..., S_k$, subconjuntos
+	**disjuntos** del conjunto de vértices $V$ tal que $\bigcup_{i} S_i = V$, $k \leq R$, y
+	que que cada subgrafo correspondiente a los $S_i$ sea un clique (subgrafo completo)?
+
+	Demostrar que el problema de _Separación en R Cliques_ es un problema NP-Completo.
+	Para esto, recomendamos recordar que el problema de coloreo es un problema
+	NP-Completo. También, recomendamos recordar cómo fue que demostramos en clase
+	que K-Clique es un problema NP-Completo (fue con la ayuda de Independent Set).
+
+1.  (★★) Podemos definir al problema de _K-ciclo_ como: "Dado un grafo y un valor natural $K$, 
+	¿existe un ciclo dentro del grafo de al menos $K$ vértices?". 
+
+	Demostrar que el problema de _K-ciclo_ es un problema NP-Completo. Para esto, 
+	recomendamos utilizar el problema de _ciclo Hamiltoniano_.
 
 {::options toc_levels="2" /}
