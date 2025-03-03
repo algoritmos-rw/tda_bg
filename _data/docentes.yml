@@ -5,6 +5,11 @@ docentes:
   mail: afigueroa@fi.uba.ar
   github: AndreaFigueroaR
 
+- nombre: Aníbal Fu
+  foto: /assets/img/docentes/anibalf.png
+  mail: alfonso@fi.uba.ar
+  github: anibalfu
+
 - nombre: Ezequiel Genender
   foto: /assets/img/docentes/ezeg.jpg
   mail: egenender@gmail.com
@@ -20,10 +25,10 @@ docentes:
   mail: gpalavecino@fi.uba.ar
   github: geronimo-palavecino
 
-- nombre: Ignacio Castro
-  foto: /assets/img/docentes/nachoc.jpg
-  mail: jcastrom@fi.uba.ar
-  github: jignacio14
+- nombre: Giuliana Pazos
+  foto: /assets/img/docentes/giulip.jpg
+  mail: gpazos@fi.uba.ar
+  github: giulianapazos
 
 - nombre: Joaquín Prada
   foto: /assets/img/docentes/joaquinp.jpeg
@@ -54,6 +59,11 @@ docentes:
   foto: /assets/img/docentes/matib.jpeg
   mail: mbartellone@fi.uba.ar
   github: MatiBartellone
+
+- nombre: Nilo Martel
+  foto: /assets/img/docentes/nilom.jpg
+  mail: nmartel@fi.uba.ar
+  github: josValentin-fiuba
 
 - nombre: Thiago Pacheco
   foto: /assets/img/docentes/thiagop.jpg
