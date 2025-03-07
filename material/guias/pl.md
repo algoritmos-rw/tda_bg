@@ -27,11 +27,29 @@ math: true
 
 1.	(★) Implementar un modelo de programación lineal que resuelva el problema de 3-SAT mínimo: que encuentre una solución que satisfaga, utlizando la menor cantidad de variables en `true` posible.
 
-1.	(★★★★) Implementar un modelo de programación lineal que nos obtenga el Árbol de Tendido mínimo de un grafo. 
-
 1. 	(★★★) Implementar un modelo de programación lineal que resuelva el problema de Independent Set Máximo.
 
 1. 	(★★) Implementar un modelo de programación lineal que determine la cantidad mínima de colores a utilizar para poder pintar
-	a un grafo de colores, de tal forma que ningún adyacente comparta color entre sí. 
+	a un grafo de colores, de tal forma que ningún adyacente comparta color entre sí.
+
+1.	(★★) Implementar un modelo de **programación lineal** que permita determinar el clique de 
+	tamaño máximo dentro de un grafo. Indicar la cantidad de restricciones generadas en función
+	de la cantidad de vértices y aristas (podés usar notación O para esto, no es importante el número exacto).
+
+1.	(★★★) Osvaldo es un empleado de una inescrupulosa empresa inmobiliaria, y está buscando un ascenso. 
+	Está viendo cómo se predice que evolucionará el precio de un inmueble (el cual no poseen, 
+	pero pueden comprar). Tiene la información de estas predicciones en el arreglo $p$, para todo
+	día $i = 1, 2, ..., n$. Osvaldo quiere determinar un día $j$ en el cuál comprar la casa, 
+	y un día $k$ en el cual venderla ($k > j$), suponiendo que eso sucederá sin lugar a dudas. 
+	El objetivo, por supuesto, es el de maximizar la ganancia dada por $p[k] - p[j]$. 
+
+	Implementar un modelo de **programación lineal** que determine el día de compra y el día de
+	venta del inmueble. Indicar la cantidad de restricciones implementadas para esto.
+
+1.	(★★★★) Realizar un modelo de programación lineal que resuelva el problema planteado 
+	en el ejercicio 3. OJO nos interesa que sean cercanos al elemento, y eso
+	se ve con el valor absoluto de la diferencia, y el **operador módulo** no es
+	un operador lineal. Si se incluye el **operador módulo** como parte del Modelo, el ejercicio estará Mal.
+	Indicar la cantidad de restricciones definidas.
 
 {::options toc_levels="2" /}
