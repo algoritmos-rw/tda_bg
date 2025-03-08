@@ -29,6 +29,7 @@
             </li>
           </ul>
         </li>
+        <li class="nav-item {% if page.permalink == '/' %}active{% endif %}"><a class="nav-link" href="{{site.data.sitios.notas}}"><span class="fa fa-pencil-alt"/> Consultar Notas</a></li>
         <li class="nav-item {% if page.permalink == '/encuestas/' %}active{% endif %}"><a class="nav-link" href="{{ '/encuestas/' | relative_url }}"><span class="fa fa-poll"></span> Encuestas</a></li>
         <li class="nav-item">
           <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" class="nav-link" target="_blank"><span class="fab fa-github"></span> Editar en GitHub</a>
