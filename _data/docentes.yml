@@ -7,8 +7,13 @@ docentes:
 
 - nombre: Aníbal Fu
   foto: /assets/img/docentes/anibalf.png
-  mail: alfonso@fi.uba.ar
+  mail: anibalfu2005@gmail.com
   github: anibalfu
+
+- nombre: Claudio Koo
+  foto: /assets/img/docentes/claudiok.png
+  mail: claudio7480@gmail.com
+  github: claudekoo
 
 - nombre: Ezequiel Genender
   foto: /assets/img/docentes/ezeg.jpg
