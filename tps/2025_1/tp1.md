@@ -20,7 +20,7 @@ aprendido de sus mentores).
 
 La única información con la que contamos son $n$ transacciones sospechosas, 
 de las que tenemos un _timestamp aproximado_. Es decir, tenemos $n$
-tiempos $t_i$, con un posible error $e_i$. Es decir, sabemos que dichas
+tiempos $t_i$, con un posible error $e_i$. Por lo tanto, sabemos que dichas
 transacciones fueron realizadas en el intervalo $\left[ t_i - e_i; t_i + e_i \right]$.
 
 Por medio de métodos de los cuales es mejor no estar al tanto, un _interrogado_
