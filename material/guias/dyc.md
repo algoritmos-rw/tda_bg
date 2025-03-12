@@ -17,7 +17,7 @@ math: true
 
 ### Solución
 
-#### Demostración del orden
+#### Demostración de la complejidad
 
 ## Ejercicios propuestos
 
@@ -39,33 +39,33 @@ math: true
 
 1.  (★) Implementar un algoritmo que, por división y conquista, permita obtener la parte entera de la raíz cuadrada de
     un número $$n$$, en tiempo $$\mathcal{O}(\log n)$$. Por ejemplo, para $$n = 10$$ debe devolver 3, y para $$n = 25$$
-    debe devolver 5. Justificar el orden del algoritmo.
+    debe devolver 5. Justificar la complejidad del algoritmo.
 
 1.  (★) Se tiene un arreglo de $$N >= 3$$ elementos en forma de pico, esto es: estrictamente creciente hasta una
     determinada posición $$p$$, y estrictamente decreciente a partir de ella (con $$0 \lt p \lt N - 1$$). Por ejemplo,
     en el arreglo `[1, 2, 3, 1, 0, -2]` la posición del pico es $$p = 2$$. Se pide:
-    a. Implementar un algoritmo de división y conquista de orden $$\mathcal{O}(\log n)$$ que encuentre la posición
+    a. Implementar un algoritmo de división y conquista de complejidad $$\mathcal{O}(\log n)$$ que encuentre la posición
     $$p$$ del pico.
-    b. Justificar el orden del algoritmo mediante el teorema maestro.
+    b. Justificar la complejidad del algoritmo mediante el teorema maestro.
     {:.lower_alpha}
 
-1.  (★) Implementar Merge Sort. Justificar el orden del algoritmo mediante el teorema maestro.
+1.  (★) Implementar Merge Sort. Justificar la complejidad del algoritmo mediante el teorema maestro.
 
 1.  (★) Implementar un algoritmo de multiplicación de dos números grandes de longitud n, por división y conquista, con 
-    un orden de complejidad mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el teorema maestro.
+    un orden de complejidad mejor que $$\mathcal{O}(n^2)$$. Justificar la complejidad del algoritmo mediante el teorema maestro.
 
 1.  (★★) Implementar un algoritmo que dados n puntos en un plano, busque la pareja que se encuentre más cercana, por división 
-    y conquista, con un orden de complejidad mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el 
+    y conquista, con un orden de complejidad mejor que $$\mathcal{O}(n^2)$$. Justificar la complejidad del algoritmo mediante el 
     teorema maestro. Se puede asumir que ningún par de puntos tienen la misma coordenada x o y.
 
 1.  (★) Dados un conjunto de n elementos, y 2 arreglos de longitud n, con dichos elementos. El arreglo A está completamente 
     ordenado de menor a mayor. El arreglo B se encuentra desordenado. Indicar, por división y conquista, la cantidad de 
     inversiones necesarias al arreglo B para que quede ordenado de menor a mayor, con un orden de complejidad 
-    mejor que $$\mathcal{O}(n^2)$$. Justificar el orden del algoritmo mediante el teorema maestro.
+    mejor que $$\mathcal{O}(n^2)$$. Justificar la complejidad del algoritmo mediante el teorema maestro.
 
-1.  (★★★) Implementar una función, que utilice división y conquista, de orden $$\mathcal{O}(n \log n)$$ 
+1.  (★★★) Implementar una función, que utilice división y conquista, de complejidad $$\mathcal{O}(n \log n)$$ 
     que dado un arreglo de $$n$$ números enteros devuelva `true` o `false` según si existe algún elemento que aparezca
-    más de la mitad de las veces. Justificar el orden de la solución. Ejemplos:
+    más de la mitad de las veces. Justificar la complejidad de la solución. Ejemplos:
 
         [1, 2, 1, 2, 3] -> false
         [1, 1, 2, 3] -> false
@@ -76,12 +76,12 @@ math: true
     o incluso se puede realizar más rápido utilizando una tabla de hash. Para cumplir con la consigna,
     resolver **sin ordenar el arreglo ni con tabla de hash**, sino puramente por división y conquista.
 
-1.  (★★★★) Resolver el ejercicio anterior, por división y conquista, en orden $$\mathcal{O}(n)$$, 
-    dada la misma aclaración. Justificar el orden de la solución.
+1.  (★★★★) Resolver el ejercicio anterior, por división y conquista, en complejidad $$\mathcal{O}(n)$$, 
+    dada la misma aclaración. Justificar la complejidad de la solución.
 
-1.  (★★★★) Implementar una función, que utilice división y conquista, de orden $$\mathcal{O}(n)$$
+1.  (★★★★) Implementar una función, que utilice división y conquista, de complejidad $$\mathcal{O}(n)$$
     que dado un arreglo de $$n$$ números enteros devuelva `true` o `false` según si existe algún elemento que aparezca
-    más de dos tercios de las veces. Justificar el orden de la solución.
+    más de dos tercios de las veces. Justificar la complejidad de la solución.
 
 1.  (★★★) Tenemos un arreglo de tamaño `2n` de la forma `{C1, C2, C3, … Cn, D1, D2, D3, … Dn}`, 
 	tal que la cantidad total de elementos del arreglo es potencia de 2 (por ende, `n` 
