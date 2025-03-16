@@ -48,9 +48,9 @@ algoritmo detecta esto, en todos los casos.
 3. Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si 
 (y cómo) afecta la variabilidad de los valores de los diferentes valores a los tiempos del algoritmo planteado. 
 4. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el 
-curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-5. Hacer mediciones de tiempos para corroborar la complejidad teórica indicada.
-Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. 
+curso proveerá con algunos casos particulares para que puedan usar de prueba. 
+5. Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. Esto, por supuesto, implica que deben generar sus sets de datos.
+Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. Recomendamos tomar más de una medición de la misma muestra y quedarse con el promedio para reducir el ruido en la medición.
 6. Agregar cualquier conclusión que les parezca relevante.
 
 ## Entrega
