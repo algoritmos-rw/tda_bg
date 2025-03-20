@@ -18,14 +18,14 @@ No saben bien cómo, no saben exactamente cuándo, y por supuesto que no saben
 quién. Evidentemente quien lo está haciendo es muy hábil (probablemente haya
 aprendido de sus mentores). 
 
-La única información con la que contamos son $n$ transacciones sospechosas, 
-de las que tenemos un _timestamp aproximado_. Es decir, tenemos $n$
-tiempos $t_i$, con un posible error $e_i$. Por lo tanto, sabemos que dichas
-transacciones fueron realizadas en el intervalo $\left[ t_i - e_i; t_i + e_i \right]$.
+La única información con la que contamos son $$n$$ transacciones sospechosas, 
+de las que tenemos un _timestamp aproximado_. Es decir, tenemos $$n$$
+tiempos $$t_i$$, con un posible error $$e_i$$. Por lo tanto, sabemos que dichas
+transacciones fueron realizadas en el intervalo $$\left[ t_i - e_i; t_i + e_i \right]$$.
 
 Por medio de métodos de los cuales es mejor no estar al tanto, un _interrogado_
 dio el nombre de alguien que podría ser _la rata_. El Gringo nos pidió revisar
-las transacciones realizadas por dicha persona... en efecto, eran $n$ transacciones. 
+las transacciones realizadas por dicha persona... en efecto, eran $$n$$ transacciones. 
 Pero falta saber si, en efecto, condicen con los timestamps aproximados
 que habíamos obtenido previamente. 
 
@@ -36,8 +36,8 @@ que no queremos ser nosotros los siguientes sospechosos...
 ## Consigna
 1. Hacer un análisis del problema, y proponer un algoritmo greedy que obtenga la solución al 
 problema planteado:
-Dados los $$n$$ valores de los timestamps aproximados $t_i$ y sus correspondientes errores $e_i$, así como
-los timestamps de las $n$ operaciones $s_i$ del sospechoso (pueden asumir que estos últimos vienen ordenados), 
+Dados los $$n$$ valores de los timestamps aproximados $$t_i$$ y sus correspondientes errores $$e_i$$, así como
+los timestamps de las $$n$$ operaciones $$s_i$$ del sospechoso (pueden asumir que estos últimos vienen ordenados), 
 indicar si el sospechoso es en efecto _la rata_ y, si lo es, mostrar cuál timestamp coincide con cuál
 timestamp aproximado y error. Es importante notar que los intervalos de los timestamps aproximados pueden
 solaparse parcial o totalmente. 
