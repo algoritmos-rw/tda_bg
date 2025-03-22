@@ -10,7 +10,7 @@ math: true
 El presente trabajo busca evaluar el desarrollo y análisis de un algoritmo Greedy. 
 La fecha de entrega del mismo es el {{fecha}}.
 
-## Introducción y primeros años
+## Introducción
 
 Trabajamos para la mafia de los amigos Amarilla Pérez y el Gringo Hinz. 
 En estos momentos hay un problema: alguien les está robando dinero. 
