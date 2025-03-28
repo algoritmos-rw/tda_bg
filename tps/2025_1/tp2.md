@@ -22,7 +22,7 @@ con alguien de la policía. En general eso no sería un problema, ya que la mafi
 trabaja en un distrito donde media policía está arreglada. El problema es que
 no parecería ser el caso. El soplón parece estarse contactando con mensajes encriptados.
 
-La organización no es de ningunos novatos; no es la primera vez que algo así sucede. 
+La organización no está conformada por novatos; no es la primera vez que algo así sucede. 
 Ya han desencriptado mensajes de este estilo, y han _charlado amablemente_ con su emisor. 
 El problema es que en este caso parece ser más complicado. El soplón de esta vez parece
 encriptar todas las palabras juntas, sin espacios. Eso complica más la desencriptación
