@@ -30,7 +30,7 @@ y validar que el mensaje tenga sentido.
 
 No interesa saber quién es el soplón (de momento), sino más bien qué información se está filtrando. 
 El área de desencriptación se encargará de intentar dar posibles resultados, y nosotros debemos
-validar si, en principio, es un posible mensaje. Es decir, si nos dan un mensaje que diga 
+validar si, en principio, es un posible mensaje. Es decir, si nos dan una _cadena desencriptada_ que diga 
 `"estanocheenelmuellealassiete"`, este sería un posible mensaje, el cual correspondería a `"esta noche en el muelle a las siete"`,
 mientras que `"estamikheestado"` no lo es, ya que no podemos separar de forma de generar todas palabras
 del idioma español (en cambio, si fuera `"estamiheestado"` podría ser `"esta mi he estado`). No es 
@@ -50,7 +50,7 @@ Si el trabajo fuera en un idioma germánico (como el alemán) esto podría ser u
 1. 	Hacer un análisis del problema, plantear la ecuación de recurrencia correspondiente
 	y proponer un algoritmo por programación dinámica 
 	que obtenga la solución óptima al problema planteado: Dado el listado $$n$$ de palabras, 
-	y un posible mensaje, determinar si es un _posible mensaje_ (es decir, se lo puede
+	y una _cadena desencriptada_, determinar si es un _posible mensaje_ (es decir, se lo puede
 	separar en palabras del idioma), o no. Si es posible, determinar cómo sería el mensaje. 
 2. 	Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos asegura
 	encontrar una solución, si es que la hay (y si no la hay, lo detecta).
@@ -58,7 +58,7 @@ Si el trabajo fuera en un idioma germánico (como el alemán) esto podría ser u
 	analizar por separado cada uno de los algoritmos que se implementen (programación dinámica y 
 	reconstrucción), y luego llegar a una conclusión final. 
 4. 	Analizar si (y cómo) afecta a los tiempos del algoritmo planteado la variabilidad de los valores
-	(mensajes, palabras del idioma, largos de estas).
+	(mensajes, palabras del idioma, largos de las palabras, etc.).
 5. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
 	el curso proveerá con algunos casos particulares para que puedan usar inicialmente para validar. 
 6. 	Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. 
@@ -67,7 +67,7 @@ Si el trabajo fuera en un idioma germánico (como el alemán) esto podría ser u
 	técnica de cuadrados mínimos. Para esto, 
 	[proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb),
 	en conjunto de ejemplos. 
-7.	Agregar cualquier conclusión que parezca relevante.  
+7.	Agregar cualquier conclusión que les parezca relevante.  
 
 
 ## Entrega
