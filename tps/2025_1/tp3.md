@@ -101,7 +101,7 @@ arista dentro del grafo.
 	determinar una cota empírica de aproximación al utilizar dicho algoritmo para aproximar al problema de 
 	Clustering por bajo diámetro. Realizar esto con datos generados por ustedes, incluyendo potencialmente set 
 	de datos de volúmenes inmanejable para los algoritmos antes implementados. 
-	Recomendamos leer la explicación de la complejidad del algoritmo, la cual no es sencilla (y por lo tanto, 
+	Recomendamos leer la explicación de la complejidad del algoritmo, la cual no es sencilla (y, por lo tanto, 
 	no la pedimos aquí tampoco). 
 
 
