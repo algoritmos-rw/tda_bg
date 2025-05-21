@@ -142,17 +142,17 @@ math: true
 1.  (★★★) El problema de _Separación en R Cliques_ (SRC) se enuncia como: Dado un grafo,
 	y un valor entero $R$, ¿se pueden separar todos los vértices del gráfo en a lo sumo
 	$R$ cliques? (cada clique puede tener una cantidad diferente de vértices). 
-	De una manera más formal, se puede enunciar: ¿existen $S_1, S_1, ..., S_k$, subconjuntos
-	**disjuntos** del conjunto de vértices $V$ tal que $\bigcup_{i} S_i = V$, $k \leq R$, y
-	que que cada subgrafo correspondiente a los $S_i$ sea un clique (subgrafo completo)?
+	De una manera más formal, se puede enunciar: ¿existen $$S_1, S_1, ..., S_k$$, subconjuntos
+	**disjuntos** del conjunto de vértices $V$ tal que $$\bigcup_{i} S_i = V$$, $$k \leq R$$, y
+	que que cada subgrafo correspondiente a los $$S_i$$ sea un clique (subgrafo completo)?
 
 	Demostrar que el problema de _Separación en R Cliques_ es un problema NP-Completo.
 	Para esto, recomendamos recordar que el problema de coloreo es un problema
 	NP-Completo. También, recomendamos recordar cómo fue que demostramos en clase
 	que K-Clique es un problema NP-Completo (fue con la ayuda de Independent Set).
 
-1.  (★★) Podemos definir al problema de _K-ciclo_ como: "Dado un grafo y un valor natural $K$, 
-	¿existe un ciclo dentro del grafo de al menos $K$ vértices?". 
+1.  (★★) Podemos definir al problema de _K-ciclo_ como: "Dado un grafo y un valor natural $$K$$, 
+	¿existe un ciclo dentro del grafo de al menos $$K$$ vértices?". 
 
 	Demostrar que el problema de _K-ciclo_ es un problema NP-Completo. Para esto, 
 	recomendamos utilizar el problema de _ciclo Hamiltoniano_.
