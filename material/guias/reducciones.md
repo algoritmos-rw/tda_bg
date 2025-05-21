@@ -140,10 +140,10 @@ math: true
     Primero, demostrar que su afirmación es falsa. Segundo, Francia.
 
 1.  (★★★) El problema de _Separación en R Cliques_ (SRC) se enuncia como: Dado un grafo,
-	y un valor entero $R$, ¿se pueden separar todos los vértices del gráfo en a lo sumo
-	$R$ cliques? (cada clique puede tener una cantidad diferente de vértices). 
+	y un valor entero $$R$$, ¿se pueden separar todos los vértices del gráfo en a lo sumo
+	$$R$$ cliques? (cada clique puede tener una cantidad diferente de vértices). 
 	De una manera más formal, se puede enunciar: ¿existen $$S_1, S_1, ..., S_k$$, subconjuntos
-	**disjuntos** del conjunto de vértices $V$ tal que $$\bigcup_{i} S_i = V$$, $$k \leq R$$, y
+	**disjuntos** del conjunto de vértices $$V$$ tal que $$\bigcup_{i} S_i = V$$, $$k \leq R$$, y
 	que que cada subgrafo correspondiente a los $$S_i$$ sea un clique (subgrafo completo)?
 
 	Demostrar que el problema de _Separación en R Cliques_ es un problema NP-Completo.
