@@ -20,7 +20,7 @@ Ahora somos la mano derecha del Gringo (que dejó de decirnos cada 3 palabras co
 En función de poder evitar que situaciones así vuelvan a suceder, obtuvo la información de qué
 integrante de la organización es cercano a otro. Con esta información construyó un grafo no dirigido y no
 pesado (vértices: personas, aristas: si las personas son cercanas). Nos pidió que separemos el grafo
-en comunidades. Es decir, separar los vértices en $K$ clusters (grupos). 
+en comunidades. Es decir, separar los vértices en $$K$$ clusters (grupos). 
 
 Todo venía bien, nuestra primera idea era la de maximizar la distancia mínima entre comunidades, lo cual
 puede resolverse con un algoritmo de árboles de tendido mínimo (y siendo este grafo no pesado, aún más fácil), 
@@ -35,9 +35,9 @@ a tener que venir con demostraciones, mediciones, y al menos una alternativa...
 ## Consigna
 
 Para los primeros dos puntos considerar la versión de decisión del problema de _Clustering por bajo diámetro_: 
-Dado un grafo no dirigido y no pesado, un vértice $k$ y un valor $C$, ¿es posible separar los vértices 
-en a lo sumo $k$ grupos/clusters disjuntos, de tal forma que todo vértice pertenezca a un cluster, y que la distancia
-máxima dentro de cada cluster sea a lo sumo $B$? (Si un cluster queda vacío o con un único elemento, considerar la
+Dado un grafo no dirigido y no pesado, un vértice $$k$$ y un valor $$C$$, ¿es posible separar los vértices 
+en a lo sumo $$k$$ grupos/clusters disjuntos, de tal forma que todo vértice pertenezca a un cluster, y que la distancia
+máxima dentro de cada cluster sea a lo sumo $$C$$? (Si un cluster queda vacío o con un único elemento, considerar la
 distancia máxima como 0).
 
 Al calcular las distancias se tienen en cuenta tanto las aristas entre vértices dentro del cluster, como cualquier otra
@@ -51,8 +51,8 @@ arista dentro del grafo.
 	(al menos resumida) demostración que dicho problema es NP-Completo. 
 
 3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema (valga la 
-	redundancia) en la versión de optimización: Dado un grafo no dirigido y no pesado, y un valor $k$,
-	determinar los $k$ clusters para que la distancia máxima de cada cluster sea mínima. Para esto, considerar
+	redundancia) en la versión de optimización: Dado un grafo no dirigido y no pesado, y un valor $$k$$,
+	determinar los $$k$$ clusters para que la distancia máxima de cada cluster sea mínima. Para esto, considerar
 	minimizar el máximo de las distancias máximas (es decir, de las distancias máximas de cada cluster, nos quedamos
 	con la mayor, y ese valor es el que queremos minimizar). 
 
@@ -82,11 +82,11 @@ arista dentro del grafo.
 
 	Donde: 
 
-	* $peso(v_i, v_j)$: el peso de la arista entre $i$ y $j$ (0 si no están unidos, y en nuestro caso 1 sí si lo están).
-	* $k_i$: es la suma de las aristas del vértice $i$ (en nuestro caso, su grado).
-	* $2m$: es la suma de todos los pesos de las aristas.
-	* $c_i$: es la comunidad del vértice $i$.
-	* $\delta$: función delta de Kronecker, que es básicamente 1 si ambas comunidades son iguales, 0 si son diferentes.
+	* $$peso(v_i, v_j)$$: el peso de la arista entre $$i$$ y $$j$$ (0 si no están unidos, y en nuestro caso 1 sí si lo están).
+	* $$k_i$$: es la suma de las aristas del vértice $$i$$ (en nuestro caso, su grado).
+	* $$2m$$: es la suma de todos los pesos de las aristas.
+	* $$c_i$$: es la comunidad del vértice $$i$$.
+	* $$\delta$$: función delta de Kronecker, que es básicamente 1 si ambas comunidades son iguales, 0 si son diferentes.
 
 	¿El problema? [Maximizar la modularización es también un problema NP-Completo](https://arxiv.org/pdf/physics/0608255). 
 	¿Lo bueno? Es conocido un algoritmo  greedy que funciona muy bien para esto: 
@@ -97,7 +97,7 @@ arista dentro del grafo.
 	Dejamos también un link [a las diapositivas de dicha clase](https://docs.google.com/presentation/d/1FLXTYtSDeMLxNOa9xW_zjEb2FhJIgZzXWuxvGHUxP5I/edit#slide=id.gae5b01dea1_1_36). 
 
 
-	Implementar el algoritmo de Louvain para obtener una separación en $K$ clusters. Realizar mediciones para
+	Implementar el algoritmo de Louvain para obtener una separación en $$K$$ clusters. Realizar mediciones para
 	determinar una cota empírica de aproximación al utilizar dicho algoritmo para aproximar al problema de 
 	Clustering por bajo diámetro. Realizar esto con datos generados por ustedes, incluyendo potencialmente set 
 	de datos de volúmenes inmanejable para los algoritmos antes implementados. 
