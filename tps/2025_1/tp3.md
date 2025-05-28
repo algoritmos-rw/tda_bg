@@ -63,7 +63,7 @@ arista dentro del grafo.
 	parte del modelo de programación lineal (problema muy sencillo de resolver con un algoritmo BFS, pero
 	no así con programación lineal).
 
-	Implementar dicho modelo, y ejecutarlo el modelo para los mismos sets de datos para corroborar su correctitud. 
+	Implementar dicho modelo, y ejecutarlo para los mismos sets de datos para corroborar su correctitud. 
 	Tomar mediciones de tiempos y compararlas con las del algoritmo que implementa Backtracking. 
 
 5. 	Ya pudiendo mostrar que no es una buena idea trabajar con estas métricas para obtener las comunidades
