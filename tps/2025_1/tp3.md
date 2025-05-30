@@ -35,7 +35,7 @@ a tener que venir con demostraciones, mediciones, y al menos una alternativa...
 ## Consigna
 
 Para los primeros dos puntos considerar la versión de decisión del problema de _Clustering por bajo diámetro_: 
-Dado un grafo no dirigido y no pesado, un vértice $$k$$ y un valor $$C$$, ¿es posible separar los vértices 
+Dado un grafo no dirigido y no pesado, un número entero $$k$$ y un valor $$C$$, ¿es posible separar los vértices 
 en a lo sumo $$k$$ grupos/clusters disjuntos, de tal forma que todo vértice pertenezca a un cluster, y que la distancia
 máxima dentro de cada cluster sea a lo sumo $$C$$? (Si un cluster queda vacío o con un único elemento, considerar la
 distancia máxima como 0).
