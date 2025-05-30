@@ -59,7 +59,7 @@ math: true
 
 1.  (★) ¿Cuál es la relación entre el flujo máximo de una red, y un corte mínimo que separe su fuente y sumidero?
 
-1.  (★★) Dado un grafo no dirigido, un match es un subconjunto de las aristas en el cual para todo vértice $$v$$ a lo sumo una arista 
+1.  (★★) Dado un grafo bipartito no dirigido, un match es un subconjunto de las aristas en el cual para todo vértice $$v$$ a lo sumo una arista 
     del match incide en $$v$$ (en el match, tienen grado a lo sumo 1). Decimos que el vértice $$v$$ está matcheado si hay alguna arista que 
     incida en él (sino, está unmatcheado). El matching máximo es aquel en el que tenemos la mayor cantidad de aristas (matcheamos la 
     mayor cantidad posible). Dar una metodología para encontrar el matching máximo de un grafo, explicando en detalle cómo se modela 
@@ -72,7 +72,7 @@ math: true
 1.  (★★★) Supongamos que tenemos un sistema de una facultad en el que cada alumno puede pedir hasta 10 libros de la biblioteca. La biblioteca 
     tiene 3 copias de cada libro. Cada alumno desea pedir libros diferentes. Implementar un algoritmo que nos permita obtener la forma de 
     asignar libros a alumnos de tal forma que la cantidad de préstamos sea máxima. Dar la metodología, explicando en detalle cómo se modela 
-    el problema, cómo se lo resuelve y cómo se consigue la máxima cantidad de prestamos. ¿Cuál es el orden temporal de la solución implementada?
+    el problema, cómo se lo resuelve y cómo se consigue la máxima cantidad de préstamos. ¿Cuál es el orden temporal de la solución implementada?
 
 1.  (★★★) Suponer que queremos schedulear cómo los aviones van de un aeropuerto a otro para cumplir sus horarios. Podemos decir que podemos 
     usar un avión para un segmento/vuelo $$i$$ y luego para otro $$j$$ si se cumple alguna de las siguientes condiciones: 
