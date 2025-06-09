@@ -29,8 +29,10 @@ math: true
     es un Vertex Cover. Definir el _problema de decisión_ del Vertex Cover. Luego, implementar un verificador polinomial para 
     este problema. ¿Cuál es la complejidad del verificador implementado? Justificar
 
-1.  (★★) Dados los problemas de decisiones de Independent Set y Vertex Cover, realizar dos reducciones. 
-    a. Reducir Independent Set a Vertex Cover. 
+1.  (★★) Dados los problemas de decisiones de Independent Set y Vertex Cover, realizar dos reducciones.
+
+    a. Reducir Independent Set a Vertex Cover.
+    
     b. Reducir Vertex Cover a Independent Set.
 
 1.  (★★★) El problema de decisión de 3-SAT dice: dadas un número de cláusulas de variables booleanas, cada cláusula consta de la 
@@ -41,9 +43,11 @@ math: true
 
 1.  (★) Para cada uno de los siguientes problemas, implementar un verificador polinomial y justificar su complejidad.
 
-    a. Dado un número por parámetro, si es la solución al problema de Búsqueda del máximo en un arreglo
-    b. Dado un arreglo, si es la solución a tener el arreglo ordenado
-    c. Dadas un arreglo de posiciones de Reinas, si es la solución de colocar al menos N-reinas en un tablero NxN
+    a. Dado un número por parámetro, si es la solución al problema de búsqueda del máximo en un arreglo.
+    
+    b. Dado un arreglo, si es la solución a tener el arreglo ordenado.
+    
+    c. Dadas un arreglo de posiciones de reinas, si es la solución de colocar al menos N-reinas en un tablero `NxN`.
 
 1.  (★★) Definir el problema de decisión de las N-Reinas. Usar que N-Reinas es un problema NP-Completo para demostrar que
     Demostrar que Independent Set es un problema NP-Completo.
