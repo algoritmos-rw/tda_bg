@@ -161,4 +161,12 @@ math: true
 	Demostrar que el problema de _K-ciclo_ es un problema NP-Completo. Para esto, 
 	recomendamos utilizar el problema de _ciclo Hamiltoniano_.
 
+1.  (★★) Rochi es una persona infiel, y tiene $$N$$ amantes. Tiene el tiempo en minutos que consume para ir desde su casa (punto inicial) hasta
+    la casa de todos sus amantes, y también entre ellos. Podemos considerar que el tiempo que está en cada casa es despreciable (ni uno bueno
+    se consiguió). Sabe que cuenta con $$K$$ minutos antes que vuelva su novio a casa. Existe un camino que le permita empezar desde su casa,
+    visitar a todos sus amantes una vez y solo una vez, y volver a su casa, en a lo sumo $$K$$ minutos?
+    
+    Demostrar que el problema de la atorranta es NP-Completo. Para esto, recordamos que _El problema del viajante_ es un problema NP-Completo. 
+
+
 {::options toc_levels="2" /}
