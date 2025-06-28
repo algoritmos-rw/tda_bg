@@ -84,7 +84,7 @@ arista dentro del grafo.
 
 	* $$peso(v_i, v_j)$$: el peso de la arista entre $$i$$ y $$j$$ (0 si no están unidos, y en nuestro caso 1 sí si lo están).
 	* $$k_i$$: es la suma de las aristas del vértice $$i$$ (en nuestro caso, su grado).
-	* $$2m$$: es la suma de todos los pesos de las aristas.
+	* $$m$$: es la suma de todos los pesos de las aristas.
 	* $$c_i$$: es la comunidad del vértice $$i$$.
 	* $$\delta$$: función delta de Kronecker, que es básicamente 1 si ambas comunidades son iguales, 0 si son diferentes.
 
