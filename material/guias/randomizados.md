@@ -28,8 +28,8 @@ math: true
 1.  (★★) Explicar detalladamente por qué elegimos un pivote de forma aleatoria para Quicksort. 
     ¿Cuál es la complejidad esperada para el algoritmo? Justificar (no es necesario entrar en
     demostraciones utilizando probabilidad y estadística, pero esperamos una noción)
-    ¿Cómo podría forzar el usuario que el algoritmo demore más tiempo que el esperado (sin alterar
-    la semilla del RNG)? 
+    Sin saber nada de los que posiciones QuickSort va a elegir como pivote, ¿Cómo podría forzar 
+    el usuario que el algoritmo demore más tiempo que el esperado? 
 
 1.  (★★★) Se tiene una función `monedaCargada` que devuelve 0 el 60% de las veces, y 1 el 40% de las veces.
     Implementar una función que utilice la antes mencionada, que devuelva 0 o 1 de forma aleatoria de
