@@ -35,6 +35,14 @@ math: true
     Implementar una función que utilice la antes mencionada, que devuelva 0 o 1 de forma aleatoria de
     for equiprobable (es decir, con probabilidad 50/50). ¿Cuál es la complejidad esperada para el algoritmo? 
 
+    <details>
+        <summary>Quiero una pista</summary>
+  
+            Si ejecuto dos veces la función `monedaCargada`, ¿cuál es la probabilidad de que primero
+            salga un 0 y luego un 1? ¿y la de que primero salga 1 y luego un 0?
+  
+    </details>
+
 1.  (★★★) Dado un Grafo, planteamos el siguiente algoritmo de aproximación randomizado para obtener el Independent
     Set más grande, para el caso de un grafo $$d$$-regular (es decir, un grafo en el cual todos los vértices
     tienen grado exactamente $$d$$):
