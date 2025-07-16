@@ -33,7 +33,7 @@ math: true
 
 1.  (★★★) Se tiene una función `monedaCargada` que devuelve 0 el 60% de las veces, y 1 el 40% de las veces.
     Implementar una función que utilice la antes mencionada, que devuelva 0 o 1 de forma aleatoria de
-    for equiprobable (es decir, con probabilidad 50/50). ¿Cuál es la complejidad esperada para el algoritmo?
+    forma equiprobable (es decir, con probabilidad 50/50). ¿Cuál es la complejidad esperada para el algoritmo?
     Justificar. 
 
     <details>
