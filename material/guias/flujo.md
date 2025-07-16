@@ -67,7 +67,7 @@ math: true
 
 1.  (★★) Decimos que dos caminos son disjuntos si no comparten aristas (pueden compartir nodos). Dado un grafo dirigido y dos vértices 
     $$s$$ y $$t$$, encontrar el máximo número de caminos disjuntos `s-t` en G. Dar una metodología, explicando en detalle cómo se modela el problema, 
-    cómo se lo resuelve y cómo se consigue el máximo número de caminos disjuntos. ¿Cuál es el orden temporal de la solución implementada?
+    cómo se lo resuelve y cómo se consigue el máximo número de caminos disjuntos. ¿Cuál es el orden temporal de la solución implementada? ¿Cómo resolverías el problema si el grafo fuera no dirigido? 
 
 1.  (★★★) Supongamos que tenemos un sistema de una facultad en el que cada alumno puede pedir hasta 10 libros de la biblioteca. La biblioteca 
     tiene 3 copias de cada libro. Cada alumno desea pedir libros diferentes. Implementar un algoritmo que nos permita obtener la forma de 
@@ -106,5 +106,12 @@ math: true
     tiempo fija, y que los pacientes pueden ser a priori atendidos por cualquier médico que coincida con el área de especialidad que 
     requieren. Implementar un algoritmo que resuelva dicho problema de manera eficiente. Indicar y justificar la complejidad del 
     algoritmo implementado.
+
+1.  (★★★) Una red de satélites se construyó para permitir la comunicación entre una nave espacial y la tierra. Ciertos
+    Satélites pueden intercambiar mensajes entre otros (ida y vuelta). Algunos con la tierra, otros con la nave espacial. 
+    Contamos con la red y se pide medir su robustez: ¿cuántos satélites (en el peor de los casos) se pueden romper que
+    dejen incomunicada la nave con la tierra? ¿Cuáles? Utilizando redes de flujo, resolver el problema. Indicar y
+    justificar la complejidad del algoritmo implementado. Recordar que esto último debe estar en las variables del
+    problema. 
 
 {::options toc_levels="2" /}

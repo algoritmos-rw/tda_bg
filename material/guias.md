@@ -12,5 +12,7 @@ sirven para iniciarse en el tema.
   * [Programación Lineal](guias/pl.md)
   * [Redes de Transporte](guias/flujo.md)
   * [Reducciones y Clases de Complejidad](guias/reducciones.md)
+  * [Aproximaciones](guias/aproximaciones.md)
+  * [Algoritmos Randomizados](guias/randomizados.md)
 
 {% include footnotes.html %}

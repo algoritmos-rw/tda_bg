@@ -59,6 +59,11 @@ math: true
     y justificar la complejidad del algoritmo implementado.
     Si hay algunos lugares por los que no podemos pasar (obstáculos), ¿cómo se debe modificar para resolver el mismo problema?
 
+1.  (★) Se sabe que existe la equivalencia $$ e = \sum_{i = 0}^{\infty} \frac{1}{n!} $$, siendo $$e$$ el número de Euler. 
+    Sabiendo esto, podemos aproximar el valor de $$e$$ sumando los primeros $$n$$ términos de dicha serie. Un algoritmo
+    trivial puede obtener esto en $$\mathcal{O}(n^2)$$. Implementar un algoritmo que, utilizando programación dinámica,
+    permita obtener dicha aproximación en tiempo lineal. 
+
 1.  (★★) Dado el teclado numérico de un celular, y un número inicial $$k$$, encontrar la cantidad de posibles números de longitud $$n$$ empezando por 
     el botón del número inicial $$k$$. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
     Implementar el algoritmo por programación dinámica. Indicar y justificar la complejidad del algoritmo implementado.
