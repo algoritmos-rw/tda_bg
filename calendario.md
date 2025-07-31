@@ -15,8 +15,12 @@ Fechas de examen:
       <td><strong>Detalle</strong></td>
     </tr>
     <tr>
-      <td>{{site.data.parciales.parcial.fecha}}</td>
-      <td>{{site.data.parciales.parcial.label}}</td>
+      <td>{{site.data.parciales.parcial1.fecha}}</td>
+      <td>{{site.data.parciales.parcial1.label}}</td>
+    </tr>
+    <tr>
+      <td>{{site.data.parciales.parcial2.fecha}}</td>
+      <td>{{site.data.parciales.parcial2.label}}</td>
     </tr>
     <tr>
       <td>{{site.data.parciales.recu1.fecha}}</td>
@@ -29,11 +33,14 @@ Fechas de examen:
   </tbody>
 </table>
 
-Los temas que entran en el parcial son: 
+Los temas que entran en el primer parcial son:
 * División y Conquista (Avanzada)
 * Algoritmos Greedy
-* Programación Dinámica
 * Backtracking
+* Programación Dinámica
+
+Los temas que entran en el segundo parcial son:
 * Programación Lineal
 * Redes de Flujo
 * Reducciones y Clases de Complejidad
+* Aproximaciones (en la primera instancia) y Algoritmos Randomizados (en la segunda instancia)

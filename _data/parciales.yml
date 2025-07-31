@@ -1,15 +1,15 @@
 parcial1:
   label: 1er Examen
-  fecha: 2025-04-28
+  fecha: 2025-09-29
 
 parcial2:
   label: 2do Examen
-  fecha: 2025-09-06
+  fecha: 2025-11-10
 
 recu1:
   label: Recuperatorio temas 1er Examen
-  fecha: 2025-06-30
+  fecha: 2025-11-27
 
 recu2:
   label: Recuperatorio temas 2do Examen
-  fecha: 2025-07-14
+  fecha: 2025-12-11
