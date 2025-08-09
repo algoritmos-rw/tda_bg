@@ -61,5 +61,5 @@ math: true
     dado por parámetro esta dentro del polígono, `False` en caso contrario. Proponer un algoritmo 
     randomizado con el que se pueda estimar el área de esta figura irregular.
 
-    ![grafo bf](../../assets/img/ejercicios/randomizados1.png)
+    ![grafo bf](../../assets/img/ejercicios/randomizados1.png){:width="50%"}
 
