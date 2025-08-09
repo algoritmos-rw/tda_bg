@@ -52,7 +52,9 @@ math: true
     que no se conecten mediante aristas con otros vértices que tengan el valor 1.
 
     a. Probar que el set resultante es independiente.
-    b. Calcula el tamaño esperado del set independiente (en función de $$n$$ y $$d$$)
+
+    b. Calcula el tamaño esperado del set independiente (en función de $$n$$ y $$d$$).
+
     c. Para el cálculo de $$x_v$$ utilizamos $$p = \frac{1}{2}$$. Determinar si este es el valor mas conveniente 
     o podemos encontrar uno mejor. Si es asi, de la fórmula del valor esperado con esta nueva probabilidad.
 
