@@ -61,9 +61,9 @@ docentes:
   github: marcosbatm
 
 - nombre: Marina Blanco
-  foto: /assets/img/docentes/unknown.png
+  foto: /assets/img/docentes/marinab.jpg
   mail: mablanco@fi.uba.ar
-  github: 
+  github: maru-b
 
 - nombre: Martín Buchwald
   foto: /assets/img/docentes/martinb.jpg
@@ -81,19 +81,19 @@ docentes:
   github: MatiBartellone
 
 - nombre: Melanie García Lapegna
-  foto: /assets/img/docentes/unknown.png
+  foto: /assets/img/docentes/melaniegl.jpeg
   mail: mgarcial@fi.uba.ar
-  github: 
+  github: Melaniegarcialapegna
 
 - nombre: Mirko Saenz Valiente
-  foto: /assets/img/docentes/unknown.png
+  foto: /assets/img/docentes/mirkosv.jpeg
   mail: msaenz@fi.uba.ar
-  github: 
+  github: mirkosaenz
 
 - nombre: Pedro Ciliberto
-  foto: /assets/img/docentes/unknown.png
+  foto: /assets/img/docentes/pedroc.jpg
   mail: pciliberto@fi.uba.ar
-  github: 
+  github: pedrociliberto
 
 - nombre: Thiago Pacheco
   foto: /assets/img/docentes/thiagop.jpg
@@ -101,9 +101,9 @@ docentes:
   github: thiagopservian
 
 - nombre: Thiago Reller
-  foto: /assets/img/docentes/unknown.png
-  mail: tpacheco@fi.uba.ar
-  github: thiagoyair1@gmail.com
+  foto: /assets/img/docentes/thiagor.jpg
+  mail: thiagoyair1@gmail.com
+  github: tyreller
 
 - nombre: Valentín Santander
   foto: /assets/img/docentes/valentins.jpg
