@@ -56,3 +56,10 @@ math: true
     c. Para el cálculo de $$x_v$$ utilizamos $$p = \frac{1}{2}$$. Determinar si este es el valor mas conveniente 
     o podemos encontrar uno mejor. Si es asi, de la fórmula del valor esperado con esta nueva probabilidad.
 
+1.  (★★★) Se tiene un polígono irregular que sabemos que encaja en un rectángulo de bas `B` y altura `H`.
+    Asumir que se cuenta con una función `dentro_del_poligono(punto)`, que retorna `True` si el punto 
+    dado por parámetro esta dentro del polígono, `False` en caso contrario. Proponer un algoritmo 
+    randomizado con el que se pueda estimar el área de esta figura irregular.
+
+    ![grafo bf](../../assets/img/ejercicios/randomizados1.png)
+

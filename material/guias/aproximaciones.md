@@ -30,7 +30,7 @@ math: true
 
     c. Analizar qué tan buena es la aproximación. 
 
-    ![grafo grilla](../../assets/img/ejercicios/aproximaciones1.png)
+    ![grafo grilla](../../assets/img/ejercicios/aproximaciones1.png){:width="50%"}
 
 1.  (★★★) El _2-Partition Problem_ como problema de optimización se describe tal que: 
     Dado un conjunto de $$n$$ números positivos $$T= \lbrace T_1, T_2, \dots, T_n \rbrace$$, 
