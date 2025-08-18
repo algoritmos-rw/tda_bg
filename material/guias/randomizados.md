@@ -65,3 +65,13 @@ math: true
 
     ![grafo bf](../../assets/img/ejercicios/randomizados1.png){:width="50%"}
 
+1.  (★) Si le preguntamos a ChatGPT o Gemini qué es un algoritmo de tipo Sherwood (otro nombre para Las Vegas),
+    Este nos responde con un texto similar a "The Sherwood algorithm, specifically in the context of **binary search**,
+    is a randomized approach that introduces randomness to the selection of the middle element during each step. This
+    contrast with the standard binary search algorithm, which always chooses the middle index based on
+    `(first + last) / 2`. The Sherwood algorithm uses `first + rand.randInt(last - first + 1)` to introduce randomness.
+    This modification helps to mitigate the worst-case performance of binary search".
+
+    Explicar por qué podemos estar tranquilos y reirnos cuando nos dicen que la IA viene a reemplazar el trabajo
+    de Ingenieros/as informáticos. 
+
