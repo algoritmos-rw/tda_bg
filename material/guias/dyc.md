@@ -150,6 +150,13 @@ math: true
     `balanza(grupo_de_joyas1, grupo_de_joyas2)` que devuelve 0 si ambos grupos pesan lo mismo, mayor a 0 si
     el `grupo1` pesa más que el `grupo2`, y menor que 0 si pasa lo contrario, y realiza esto en tiempo 
     constante.
-    b. Indicar y justificar (adecuadamente) la complejidad de la función implementada. 
+    b. Indicar y justificar (adecuadamente) la complejidad de la función implementada.
+
+1.  (★★★★) Sea una matriz $A$ de tamaño $n \times n$, con todos valores distintos. Un índice $(i, j)$ es
+	un máximo local si $A\left[i, j\right]$ es estrictamente mayor que todos su vecinos que existan 
+	(arriba, abajo, izquierda, derecha). Implementar un algoritmo de División y Conquista que permita
+	encontrar algún máximo local en tiempo $\mathcal{O}(n)$. Justificar adecuadamente la complejidad
+	del algoritmo. Prestar mucha atención a la ecuación de recurrencia escrita, ya que esto puede develar
+	un error en el algoritmo planteado. 
 
 {::options toc_levels="2" /}
