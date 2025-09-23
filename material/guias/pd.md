@@ -59,11 +59,6 @@ math: true
     y justificar la complejidad del algoritmo implementado.
     Si hay algunos lugares por los que no podemos pasar (obstáculos), ¿cómo se debe modificar para resolver el mismo problema?
 
-1.  (★) Se sabe que existe la equivalencia $$ e = \sum_{i = 0}^{\infty} \frac{1}{n!} $$, siendo $$e$$ el número de Euler. 
-    Sabiendo esto, podemos aproximar el valor de $$e$$ sumando los primeros $$n$$ términos de dicha serie. Un algoritmo
-    trivial puede obtener esto en $$\mathcal{O}(n^2)$$. Implementar un algoritmo que, utilizando programación dinámica,
-    permita obtener dicha aproximación en tiempo lineal. 
-
 1.  (★★) Dado el teclado numérico de un celular, y un número inicial $$k$$, encontrar la cantidad de posibles números de longitud $$n$$ empezando por 
     el botón del número inicial $$k$$. Restricción: solamente se puede presionar un botón si está arriba, abajo, a izquierda, o derecha del botón actual.
     Implementar el algoritmo por programación dinámica. Indicar y justificar la complejidad del algoritmo implementado.
@@ -179,9 +174,14 @@ math: true
 	pero pueden comprar). Tiene la información de estas predicciones en el arreglo $p$, para todo
 	día $i = 1, 2, ..., n$. Osvaldo quiere determinar un día $j$ en el cuál comprar la casa, 
 	y un día $k$ en el cual venderla ($k > j$), suponiendo que eso sucederá sin lugar a dudas. 
-	El objetivo, por supuesto, es la de maximizar la ganancia dada por $p[k] - p[j]$. 
+	El objetivo, por supuesto, es la de maximizar la ganancia dada por $p[k] - p[j]$.
 
 	Implementar un algoritmo de **programación dinámica** que permita resolver el problema de Osvaldo. 
 	Indicar y justificar la complejidad del algoritmo implementado.
+
+1.  (★) Se sabe que existe la equivalencia $$ e = \sum_{i = 0}^{\infty} \frac{1}{n!} $$, siendo $$e$$ el número de Euler. 
+    Sabiendo esto, podemos aproximar el valor de $$e$$ sumando los primeros $$n$$ términos de dicha serie. Un algoritmo
+    trivial puede obtener esto en $$\mathcal{O}(n^2)$$. Implementar un algoritmo que, utilizando programación dinámica,
+    permita obtener dicha aproximación en tiempo lineal. 
 
 {::options toc_levels="2" /}
