@@ -62,9 +62,9 @@ math: true
 
 1.	(★★) Se está formando una nueva comisión de actividades culturales de un pueblo. Cada 
 	habitante es miembro de 0 o más clubes, y de exactamente 1 partido político. 
-	Cada uno de los $n$ clubes debe nombrar a un representante ante la nueva comisión de 
+	Cada uno de los $$n$$ clubes debe nombrar a un representante ante la nueva comisión de 
 	actividades culturales, con las siguientes restricciones: cada partido político 
-	no puede tener más de $\frac{n}{2}$ simpatizantes en la comisión, y además queremos
+	no puede tener más de $$\frac{n}{2}$$ simpatizantes en la comisión, y además queremos
 	minimizar la cantidad simpatizantes a un mismo partido político; cada persona puede 
 	representar a solo un club, cada club debe estar representado por un miembro. 
 
