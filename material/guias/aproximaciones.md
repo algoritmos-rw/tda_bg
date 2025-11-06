@@ -28,7 +28,9 @@ math: true
     b. Demostrar que cualquier vértice es parte de la solución aproximada, o bien tiene
     peso menor (o igual) a alguno de sus adyacentes, que es en efecto parte de dicha solución. 
 
-    c. Analizar qué tan buena es la aproximación. 
+    c. Analizar qué tan buena es la aproximación.
+
+    d. Analizar qué tan buena es la aproximación en el caso de un grafo que no necesariamente tenga esta forma de grilla. 
 
     ![grafo grilla](../../assets/img/ejercicios/aproximaciones1.png){:width="50%"}
 
