@@ -266,6 +266,6 @@ Es interesante notar que con el enfoque de división y conquista, se aprovechan 
 	(arriba, abajo, izquierda, derecha). Implementar un algoritmo de División y Conquista que permita
 	encontrar algún máximo local en tiempo $$\mathcal{O}(n)$$. Justificar adecuadamente la complejidad
 	del algoritmo. Prestar mucha atención a la ecuación de recurrencia escrita, ya que esto puede develar
-	un error en el algoritmo planteado. 
+	un error en el algoritmo planteado.
 
 {::options toc_levels="2" /}

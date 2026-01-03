@@ -73,4 +73,14 @@ math: true
 	los representantes válidos, que además minimicen la cantidad de simpatizantes a un mismo partido
 	político. Indicar la cantidad de inecuaciones definidas en el modelo.
 
+1.	(★★) El _2-Partition Problem_ como problema de optimización se describe tal que: 
+	Dado un conjunto de $n$ números positivos $T= \lbrace T_1, T_2, \dots, T_n \rbrace$, 
+	se particionan los números en dos subconjuntos $S_1$ y $S_2$ (con intersección vacía y 
+	unión = T) de forma de minimizar la sumatoria de cualquiera de los subconjuntos 
+	($\min \max (S_1, S_2)$).
+
+	Implementar un modelo de **programación lineal** que dados los valores de los $T_i$ 
+	nos permita obtener la asignación óptima para $S_1$ y $S_2$. Indicar la cantidad de
+	inecuaciones definidas en el modelo.
+
 {::options toc_levels="2" /}
