@@ -89,17 +89,21 @@ def fvs_rec(grafo_actual, vertices_posibles, sol_parcial, sol_minima):
         else:
             return sol_minima
 
+    # La poda obvia de casi tood problema, si ya no somos mejores al óptimo actual, cortamos. 
+    if len(sol_parcial) >= len(sol_minima):
+        return sol_minima
+
     # lo saco para no considerarlo
     # es más fácil que ir por índices, siendo que vamos a ir recalculando
     posible = vertices_posibles.pop()
 
-    solucion_con = fvs_rec(grafo_actual, vertices_posibles, sol_parcial, sol_minima)
+    solucion_minima = fvs_rec(grafo_actual, vertices_posibles, sol_parcial, sol_minima)
 
     adyacentes = grafo_actual.adyacentes(posible)
     grafo_actual.borrar_vertice(posible)
     nuevos_posibles = potenciales(grafo_actual)
     sol_parcial.append(posible)
-    solucion_sin = fvs_rec(grafo_actual, nuevos_posibles, sol_parcial, sol_minima)
+    solucion_minima = fvs_rec(grafo_actual, nuevos_posibles, sol_parcial, solucion_minima)
     
     # Backtrack para futuros llamados. No hice una copia porque eso es más costoso que simplemente
     # sacar un vértice y volverlo a poner
@@ -108,10 +112,8 @@ def fvs_rec(grafo_actual, vertices_posibles, sol_parcial, sol_minima):
     for v in adyacentes:
         grafo_actual.agregar_arista(posible, v)
 
-    if len(solucion_con) < len(solucion_sin):
-        return solucion_con
-    else:
-        return solucion_sin
+    return solucion_minima
+    
 
 def potenciales(grafo):
     nuevos_posibles = []
