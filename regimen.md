@@ -30,4 +30,4 @@ Régimen de cursada
 
 ### Calificación
 
-* La nota de la materia surge del promedio ponderado de las notas de los tps (40%) y exámenes (50%). En general el redondeo tirará hacia el lado de la nota del parcial en caso de tener una nota con 50 centésimas (e.g. "6.5"). 
+* La nota de la materia surge del promedio ponderado de las notas de los tps (30%) y exámenes (70%). En general el redondeo tirará hacia el lado de la nota de los exámenes en caso de tener una nota con 50 centésimas (e.g. "6.5"). 
