@@ -46,22 +46,24 @@ problema.
 
 ## Consigna
 
-1. 	Hacer un análisis del problema, plantear la ecuación de recurrencia correspondiente
+1. 	[**Obligatorio**] Hacer un análisis del problema, plantear la ecuación de recurrencia correspondiente
 	y proponer un algoritmo por programación dinámica 
 	que obtenga la solución óptima al problema planteado: Dada la secuencia de energía
 	disponible desde el último descanso $$s_1, s_2, ..., s_n$$, y el esfuerzo/ganancia 
 	de cada día $$e_i$$, determinar la máxima cantidad de ganancia que se obtener
 	de los entrenamientos, considerando posibles descansos. 
-2. 	Demostrar que la ecuación de recurrencia planteada en efecto nos permite obtener la solución óptima al
+2. 	[**Obligatorio**]  Demostrar que la ecuación de recurrencia planteada en efecto nos permite obtener la solución óptima al
 	problema.
-3. 	Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si 
-	(y cómo) afecta la variabilidad de los valores de los esfuerzos (disponibles y necesarios) a los 
-	tiempos y optimalidad del algoritmo planteado. 
-4. 	Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
+3. 	[**Obligatorio**] Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Considerar
+    analizar por separado la complejidad del algoritmo de programación dinámica y la del algoritmo de reconstrucción. 
+4. 	[**Opcional**] Analizar si (y cómo) afecta la variabilidad de los valores de los esfuerzos (disponibles y necesarios) a los 
+	tiempos y optimalidad del algoritmo planteado. Considerar en particular si es posible que haya un comportamiento diferente entre
+	el algoritmo de programación dinámica y el de reconstrucción. 
+6. 	[**Opcional**] Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
 	el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-5. 	De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica 
+7. 	[**Opcional**] De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica 
 	indicada. Realizar gráficos correspondientes. Generar todo set de datos necesarios para estas pruebas.
-6.	Agregar cualquier conclusión que parezca relevante.  
+8.	[**Opcional**] Agregar cualquier conclusión que parezca relevante.  
 
 
 ## Entrega
@@ -79,7 +81,6 @@ O bien:
 python3 tp2.py ruta/a/listado-esfuerzos.txt
 ```
 
-El formato a ser aceptado debe ser como los ejemplos dado por el curso.
 El formato de salida debe ser parecido a los ejemplos de salidas brindados. No es necesario que sea exactamente igual, y pueden modificar algo en función de lo que analicen, pero debe mantenerse similar.
 
 Nuevamente, la nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
@@ -87,4 +88,8 @@ como también el desarrollo del trabajo. No será lo mismo un trabajo realizado 
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
 datos, o estrategias de generación de sets, en el caso que corresponda. 
 
-
+Sobre puntos obligatorios y opcionales: 
+* La idea de hacer electivos algunos puntos es que aquellos grupos que consideren que estos trabajos no hacen a su formación, simplemente hagan lo mínimo, y quienes consideren que este desarrollo les puede aportar (especialmente para materias futuras) o bien quieran resolver un problema utilizando lo visto en la materia, tengan un lugar para hacerlo. 
+* Los puntos opcionales no son necesarios para aprobar, pero cada uno contribuye a tener mejor nota.
+* En caso que los puntos obligatorios no estén aprobables, se reenviará a reentrega. Si un punto opcional no está aprobable simplemente se considerará para la nota del trabajo práctico (eventualmente, según el detalle de lo que corresponda, podría reentregarse para mejorar nota). 
+* Para la fecha de entrega, los puntos obligatorios deben estar hechos. En caso de no hacerse, se dará una única semana (sin posibilidad de extensión) para que estos puntos (y solo estos, no los electivos) estén completados para tener un máximo de 4 de nota, y en caso de no encontrarse en condiciones de aprobar, el trabajo quedará desaprobado (y de allí la cursada).
