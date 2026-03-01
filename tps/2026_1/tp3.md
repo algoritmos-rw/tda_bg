@@ -63,19 +63,19 @@ Dado un conjunto de elemento $$A$$ de $$n$$ elementos, $$m$$ subconjuntos $$B_1,
 $$C \cap B_i \neq \emptyset$$)?
 
 
-1. 	Demostrar que el Hitting-Set Problem se encuentra en NP.
+1. 	[**Obligatorio**] Demostrar que el Hitting-Set Problem se encuentra en NP.
 
-2. 	Demostrar que el Hitting-Set Problem es, en efecto, un problema NP-Completo. 
+2. 	[**Obligatorio**] Demostrar que el Hitting-Set Problem es, en efecto, un problema NP-Completo. 
 
-3. 	Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema. 
+3. 	[**Obligatorio**] Escribir un algoritmo que, por backtracking, obtenga la solución óptima al problema. 
 	Generar sets de datos para corroborar su correctitud, así como tomar mediciones de tiempos. 
 
-4. 	Escribir un modelo de programación lineal que resuelva el problema de forma óptima. Ejecutarlo
+4. 	[**Opcional**] Escribir un modelo de programación lineal que resuelva el problema de forma óptima. Ejecutarlo
 	para los mismos sets de datos para corroborar su correctitud (o al menos hasta la mayor cantidad
 	de volumen posible). Tomar mediciones de tiempos
 	y compararlas con las del algoritmo que implementa Backtracking. 
 
-5. 	El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente algoritmo:
+5. 	[**Opcional**] El doctor Bilardo, como buen resultadista que es, le propone a Scaloni el siguiente algoritmo:
  	usar el mismo algoritmo planteado en el punto 4, pero permitiendo que las variables de decisión
 	sean valores reales, y luego redondear el resultado final del modelo. Para redondear, obtenemos el
 	valor $$b$$ como la cantidad de aquel conjunto entre los diferentes conjuntos (pedidos de la prensa)
@@ -94,12 +94,12 @@ $$C \cap B_i \neq \emptyset$$)?
 	que contemplen volúmenes de datos ya inmanejables para el algoritmo exacto,
 	a fin de corroborar empíricamente la cota calculada anteriormente. 
 
-6.	**Opcional**: Implementar alguna otra aproximación (u algoritmo greedy) que 
+6.	[**Opcional**] Implementar alguna otra aproximación (u algoritmo greedy) que 
 	les parezca de interés. Comparar sus resultados con los dados por la aproximación 
 	del punto 5. Indicar y justificar su complejidad. No es obligatorio
 	hacer este punto para aprobar el trabajo práctico (pero si resta puntos no hacerlo).
 
-7. 	Agregar cualquier conclusión que parezca relevante.
+7. 	[**Opcional**] Agregar cualquier conclusión que parezca relevante.
 
 ## Entrega
 
@@ -125,4 +125,3 @@ La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad
 como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
 datos, o estrategias de generación de sets, en el caso que corresponda.
-
