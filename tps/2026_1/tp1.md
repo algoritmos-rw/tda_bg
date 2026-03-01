@@ -35,13 +35,15 @@ vas a dejar tirado.
 
 ## Consigna
 
-1. Hacer un análisis del problema, y proponer un algoritmo greedy que obtenga **la solución óptima** al problema planteado: Dado los valores de $$n$$, los $$s_i$$ y $$a_i$$, determinar un orden en el que
-Scaloni debe ver los videos tal que todos los análisis estén listos lo antes posible (es decir, en el mínimo tiempo necesario). Explicar detalladamente por qué el algoritmo planteado obtiene siempre la solución óptima. 
-2. Francia. 
-3. Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. Analizar si (y cómo) afecta la variabilidad de los valores de $$a_i$$ y $$s_i$$ a los tiempos y optimalidad del algoritmo planteado. 
-4. Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-5. De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica indicada. Realizar gráficos correspondientes. 
-6. Agregar cualquier conclusión que parezca relevante.  
+1. [**Obligatorio**] Hacer un análisis del problema, y proponer un algoritmo greedy que obtenga **la solución óptima** al problema planteado: Dado los valores de $$n$$, los $$s_i$$ y $$a_i$$, determinar un orden en el que
+Scaloni debe ver los videos tal que todos los análisis estén listos lo antes posible (es decir, en el mínimo tiempo necesario).
+2. [**Obligatorio**] Demostrar por qué el algoritmo planteado obtiene siempre la solución óptima. 
+3. [**Obligatorio**] Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo.
+4. [**Opcional**] Analizar si (y cómo) afecta la variabilidad de los valores de $$a_i$$ y $$s_i$$ a los tiempos y optimalidad del algoritmo planteado. 
+5. [**Opcional**] Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
+6. [**Opcional**] Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. Esto, por supuesto, implica que deben generar sus _sets_ de datos.
+Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. Recomendamos tomar más de una medición de la misma muestra y quedarse con el promedio para reducir el ruido en la medición.
+7. [**Opcional**] Agregar cualquier conclusión que parezca relevante.  
 
 ## Entrega
 
@@ -83,3 +85,8 @@ como también el desarrollo del trabajo. No será lo mismo un trabajo realizado 
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, _set_ de
 datos, o estrategias de generación de _sets_, en el caso que corresponda.
 
+Sobre puntos obligatorios y opcionales: 
+* La idea de hacer electivos algunos puntos es que aquellos grupos que consideren que estos trabajos no hacen a su formación, simplemente hagan lo mínimo, y quienes consideren que este desarrollo les puede aportar (especialmente para materias futuras) o bien quieran resolver un problema utilizando lo visto en la materia, tengan un lugar para hacerlo. 
+* Los puntos opcionales no son necesarios para aprobar, pero cada uno contribuye a tener mejor nota.
+* En caso que los puntos obligatorios no estén aprobables, se reenviará a reentrega. Si un punto opcional no está aprobable simplemente se considerará para la nota del trabajo práctico (eventualmente, según el detalle de lo que corresponda, podría reentregarse para mejorar nota). 
+* Para la fecha de entrega, los puntos obligatorios deben estar hechos. En caso de no hacerse, se dará una única semana (sin posibilidad de extensión) para que estos puntos (y solo estos, no los electivos) estén completados para tener un máximo de 4 de nota, y en caso de no encontrarse en condiciones de aprobar, el trabajo quedará desaprobado (y de allí la cursada).
