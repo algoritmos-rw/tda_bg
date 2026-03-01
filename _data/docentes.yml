@@ -20,6 +20,11 @@ docentes:
   mail: egenender@gmail.com
   github: egenender
 
+- nombre: Ezequiel Urbina
+  foto: /assets/img/docentes/ezeu.jpg
+  mail: curbina@fi.uba.ar
+  github: ezeurbina
+
 - nombre: Felipe de Luca
   foto: /assets/img/docentes/felidl.jpg
   mail: fdeluca@fi.uba.ar
@@ -34,11 +39,6 @@ docentes:
   foto: /assets/img/docentes/giulip.jpg
   mail: gpazos@fi.uba.ar
   github: giulianapazos
-
-- nombre: Joaquín Prada
-  foto: /assets/img/docentes/joaquinp.jpeg
-  mail: jprada@fi.uba.ar
-  github: PradaJoaquin
 
 - nombre: Josué Martel
   foto: /assets/img/docentes/nilom.jpg
@@ -95,6 +95,11 @@ docentes:
   mail: pciliberto@fi.uba.ar
   github: pedrociliberto
 
+- nombre: Rocío Vera
+  foto: /assets/img/docentes/rochiv.jpg
+  mail: rvera@fi.uba.ar
+  github: Rocio-Elizabeth-Vera
+
 - nombre: Thiago Pacheco
   foto: /assets/img/docentes/thiagop.jpg
   mail: tpacheco@fi.uba.ar
@@ -104,6 +109,11 @@ docentes:
   foto: /assets/img/docentes/thiagor.jpg
   mail: thiagoyair1@gmail.com
   github: tyreller
+
+- nombre: Tom Pinargote
+  foto: /assets/img/docentes/unknown.png
+  mail: tpinargote@fi.uba.ar
+  github: 
 
 - nombre: Valentín Santander
   foto: /assets/img/docentes/valentins.jpg
