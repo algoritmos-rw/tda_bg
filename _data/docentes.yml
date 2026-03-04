@@ -45,6 +45,11 @@ docentes:
   mail: nmartel@fi.uba.ar
   github: josValentin-fiuba
 
+- nombre: Juana Segura
+  foto: /assets/img/docentes/juanas.jpg
+  mail: jusegura@fi.uba.ar
+  github: juanasegura
+
 - nombre: Leticia Figueroa
   foto: /assets/img/docentes/letif.jpg
   mail: lfigueroar@fi.uba.ar
