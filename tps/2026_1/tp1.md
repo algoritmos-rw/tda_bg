@@ -39,11 +39,12 @@ vas a dejar tirado.
 Scaloni debe ver los videos tal que todos los análisis estén listos lo antes posible (es decir, en el mínimo tiempo necesario).
 2. [**Obligatorio**] Demostrar por qué el algoritmo planteado obtiene siempre la solución óptima. 
 3. [**Obligatorio**] Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo.
-4. [**Opcional**] Analizar si (y cómo) afecta la variabilidad de los valores de $$a_i$$ y $$s_i$$ a los tiempos y optimalidad del algoritmo planteado. 
-5. [**Opcional**] Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-6. [**Opcional**] Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. Esto, por supuesto, implica que deben generar sus _sets_ de datos.
+4. [**Opcional**] Analizar si (y cómo) afecta la variabilidad de los valores de $$a_i$$ y $$s_i$$ a los tiempos del algoritmo planteado. 
+5. [**Opcional**] Analizar si (y cómo) afecta la variabilidad de los valores de $$a_i$$ y $$s_i$$ a la optimalidad del algoritmo planteado. 
+6. [**Opcional**] Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
+7. [**Opcional**] Hacer mediciones de tiempos para corroborar la complejidad teórica indicada. Esto, por supuesto, implica que deben generar sus _sets_ de datos.
 Agregar los casos de prueba necesarios para dicha corroboración. Esta corroboración empírica debe realizarse confeccionando gráficos correspondientes, y utilizando la técnica de cuadrados mínimos. Para esto, [proveemos una explicación detallada](https://github.com/algoritmos-rw/tda_ejemplos/blob/main/analisis_complejidad/cuadrados_minimos.ipynb), en conjunto de ejemplos. Recomendamos tomar más de una medición de la misma muestra y quedarse con el promedio para reducir el ruido en la medición.
-7. [**Opcional**] Agregar cualquier conclusión que parezca relevante.  
+8. [**Opcional**] Agregar cualquier conclusión que parezca relevante.  
 
 ## Entrega
 
