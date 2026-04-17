@@ -19,11 +19,9 @@ math: true
 Dado un grafo (por simplificación, no dirigido), indicar vértices a eliminar de dicho grafo 
 de tal manera que el grafo quede acíclico.
 
-En nuestro grafo cada vértice $i$ tiene un valor positivo $v_i$. Implementar un algoritmo que, 
-por **backtracking**, encuentre el mínimo FVS (es decir, el 
-conjunto de vértices que sea un FVS, y sea de suma mínima). Si bien es obvio, el grafo **no**
-cuenta con una primitiva `tiene_ciclos` (e, incluso, si la tuviera, sería poco conveniente usarla, 
-recomendamos pensar por qué).
+Implementar un algoritmo que, 
+por **backtracking**, encuentre el mínimo FVS (es decir, el conjunto de menor cantidad de vértices a remover). Si bien es obvio, el grafo **no**
+cuenta con una primitiva `tiene_ciclos` (e, incluso, si la tuviera, sería poco conveniente usarla, recomendamos pensar por qué).
 
 ### Solución
 
@@ -89,7 +87,7 @@ def fvs_rec(grafo_actual, vertices_posibles, sol_parcial, sol_minima):
         else:
             return sol_minima
 
-    # La poda obvia de casi tood problema, si ya no somos mejores al óptimo actual, cortamos. 
+    # La poda obvia de casi todo problema, si ya no somos mejores al óptimo actual, cortamos. 
     if len(sol_parcial) >= len(sol_minima):
         return sol_minima
 
