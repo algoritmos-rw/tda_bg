@@ -139,8 +139,9 @@ Es interesante notar que con el enfoque de división y conquista, se aprovechan 
 
 ## Ejercicios propuestos
 
-1.  (★) Implementar, por división y conquista, una función que dado un arreglo sin elementos repetidos y _casi ordenado_ (todos los elementos se 
-    encuentran ordenados, salvo uno), obtenga el elemento fuera de lugar. Indicar y justificar su complejidad temporal.
+1.  (★) Se cuenta con un arreglo de enteros ordenado de manera ascendente que contiene exactamente un número duplicado (es decir, todos los demás
+    elementos son distintos, sin duplicados). Implementar una función que encuentre dicho número utilizando división y conquista. Indicar y justificar la
+    complejidad del algoritmo, utilizando el Teorema Maestro.
 
 1.  (★) Se tiene un arreglo en el que se registran los resultados de tests automáticos de una porción de código. Este código se encontraba funcionando 
     pero, debido a unos cambios que se están realizando, en algún momento dejó de funcionar. Se registra un 1 si pasa los tests, 0 en caso contrario.
