@@ -57,16 +57,16 @@ math: true
     3 veces mayor.
 
 
-1.  (★★) Dado un grafo bipartito (no dirigido) donde cada vértice $v$ tiene un valor positivo $w(v)$ asociado, 
+1.  (★★) Dado un grafo bipartito (no dirigido) donde cada vértice $$v$$ tiene un valor positivo $$w(v)$$ asociado, 
     queremos obtener un Vertex Cover de suma mínima. Este problema es NP-Difícil, por lo que aplicaremos el 
     siguiente **algoritmo de aproximación**: 
 
-    1. Inicializaremos $resultado = \emptyset$ como un conjunto vacío. 
+    1. Inicializaremos $$resultado = \emptyset$$ como un conjunto vacío. 
     2. Vemos todas las aristas del grafo (sin ningún orden particular). Si la arista está cubierta, 
     es decir, algún vértice de sus extremos está en el conjunto resultado, 
-    la ignoramos. Sino, agregamos a $resultado$ al vértice del extremo de la arista cuyo valor sea menor
+    la ignoramos. Sino, agregamos a $$resultado$$ al vértice del extremo de la arista cuyo valor sea menor
     (si son iguales, cualquiera de los dos).
-    3. Devolvemos $resultado$.
+    3. Devolvemos $$resultado$$.
 
     ¿Podemos considerarla una buena aproximación? Calcular la cota de aproximación para justificar tu 
     respuesta. 
