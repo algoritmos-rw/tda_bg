@@ -51,7 +51,7 @@ math: true
 	Implementar un modelo de **programación lineal** que determine el día de compra y el día de
 	venta del inmueble. Indicar la cantidad de restricciones implementadas para esto.
 
-1.	(★★★★) Dado un arreglo de enteros ordenado, un elemento y un valor entero `k`, se quiere encuentrar
+1.	(★★★★) Dado un arreglo de enteros ordenado, un elemento y un valor entero `k`, se quiere encontrar
 	los `k` valores del arreglo más cercanos al elemento en cuestión (que bien podría
 	estar en el arreglo, o no). 
 	Realizar un modelo de programación lineal que resuelva este problema. OJO nos interesa que sean cercanos
