@@ -1,5 +1,5 @@
 ---
-title: Autómatas
+title: Algoritmos Randomizados y Autómatas
 permalink: /tps/automatas/
 trabajo: Algoritmos Randomizados y Autómatas
 ---
