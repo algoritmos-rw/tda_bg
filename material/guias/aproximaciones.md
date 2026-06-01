@@ -19,7 +19,7 @@ math: true
 
 ## Ejercicios propuestos
 
-1.  (★★) Dado un grafo en forma de grilla como el dado a continuación (y también a los del ejercicio 2), donde
+1.  (★★) Dado un grafo en forma de grilla como el dado a continuación, donde
     cada vértice tiene un peso $$w(v)$$, se desea maximizar la sumatoria
     de los pesos de un Independent Set sobre dicho grafo. 
 
