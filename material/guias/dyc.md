@@ -270,7 +270,7 @@ Es interesante notar que con el enfoque de división y conquista, se aprovechan 
 	un error en el algoritmo planteado.
 
 
-1.  Una función lineal se define como $f(x) = a x + b$.
+1.  (★★★) Una función lineal se define como $f(x) = a x + b$.
     Si tenemos dos funciones lineales $f_1(x) = a_1 x + b_1$ y 
     $f_2(x) = a_2 x + b_2$, entonces la composición puede simplificarse a: 
     $f_3(x) = f_1(f_2(x)) = \left(a_1  a_2 \right)  x + \left(a_1  b_2 + b_1\right)$. Es decir, tenemos una nueva función lineal, cuyos $a$ y $b$ son los resultates marcados. 

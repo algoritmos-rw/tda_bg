@@ -162,7 +162,7 @@ math: true
 	recomendamos utilizar el problema de _ciclo Hamiltoniano_.
 
 
-1.  La FIFA ha visto la cantidad de dinero que pudo embolsar gracias a partidos
+1.  (★★) La FIFA ha visto la cantidad de dinero que pudo embolsar gracias a partidos
     nunca antes vistos como "Argentina - Cabo Verde", "Austria - Jordania",
     "Alemania - Curaçao" o "Uzbekistán - Congo". A partir de ello quiere ver
     si es posible hacer un torneo de inéditos: una liga entre equipos que nunca
