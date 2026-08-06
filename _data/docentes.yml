@@ -10,11 +10,6 @@ docentes:
   mail: anibalfu2005@gmail.com
   github: anibalfu
 
-- nombre: Claudio Koo
-  foto: /assets/img/docentes/claudiok.png
-  mail: claudio7480@gmail.com
-  github: claudekoo
-
 - nombre: Ezequiel Genender
   foto: /assets/img/docentes/ezeg.jpg
   mail: egenender@gmail.com
@@ -29,11 +24,6 @@ docentes:
   foto: /assets/img/docentes/felidl.jpg
   mail: fdeluca@fi.uba.ar
   github: fdelu
-
-- nombre: Gerónimo Palavecino
-  foto: /assets/img/docentes/gerop.png
-  mail: gpalavecino@fi.uba.ar
-  github: geronimo-palavecino
 
 - nombre: Giuliana Pazos
   foto: /assets/img/docentes/giulip.jpg
@@ -75,11 +65,6 @@ docentes:
   mail: mbuchwald@fi.uba.ar
   github: mbuchwald
 
-- nombre: Martina Riccardi
-  foto: /assets/img/docentes/martinar.jpg
-  mail: mriccardi@fi.uba.ar
-  github: martinariccardi
-
 - nombre: Matías Bartellone
   foto: /assets/img/docentes/matib.jpeg
   mail: mbartellone@fi.uba.ar
@@ -104,6 +89,11 @@ docentes:
   foto: /assets/img/docentes/rochiv.jpg
   mail: rvera@fi.uba.ar
   github: Rocio-Elizabeth-Vera
+
+- nombre: Sebastián Vintoñuke
+  foto: /assets/img/docentes/unknown.png
+  mail: svintonuke@fi.uba.ar
+  github: SebastianVintonuke
 
 - nombre: Thiago Pacheco
   foto: /assets/img/docentes/thiagop.jpg
