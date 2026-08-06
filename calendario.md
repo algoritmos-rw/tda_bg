@@ -43,4 +43,3 @@ Los temas que entran en el segundo parcial son:
 * Programación Lineal
 * Redes de Flujo
 * Reducciones y Clases de Complejidad
-* Aproximaciones (en la primera instancia) y Algoritmos Randomizados (en la segunda instancia)
