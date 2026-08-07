@@ -23,10 +23,9 @@ Régimen de cursada
 
 * Cada uno de los 2 Parciales consta de 4 y 3 ejercicios respectivamente, de 1 tema cada uno. No hay una _aprobación del parcial_, sino _aprobación de temas_.
 * Para aprobar los exámenes, se deben aprobar al menos 5 temas en total.
-* Cada tema constará de un recuperatorio cada uno, llegando al final de la cursada. Pueden recuperar individualmente los temas que deseen. 
+* Cada tema constará de dos recuperatorios cada uno, llegando al final de la cursada. Pueden recuperar individualmente los temas que deseen. 
 * En caso de contar con al menos 5 temas aprobados, la _nota de examen_ se calculará a partir de la nota final que se tiene de cada tema. Pueden ver la tabla de notas que se encuentra incluida en el documento de [Criterios generales de correcciones]({{site.data.sitios.doc_criterios_grales}}). 
 * Se puede recuperar temas para levantar nota sin riesgo a empeorarla (se considera la nota mayor de las obtenidas).
-* Para quienes terminen con los exámenes con 3 o 4 temas aprobados, se agregará una fecha más de recuperación con un subconjunto de 3 temas (asegurando que todos tengan suficiente para poder aprobar). 
 * Copiarse en un parcial o recuperatorio implica desaprobar la cursada y por lo tanto la materia.
 
 ### Calificación
