@@ -15,14 +15,14 @@ Para visualizar los cambios de manera local, se debe instalar [Jekyll](https://j
 
 $ apt-get install ruby ruby-dev bundler
 $ gem install jekyll bundler
-$ git clone git@github.com:algoritmos-rw/algo2
-$ cd algo2
+$ git clone git@github.com:algoritmos-rw/tda_bg
+$ cd tda_bg
 $ bundle install --path=../gems
 $ // de tener problemas con nokogiri: apt-get install libxml2-dev
 
 # Para visualizar al editar
 
-$ cd algo2
+$ cd tda_bg
 $ bundle exec jekyll serve --livereload
 $ // de tener problemas con javascript runtime: apt-get install nodejs
 
