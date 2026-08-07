@@ -85,7 +85,7 @@ def dominating_set_arbol(grafo):
         if v is None:
             break
 
-        w = grado.adyacentes(v)[0]
+        w = grafo.adyacentes(v)[0]
         ds.add(w)
         dominados.add(w)
         for x in grafo.adyacentes(w):
