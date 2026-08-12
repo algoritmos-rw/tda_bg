@@ -129,11 +129,11 @@ Para justificar la complejidad, utilizamos el teorema maestro. Se realizan dos l
 
 La ecuación de recurrencia queda entonces como:
 
-$$T(n) = 2T(\frac{n}{2}) + O(n)$$
+$$T(n) = 2T\left(\frac{n}{2}\right) + \mathcal{O}(n)$$
 
 Haciendo los cálculos correspondientes llegamos a que
 
-$$\log_{2}(2) = 1 = C \implies O(n \cdot \log(n))$$
+$$\log_{2}(2) = 1 = C \implies \mathcal{O}(n \cdot \log(n))$$
 
 Es interesante notar que con el enfoque de división y conquista, se aprovechan los cálculos intermedios para poder obtener la solución sin necesidad de probar todas las combinaciones.
 
