@@ -79,4 +79,6 @@ Sobre puntos obligatorios y opcionales:
 * Los puntos opcionales no son necesarios para aprobar, pero cada uno contribuye a tener mejor nota.
 * En caso que los puntos obligatorios no estén aprobables, se reenviará a reentrega. Si un punto opcional no está aprobable simplemente se considerará para la nota del trabajo práctico (eventualmente, según el detalle de lo que corresponda, podría reentregarse para mejorar nota). 
 * Para la fecha de entrega, los puntos obligatorios deben estar hechos. En caso de no hacerse, se dará una única semana (sin posibilidad de extensión) para que estos puntos (y solo estos, no los electivos) estén completados para tener un máximo de 4 de nota, y en caso de no encontrarse en condiciones de aprobar, el trabajo quedará desaprobado (y de allí la cursada).
+* Los puntos opcionales que no hayan estado implementados para la fecha de entrega, no se podrán implementar en una "reentrega" o a futuro. El trabajo práctico no se hace en cuotas. Si hay algo para ser corregido de un punto opcional ya hecho, se puede corregir eventualmente. 
+
  
