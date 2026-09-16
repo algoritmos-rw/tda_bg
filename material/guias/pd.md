@@ -68,25 +68,25 @@ math: true
     
     Para N=2, depende de con cuál dígito se comienza:
     
-    Empezando por 0, son válidos 00, 08 (cantidad: 2)
+    Empezando por 0, son válidos 08 (cantidad: 1)
 
-    Empezando por 1, son válidos 11, 12, 14 (cantidad: 3)
+    Empezando por 1, son válidos 12, 14 (cantidad: 2)
     
-    Empezando por 2, son válidos 22, 21, 23, 25 (cantidad: 4)
+    Empezando por 2, son válidos 21, 23, 25 (cantidad: 3)
     
-    Empezando por 3, son válidos 33, 32, 36 (cantidad: 3)
+    Empezando por 3, son válidos 32, 36 (cantidad: 2)
     
-    Empezando por 4, son válidos 44, 41, 45, 47 (cantidad: 4)
+    Empezando por 4, son válidos 41, 45, 47 (cantidad: 3)
     
-    Empezando por 5, son válidos 55, 52, 54, 56, 58 (cantidad: 5)
+    Empezando por 5, son válidos 52, 54, 56, 58 (cantidad: 4)
     
-    Empezando por 6, son válidos 66, 63, 65, 69 (cantidad: 4)
+    Empezando por 6, son válidos 63, 65, 69 (cantidad: 3)
     
-    Empezando por 7, son válidos 77, 74, 78 (cantidad: 3)
+    Empezando por 7, son válidos 74, 78 (cantidad: 2)
     
-    Empezando por 8, son válidos 88, 80, 85, 87, 89 (cantidad: 5)
+    Empezando por 8, son válidos 80, 85, 87, 89 (cantidad: 4)
     
-    Empezando por 9, son válidos 99, 96, 98 (cantidad: 3)
+    Empezando por 9, son válidos 96, 98 (cantidad: 2)
 
 1.  (★★★) Tenemos una mochila con una capacidad W. Hay elementos a guardar, cada uno tiene un valor, y un peso que ocupa de la 
     capacidad total. Queremos maximizar el valor de lo que llevamos sin exceder la capacidad. Implementar un algoritmo que, 
