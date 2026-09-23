@@ -26,18 +26,19 @@ Esto no le gusta nada a Sophia. Ella quiere estar segura de ganar siempre. Lo bu
 	$$m_1, m_2, \cdots, m_n$$, sabiendo que Sophia empieza el juego y que Mateo siempre elegirá
 	la moneda más grande para sí entre la primera y la última moneda en sus respectivos turnos, 
 	definir qué monedas debe elegir Sophia para asegurarse obtener el **máximo valor acumulado posible**.
-	Esto no necesariamente le asegurará a Sophia ganar, ya que puede ser que esto no sea obtenible, dado
-	por cómo juega Mateo. Por ejemplo, para `[1, 10, 5]`, no importa lo que haga Sophia, Mateo ganará. 
-2. 	[**Obligatorio**] Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos lleva a
+	Esto no necesariamente le asegurará a Sophia ganar, ya que puede ser que esto no sea posible, dado
+	por cómo juega Mateo. Por ejemplo, para `[1, 10, 5]`, no importa lo que haga Sophia, Mateo ganará.
+3. 	[**Obligatorio**] Demostrar que la ecuación de recurrencia planteada en el punto anterior en efecto nos lleva a
 	obtener el **máximo valor acumulado posible**. 
-3.	[**Obligatorio**] Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. 
-4.	[**Opcional**] Analizar si (y cómo) afecta a los tiempos del algoritmo planteado la
-	variabilidad de los valores de las monedas.
-6. 	[**Opcional**] Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
+4.	[**Obligatorio**] Escribir el algoritmo planteado. Describir y justificar la complejidad de dicho algoritmo. 
+5.	[**Opcional**] Analizar si (y cómo) afecta a los tiempos del algoritmo planteado la
+	variabilidad de los valores de las monedas. Como caso particular, considerar casos en los que en el TP1 el algoritmo
+	Greedy no permitía que Sophia gane (si que empate) cuando había alguna forma para que ella pudiera ganar. 
+7. 	[**Opcional**] Realizar ejemplos de ejecución para encontrar soluciones y corroborar lo encontrado. Adicionalmente, 
 	el curso proveerá con algunos casos particulares que deben cumplirse su optimalidad también. 
-7. 	[**Opcional**] De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica 
+8. 	[**Opcional**] De las pruebas anteriores, hacer también mediciones de tiempos para corroborar la complejidad teórica 
 	indicada. Realizar gráficos correspondientes. Generar todo set de datos necesarios para estas pruebas.
-8.	[**Opcional**] Agregar cualquier conclusión que parezca relevante.  
+9.	[**Opcional**] Agregar cualquier conclusión que parezca relevante.  
 
 
 ## Entrega
@@ -62,10 +63,11 @@ como también el desarrollo del trabajo. No será lo mismo un trabajo realizado 
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
 datos, o estrategias de generación de sets, en el caso que corresponda. 
 
+Si bien nos parece que no debería ser necesario de aclarar, cualquier uso de "ayudas externas" para realizar el trabajo práctico, incluyendo el informe (por ejemplo, cualquier tipo de Inteligencia Artificial) resultará en la desaprobación del trabajo práctico, y de allí de la cursada. Nos interesa entender el proceso de análisis que hacen ustedes, personas. 
+
 Sobre puntos obligatorios y opcionales: 
 * La idea de hacer electivos algunos puntos es que aquellos grupos que consideren que estos trabajos no hacen a su formación, simplemente hagan lo mínimo, y quienes consideren que este desarrollo les puede aportar (especialmente para materias futuras) o bien quieran resolver un problema utilizando lo visto en la materia, tengan un lugar para hacerlo. 
 * Los puntos opcionales no son necesarios para aprobar, pero cada uno contribuye a tener mejor nota.
 * En caso que los puntos obligatorios no estén aprobables, se reenviará a reentrega. Si un punto opcional no está aprobable simplemente se considerará para la nota del trabajo práctico (eventualmente, según el detalle de lo que corresponda, podría reentregarse para mejorar nota). 
 * Para la fecha de entrega, los puntos obligatorios deben estar hechos. En caso de no hacerse, se dará una única semana (sin posibilidad de extensión) para que estos puntos (y solo estos, no los electivos) estén completados para tener un máximo de 4 de nota, y en caso de no encontrarse en condiciones de aprobar, el trabajo quedará desaprobado (y de allí la cursada).
-
-
+* Los puntos opcionales que no hayan estado implementados para la fecha de entrega, no se podrán implementar en una "reentrega" o a futuro. El trabajo práctico no se hace en cuotas. Si hay algo para ser corregido de un punto opcional ya hecho, se puede corregir eventualmente. 
