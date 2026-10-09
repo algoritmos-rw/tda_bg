@@ -182,6 +182,12 @@ math: true
 1.  (★) Se sabe que existe la equivalencia $$ e = \sum_{i = 0}^{\infty} \frac{1}{n!} $$, siendo $$e$$ el número de Euler. 
     Sabiendo esto, podemos aproximar el valor de $$e$$ sumando los primeros $$n$$ términos de dicha serie. Un algoritmo
     trivial puede obtener esto en $$\mathcal{O}(n^2)$$. Implementar un algoritmo que, utilizando programación dinámica,
-    permita obtener dicha aproximación en tiempo lineal. 
+    permita obtener dicha aproximación en tiempo lineal.
+
+1.	(★★) Dado un triángulo de $$n$$ filas representado como una lista de listas, donde la fila $$i$$ contiene exactamente
+	$$i + 1$$ enteros, implementar un algoritmo utilizando **Programación Dinámica** que encuentre un **camino** desde la cima
+	hasta la base cuya suma de valores sea mínima. El recorrido comienza en la posición $$(0, 0)$$. Implementar el algoritmo que
+	permita reconstruir la solución. Indicar y justificar la complejidad de ambos algoritmos. 
+
 
 {::options toc_levels="2" /}
