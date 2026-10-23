@@ -15,7 +15,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 ## Introducción
 
 Los hermanos siguieron creciendo. Mateo también aprendió sobre programación dinámica, y cada uno aplicaba la lógica sabiendo que el otro también lo hacía. El juego de las monedas se tornó aburrido en cuánto notaron que siempre ganaba quien empezara, o según la suerte. Los años pasaron, llegó la adolescencia y empezaron a tener gustos diferentes. En general, jugaban a juegos individuales. 
-En particular, Sophia estaba muy enganchada con el siguiente juego de tipo _puzzle_: El juego consiste de una grilla de $$n \times m$$ celdas. Cada celda puede estar vacía, estar ocupada por una piedra verde, o estar ocupada por una piedra celeste. El objetivo original del juego es remover algunas de las piedras de tal forma que las piedras que quedan cumplen las siguientes condiciones: 
+En particular, Sophia estaba muy enganchada con el siguiente juego de tipo _puzzle_: El juego consiste de una grilla de $$n \times m$$ celdas. Cada celda puede estar vacía, estar ocupada por una piedra verde, o estar ocupada por una piedra celeste. El objetivo original del juego es remover algunas de las piedras de tal forma que las piedras que quedan cumplan las siguientes condiciones: 
 
 1. Cada fila tiene al menos una piedra.
 2. Ninguna columna tiene piedras de ambos colores.
@@ -34,7 +34,7 @@ A Sophia le interesa tanto esta versión, como también aquella que relaja la pr
 
 ## Consigna
 
-Para los primeros dos puntos considerar la versión de decisión del problema del Juego de las Piedras: Dado un tablero de $$n \times m$$ celdas, y definición si cada celda está vacía u ocupada con una piedra verde o celeste (solo puede estar ocupada por 1 como mucho), ¿es posible remover piedras de tal forma que cada fila tiene al menos una piedra y cada columna no tiene piedras de ambos colores?
+Para los primeros dos puntos considerar la versión de decisión del problema del Juego de las Piedras: Dado un tablero de $$n \times m$$ celdas, donde cada celda está vacía u ocupada con una piedra verde o celeste (solo puede estar ocupada por 1 como mucho), ¿es posible remover piedras de tal forma que cada fila tenga al menos una piedra y cada columna no tenga piedras de ambos colores?
 
 1. 	[**Obligatorio**] Demostrar que el Problema del Juego de las Piedras se encuentra en NP.
 
@@ -75,7 +75,7 @@ Para los primeros dos puntos considerar la versión de decisión del problema de
 
 
 6. 	[**Opcional**] Realizar mediciones utilizando el algoritmo exacto (del punto 3)
-	y la aproximación, con el objetivo de verificar la relación $$r(A)$$. 
+	y la aproximación, con el objetivo de verificar (empíricamente) la relación $$r(A)$$. 
 	Realizar también mediciones que contemplen volúmenes de datos ya 
 	inmanejables para el algoritmo exacto, a fin de corroborar empíricamente 
 	la cota calculada anteriormente. 
@@ -108,8 +108,19 @@ Por ejemplo:
 python3 tp3.py 100.txt
 ```
 
-La nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
+El formato de salida debe ser parecido a los ejemplos de salidas brindados. No es necesario que sea exactamente igual, y pueden modificar algo en función de lo que analicen, pero debe mantenerse similar.
+
+Nuevamente, la nota del trabajo práctico tendrá en cuenta tanto la presentación y calidad de lo presentado, 
 como también el desarrollo del trabajo. No será lo mismo un trabajo realizado con lo mínimo
 indispensable, que uno bien presentado, analizado, y probado con diferentes volúmenes, set de 
-datos, o estrategias de generación de sets, en el caso que corresponda.
+datos, o estrategias de generación de sets, en el caso que corresponda. 
+
+Si bien nos parece que no debería ser necesario de aclarar, cualquier uso de "ayudas externas" para realizar el trabajo práctico, incluyendo el informe (por ejemplo, cualquier tipo de Inteligencia Artificial) resultará en la desaprobación del trabajo práctico, y de allí de la cursada. Nos interesa entender el proceso de análisis que hacen ustedes, personas. 
+
+Sobre puntos obligatorios y opcionales: 
+* La idea de hacer electivos algunos puntos es que aquellos grupos que consideren que estos trabajos no hacen a su formación, simplemente hagan lo mínimo, y quienes consideren que este desarrollo les puede aportar (especialmente para materias futuras) o bien quieran resolver un problema utilizando lo visto en la materia, tengan un lugar para hacerlo. 
+* Los puntos opcionales no son necesarios para aprobar, pero cada uno contribuye a tener mejor nota.
+* En caso que los puntos obligatorios no estén aprobables, se reenviará a reentrega. Si un punto opcional no está aprobable simplemente se considerará para la nota del trabajo práctico (eventualmente, según el detalle de lo que corresponda, podría reentregarse para mejorar nota). 
+* Para la fecha de entrega, los puntos obligatorios deben estar hechos. En caso de no hacerse, se dará una única semana (sin posibilidad de extensión) para que estos puntos (y solo estos, no los electivos) estén completados para tener un máximo de 4 de nota, y en caso de no encontrarse en condiciones de aprobar, el trabajo quedará desaprobado (y de allí la cursada).
+* Los puntos opcionales que no hayan estado implementados para la fecha de entrega, no se podrán implementar en una "reentrega" o a futuro. El trabajo práctico no se hace en cuotas. Si hay algo para ser corregido de un punto opcional ya hecho, se puede corregir eventualmente.
 
