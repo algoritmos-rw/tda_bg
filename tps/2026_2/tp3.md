@@ -15,7 +15,7 @@ La fecha de entrega del mismo es el {{fecha}}.
 ## Introducción
 
 Los hermanos siguieron creciendo. Mateo también aprendió sobre programación dinámica, y cada uno aplicaba la lógica sabiendo que el otro también lo hacía. El juego de las monedas se tornó aburrido en cuánto notaron que siempre ganaba quien empezara, o según la suerte. Los años pasaron, llegó la adolescencia y empezaron a tener gustos diferentes. En general, jugaban a juegos individuales. 
-En particular, Sophia estaba muy enganchada con el siguiente juego de tipo _puzzle_: El juego consiste de una grilla de $n \times m$ celdas. Cada celda puede estar vacía, estar ocupada por una piedra verde, o estar ocupada por una piedra celeste. El objetivo del original del juego es remover algunas de las piedras de tal forma que las piedras que quedan cumplen las siguientes condiciones: 
+En particular, Sophia estaba muy enganchada con el siguiente juego de tipo _puzzle_: El juego consiste de una grilla de $$n \times m$$ celdas. Cada celda puede estar vacía, estar ocupada por una piedra verde, o estar ocupada por una piedra celeste. El objetivo del original del juego es remover algunas de las piedras de tal forma que las piedras que quedan cumplen las siguientes condiciones: 
 
 1. Cada fila tiene al menos una piedra.
 2. Ninguna columna tiene piedras de ambos colores.
@@ -75,7 +75,7 @@ Para los primeros dos puntos considerar la versión de decisión del problema de
 
 
 6. 	[**Opcional**] Realizar mediciones utilizando el algoritmo exacto (del punto 3)
-	y la aproximación, con el objetivo de verificar la relación $r(A)$. 
+	y la aproximación, con el objetivo de verificar la relación $$r(A)$$. 
 	Realizar también mediciones que contemplen volúmenes de datos ya 
 	inmanejables para el algoritmo exacto, a fin de corroborar empíricamente 
 	la cota calculada anteriormente. 
