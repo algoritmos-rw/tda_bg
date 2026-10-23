@@ -20,11 +20,17 @@ En particular, Sophia estaba muy enganchada con el siguiente juego de tipo _puzz
 1. Cada fila tiene al menos una piedra.
 2. Ninguna columna tiene piedras de ambos colores.
 
-Para algunos estados iniciales esto puede ser imposible. Por ejemplo: 
+Por ejemplo, el siguiente tablero tiene solución. Se muestran el tablero original, las piedras a remover (tachadas) y el resultado: 
 
-![piedras](../../assets/img/tps/piedras.png){:width="200"} [PONER IMAGENES]
+![piedras con solución](../../assets/img/tps/piedras_con_solucion.svg){:width="700"}
 
-A Sofía le interesa tanto esta versión, como también aquella que relaja la primera restricción, obteniendo una solución que maximice la cantidad de fila que cumplen la restricción (manteniendo siempre la segunda restricción). Es decir, minimizar la cantidad de filas que quedan vacías. 
+Para algunos estados iniciales esto puede ser imposible. Por ejemplo, el siguiente tablero **no tiene solución**: 
+
+![piedras sin solución](../../assets/img/tps/piedras_sin_solucion.svg){:width="200"}
+
+La segunda fila obliga a que la primera columna quede celeste, con lo cual la primera fila solo puede quedar con la piedra celeste de la tercera columna. Pero la tercera fila solo tiene la piedra verde de la tercera columna, por lo que esa columna tendría que quedar con ambos colores.
+
+A Sophia le interesa tanto esta versión, como también aquella que relaja la primera restricción, obteniendo una solución que maximice la cantidad de fila que cumplen la restricción (manteniendo siempre la segunda restricción). Es decir, minimizar la cantidad de filas que quedan vacías. 
 
 ## Consigna
 
