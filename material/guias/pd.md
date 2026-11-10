@@ -186,7 +186,8 @@ math: true
 
 1.	(★★) Dado un triángulo de $$n$$ filas representado como una lista de listas, donde la fila $$i$$ contiene exactamente
 	$$i + 1$$ enteros, implementar un algoritmo utilizando **Programación Dinámica** que encuentre un **camino** desde la cima
-	hasta la base cuya suma de valores sea mínima. El recorrido comienza en la posición $$(0, 0)$$. Implementar el algoritmo que
+	hasta la base cuya suma de valores sea mínima. Si el camino se encuentra en la posición `(i,j)`, únicamente puede avanzar hacia
+	abajo (`(i+1, j)`) o hacia abajo-derecha (`(i+1, j+1)`). Implementar el algoritmo que
 	permita reconstruir la solución. Indicar y justificar la complejidad de ambos algoritmos. 
 
 
